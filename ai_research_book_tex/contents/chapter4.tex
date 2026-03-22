@@ -449,6 +449,118 @@ Abstractは論文の最後に書くのが効率的である。全セクション
 \textbf{松野先生の教え：} 結局、日本語（母国語）の能力が重要である。必要最小限の日本語にしてから英語にする。これが技術英語の基本である。
 \end{screen}
 
+\subsection{すっきり最小主義：冗長な日本語を削ぎ落とす}
+\index{すっきりさいしょうしゅぎ@すっきり最小主義}
+
+英語に翻訳する前に、まず日本語を簡潔にすることが最も重要なステップである。冗長な日本語からは冗長な英語しか生まれない。
+
+\subsubsection{重複表現を削る}
+
+日本語は同じ意味の言葉を重ねる傾向がある。英訳前にこれを削ぎ落とす。
+
+\begin{itembox}[l]{例：重複表現の除去}
+\textbf{原文：} 「リチャージャブルバッテリーの安定した充電のためには、電気が流れる端子部が清浄であることが重要です」\\
+\textbf{問題：} 「リチャージャブル（再充電可能な）」と「充電」が重複。「電気が流れる」と「端子」も重複。\\
+\textbf{整理後：} 「安定した充電のためには端子を清潔に保つこと」\\
+\textbf{英訳：} Clean the terminals for stable charging.
+\end{itembox}
+
+\subsubsection{空っぽ表現を捨てる}
+
+日本語には意味のない「飾り」表現が多い。これを除去してから英訳する。
+
+\begin{itembox}[l]{例：空っぽ表現の除去}
+\textbf{原文：} 「オフィスでの集中力の妨げの原因となる不快な騒音を排除することで、生産性の向上が期待できるようになる」\\
+\textbf{整理：} 「妨げの原因となる」→「妨げる」、「期待できるようになる」→不要\\
+\textbf{整理後：} 「騒音を排除すれば生産性が向上する」\\
+\textbf{英訳：} Eliminating noise improves productivity.
+\end{itembox}
+
+確信度を調整したい場合は、助動詞を使う。
+\begin{itemize}
+\item 弱い主張（5\%〜10\%程度）: Eliminating noise \textit{can} improve productivity.
+\item 中程度の主張: Eliminating noise \textit{may} improve productivity.
+\item 強い主張: Eliminating noise \textit{will} improve productivity.
+\end{itemize}
+
+\subsubsection{無駄な丁寧表現を除去する}
+
+日本語の丁寧表現は英語に直訳すると不自然になる。
+
+\begin{itembox}[l]{例：丁寧表現の除去}
+\textbf{原文：} 「本日、無事に設計の最終確認を終了することができました」\\
+\textbf{問題：} 「本日」「無事に」「終了することができました」は英語では不要\\
+\textbf{整理後：} 「設計の最終確認を完了した」\\
+\textbf{英訳：} We completed the final design review.
+\end{itembox}
+
+\begin{promptbox}
+以下の日本語から、重複表現・空っぽ表現・無駄な丁寧表現を\\
+取り除き、簡潔な日本語に整理してください。\\
+その後、整理した日本語を英訳してください。\\
+\\
+{[}日本語原文を貼り付け{]}
+\end{promptbox}
+
+%---
+\subsection{まず具体化主義：曖昧な表現を具体的にする}
+\index{ぐたいかしゅぎ@具体化主義}
+
+日本語の曖昧な表現は、英語にすると意味が通らなくなる。英訳前に具体的な表現に置き換える。
+
+\begin{itembox}[l]{例：曖昧表現の具体化}
+\textbf{原文：} 「オイル量のチェックはできるだけ頻繁に行うことが望ましい」\\
+\textbf{問題：} 「できるだけ頻繁に」は英語にしにくい（as frequently as possible は不自然）\\
+\textbf{具体化：} 「オイル量は1日1回点検すること」\\
+\textbf{英訳：} Check the oil level once a day.
+\end{itembox}
+
+数値の曖昧さにも注意が必要である。
+
+\begin{itembox}[l]{例：数値の具体化}
+\textbf{原文：} 「生産は数千万だ」\\
+\textbf{問題：} 「数千万」は英語でどう訳すか不明確\\
+\textbf{具体化：} 「年間生産台数は3,600万台である」\\
+\textbf{英訳：} Annual production is 36 million units.
+\end{itembox}
+
+略語も曖昧表現の一種である。初出時には必ずスペルアウトする。
+
+\begin{itembox}[l]{例：略語のスペルアウト}
+\textbf{推奨：} an antilock braking system (ABS)\\
+\textbf{許容：} an ABS (antilock braking system)\\
+\textbf{不可：} いきなり ABS と書く（読者が意味を知らない可能性がある）
+\end{itembox}
+
+%---
+\subsection{とことん動詞主義：名詞句を動詞に戻す}
+\index{どうししゅぎ@動詞主義}
+
+日本語では「〜の実施」「〜の確認」「〜を行う」のように動詞を名詞化する傾向がある。これをそのまま英訳すると、名詞句が連鎖した読みにくい英文になる。動詞に戻してから英訳する。
+
+\begin{itembox}[l]{例：名詞句 → 動詞}
+\textbf{原文：} 「付録1はユニットの分解手順の説明である」\\
+\textbf{名詞的英訳：} Appendix 1 is a description of the disassembly procedure of the unit.\\
+\textbf{問題：} 前置詞 of が3回連続し、読みにくい\\
+\textbf{動詞的英訳：} Appendix 1 describes how to disassemble the unit.
+\end{itembox}
+
+\begin{itembox}[l]{例：「行う」を削る}
+\textbf{原文：} 「両企業はライセンス契約の修正を行った」\\
+\textbf{名詞的英訳：} The two companies made an amendment to the license agreement.\\
+\textbf{動詞的英訳：} The two companies amended the license agreement.
+\end{itembox}
+
+動詞を使うメリットは2つある。
+\begin{enumerate}
+\item \textbf{前置詞が減る：} 名詞句には前置詞（of, to, for等）が必要だが、動詞にすれば不要になることが多い。
+\item \textbf{文が短くなる：} 「〜の実施を行った」（名詞+動詞）が「〜を実施した」（動詞のみ）になる。
+\end{enumerate}
+
+\begin{screen}
+\textbf{4つの原則のまとめ：} 英訳の前に日本語を整える4つのステップ：（1）すっきり最小主義で冗長さを削り、（2）具体化主義で曖昧さをなくし、（3）動詞主義で名詞句を動詞に戻し、（4）能動態主義で受動態を能動態に変える。この4ステップを踏むだけで、AIによる英訳の品質は格段に上がる。
+\end{screen}
+
 %----------------------------------------------------------------------
 \subsection{能動態と受動態の使い分け}
 \label{subsec:voice}
