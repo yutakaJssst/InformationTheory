@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 10:07
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,58 +752,48 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
 (Font)              scaled to size 8.13171pt on input line 67.
-
-Overfull \hbox (22.35966pt too wide) in paragraph at lines 69--82
- [][] 
- []
-
-[3]
-Overfull \hbox (86.7974pt too wide) in paragraph at lines 105--114
- [][] 
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) detected at line 169
+ [3] [4] [5]
+Underfull \hbox (badness 10000) detected at line 171
 \OT1/cmr/bx/n/10 Elicit
  []
 
 
-Underfull \hbox (badness 10000) detected at line 180
+Underfull \hbox (badness 10000) detected at line 182
 \OT1/cmr/bx/n/10 Cursor
  []
 
 [6]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 182.
+nput line 184.
 
-Underfull \hbox (badness 10000) detected at line 197
+Underfull \hbox (badness 10000) detected at line 199
 \OT1/cmr/bx/n/10 Gamma
  []
 
 
-Overfull \hbox (0.36256pt too wide) detected at line 200
+Overfull \hbox (0.36256pt too wide) detected at line 202
 \OT1/cmr/bx/n/10 Canva AI
  []
 
 [7] [8] [9]
 
 LaTeX Warning: Citation `brooks1986silver' on page 10 undefined on input line 3
-37.
+39.
 
 [10]
 
 LaTeX Warning: Citation `ji2023hallucination' on page 11 undefined on input lin
-e 363.
+e 365.
 
 [11]
 
 LaTeX Warning: Citation `vaswani2017attention' on page 12 undefined on input li
-ne 381.
+ne 383.
 
 [12] [13]
 
 LaTeX Warning: Citation `nature2023editorial' on page 14 undefined on input lin
-e 434.
+e 436.
 
 [14] [15] [16] [17]) (./bu1.bbl [18]) (./bu1.aux)
 No file bu.aux.
@@ -819,11 +809,11 @@ No file bu.aux.
 
 
 
-LaTeX Warning: Citation `liu2023pretrain' on page 21 undefined on input line 59
+LaTeX Warning: Citation `liu2023pretrain' on page 21 undefined on input line 61
 .
 
 [21] [22] [23] [24] [25]
-Underfull \hbox (badness 3536) in paragraph at lines 204--205
+Underfull \hbox (badness 3536) in paragraph at lines 211--212
 []\OT1/cmr/m/n/10 ``Retrieval-Augmented Gen-er-a-tion for Knowledge-Intensive N
 LP
  []
@@ -831,32 +821,21 @@ LP
 [26]
 
 LaTeX Warning: Citation `brown2020language' on page 27 undefined on input line 
-222.
+229.
 
 [27]
 
-LaTeX Warning: Citation `wei2022chain' on page 28 undefined on input line 270.
+LaTeX Warning: Citation `wei2022chain' on page 28 undefined on input line 277.
 
 [28] [29] [30] [31]
 
-LaTeX Warning: Citation `zhou2023large' on page 32 undefined on input line 396.
+LaTeX Warning: Citation `zhou2023large' on page 32 undefined on input line 419.
 
 
 [32] [33] [34] [35] [36] [37] [38] [39]
-Overfull \hbox (167.51895pt too wide) in paragraph at lines 622--623
- [] \JY1/mc/bx/n/10 タイプ \OT1/cmr/bx/n/10 2: \JY1/mc/bx/n/10 誤 った数値デ ー
-タ[] [] 
- []
-
 
 LaTeX Warning: Citation `santurkar2018batch' on page 40 undefined on input line
- 633.
-
-
-Overfull \hbox (202.50644pt too wide) in paragraph at lines 634--635
- [] \JY1/mc/bx/n/10 タイプ \OT1/cmr/bx/n/10 3: \JY1/mc/bx/n/10 も っともらしい
-虚偽の説明[] [] 
- []
+ 667.
 
 [40] [41] [42] [43] [44] [45] [46] [47] [48]) (./bu2.bbl [49]
 
@@ -871,397 +850,352 @@ No file bu.aux.
 第 3 章
 [51
 
-] [52]
-Overfull \hbox (13.69801pt too wide) in paragraph at lines 57--68
- [][] 
- []
-
-[53] [54] [55] [56] [57] [58] [59] [60]
-Overfull \hbox (143.44995pt too wide) in paragraph at lines 363--364
- [] \JY1/mc/bx/n/10 差分マトリクスの作成[] [] 
- []
-
-[61] [62] [63] [64] [65] [66] [67] [68]) (./bu3.aux)
+] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+[66] [67] [68] [69]) (./bu3.aux)
 \openout4 = `bu3.aux'.
 
  (./bu3.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 603--1
+Underfull \hbox (badness 10000) in paragraph at lines 625--1
 
  []
 
-[69]
+[70]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu3.aux)
 No file bu.aux.
-(./contents/chapter4.tex [70
+(./contents/chapter4.tex [71
 
 
 ]
 第 4 章
-[71
+[72
 
-] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
-Overfull \hbox (3.9145pt too wide) in paragraph at lines 426--427
+] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+Overfull \hbox (3.9145pt too wide) in paragraph at lines 427--428
 \OT1/cmr/m/n/10 ap-proach fine-tunes a mul-ti-lin-gual BERT model on high-resou
 rce
  []
 
-[82] [83] [84] [85] [86] [87] [88] [89]) (./bu4.aux)
+[83] [84] [85] [86]
+Underfull \hbox (badness 1342) in paragraph at lines 670--671
+[]|\OT1/cmr/m/n/8 ``The im-prove-ment is sta-tis-ti-cally sig-nif-i-cant
+ []
+
+[87] [88] [89] [90]) (./bu4.aux)
 \openout4 = `bu4.aux'.
 
  (./bu4.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 768--1
+Underfull \hbox (badness 10000) in paragraph at lines 776--1
 
  []
 
-[90] [91]
+[91] [92]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu4.aux)
 No file bu.aux.
-(./contents/chapter5.tex [92
+(./contents/chapter5.tex [93
 
 
 ]
 第 5 章
-[93
+[94
 
-] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
-[107] [108] [109] [110] [111]) (./bu5.aux)
+] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[107] [108] [109] [110] [111] [112]) (./bu5.aux)
 \openout4 = `bu5.aux'.
 
  (./bu5.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 733--1
+Underfull \hbox (badness 10000) in paragraph at lines 734--1
 
  []
 
-[112]
+[113]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu5.aux)
 No file bu.aux.
-(./contents/chapter6.tex [113
+(./contents/chapter6.tex [114
 
 
 ]
 第 6 章
+[115
 
-Overfull \hbox (22.29308pt too wide) in paragraph at lines 28--39
- [][] 
- []
-
-[114
-
-] [115]
-Overfull \hbox (63.09634pt too wide) in paragraph at lines 94--107
- [][] 
- []
-
-[116] [117] [118] [119] [120] [121] [122]
-Underfull \hbox (badness 2680) in paragraph at lines 358--366
+] [116] [117] [118] [119] [120] [121] [122] [123]
+Underfull \hbox (badness 2680) in paragraph at lines 360--368
 []\JY1/mc/m/n/10 関数名\OT1/cmr/m/n/10 : cal-cu-late[]effect[]size \JY1/mc/m/n/
 10 入力\OT1/cmr/m/n/10 : group1 (list[float]), group2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--405
+Underfull \hbox (badness 10000) in paragraph at lines 402--407
 []\OT1/cmr/m/n/10 ## \JY1/mc/m/n/10 エラ ーメ ッセ ージ \OT1/cmr/m/n/10 Trace-b
 ack (most re-cent call
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 400--405
+Underfull \hbox (badness 8000) in paragraph at lines 402--407
 \OT1/cmr/m/n/10 last): File "anal-y-sis.py", line 42, in <mod-ule> re-sult =
  []
 
-[123] [124] [125] [126]
+[124] [125] [126] [127]
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [127]
-[128] [129] [130] [131] [132] [133] [134] [135] [136]) (./bu6.aux)
+) [128]
+[129] [130] [131] [132] [133] [134] [135] [136] [137]) (./bu6.aux)
 \openout4 = `bu6.aux'.
 
  (./bu6.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 903--1
+Underfull \hbox (badness 10000) in paragraph at lines 906--1
 
  []
 
-[137]
+[138]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu6.aux)
 No file bu.aux.
-(./contents/chapter7.tex [138
+(./contents/chapter7.tex [139
 
 
 ]
 第 7 章
-[139
+[140
 
-] [140] [141] [142] [143] [144]
-Overfull \hbox (33.33978pt too wide) in paragraph at lines 222--232
- [][] 
- []
-
-[145] [146] [147] [148] [149] [150] [151]) (./bu7.aux)
+] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152]) (./bu7.aux)
 \openout4 = `bu7.aux'.
 
- (./bu7.bbl [152]
+ (./bu7.bbl [153]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu7.aux)
 No file bu.aux.
-(./contents/chapter8.tex [153
+(./contents/chapter8.tex [154
 
 
 ]
 第 8 章
-[154
+[155
 
-] [155] [156] [157] [158] [159] [160] [161]
-Overfull \hbox (3.9317pt too wide) in paragraph at lines 319--329
+] [156]
+Overfull \hbox (1.4598pt too wide) in paragraph at lines 99--112
  [][] 
  []
 
-[162]
-Overfull \hbox (32.78975pt too wide) in paragraph at lines 336--338
-[]\OT1/cmr/m/n/10 GitHub \JY1/mc/m/n/10 アカウントを作成し 、 \OT1/cmr/m/n/10 G
-itHub Ed-u-ca-tion \JY1/mc/m/n/10 に登録しなさい 。 \OT1/cmtt/m/n/10 my-first-r
-epo
- []
-
-[163]) (./bu8.aux)
+[157] [158] [159] [160] [161] [162] [163] [164]) (./bu8.aux)
 \openout4 = `bu8.aux'.
 
- (./bu8.bbl [164]
+ (./bu8.bbl
+[165]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu8.aux)
 No file bu.aux.
-(./contents/chapter9.tex [165
+(./contents/chapter9.tex [166
 
 
 ]
 第 9 章
-[166
+[167
 
-] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]) (./bu9.aux)
+] [168] [169] [170]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 148.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
+(Font)              scaled to size 8.87036pt on input line 148.
+
+Overfull \hbox (6.19301pt too wide) in paragraph at lines 144--154
+ [][] 
+ []
+
+[171] [172] [173] [174] [175] [176] [177]) (./bu9.aux)
 \openout4 = `bu9.aux'.
 
-
-(./bu9.bbl [177]
+ (./bu9.bbl [178]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu9.aux)
 No file bu.aux.
-(./contents/chapter10.tex [178
+(./contents/chapter10.tex [179
 
 
 ]
 第 10 章
-[179
+[180
 
-] [180]
-Overfull \hbox (1.86462pt too wide) in paragraph at lines 82--91
+] [181] [182] [183] [184] [185] [186] [187]
+Overfull \hbox (11.09157pt too wide) in paragraph at lines 261--272
  [][] 
  []
 
-[181] [182] [183] [184] [185] [186] [187] [188] [189]) (./bu10.aux)
+[188] [189] [190]) (./bu10.aux)
 \openout4 = `bu10.aux'.
 
- (./bu10.bbl [190]
+ (./bu10.bbl [191]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu10.aux)
 No file bu.aux.
-(./contents/appendix_tools.tex [191
+(./contents/appendix_tools.tex [192
 
 
 ]
 付 録 A  
-
-Overfull \hbox (50.26814pt too wide) in paragraph at lines 14--24
- [][] 
- []
-
-
-Overfull \hbox (54.82938pt too wide) in paragraph at lines 34--43
- [][] 
- []
-
-[192
+[193
 
 ]
-Overfull \hbox (128.17392pt too wide) in paragraph at lines 53--64
- [][] 
+Overfull \hbox (4.98845pt too wide) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/8 GitHub/OpenAI| 
  []
 
 
-Overfull \hbox (53.08215pt too wide) in paragraph at lines 74--84
+Overfull \hbox (7.4785pt too wide) in paragraph at lines 77--87
  [][] 
  []
 
-[193]
-Overfull \hbox (59.02081pt too wide) in paragraph at lines 94--104
+[194]
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\JY1/mc/m/n/8 無料版あり\OT1/cmr/m/n/8 /Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\JY1/mc/m/n/8 無料版あり\OT1/cmr/m/n/8 /Plus
+ []
+
+
+Overfull \hbox (4.0256pt too wide) in paragraph at lines 97--107
  [][] 
  []
 
-) (./contents/appendix_prompts.tex [194]
+) (./contents/appendix_prompts.tex [195]
 付 録 B  
-[195
+[196
 
-] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205])
+] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206])
 (./contents/appendix_english.tex
-Underfull \hbox (badness 10000) in paragraph at lines 319--1
+Underfull \hbox (badness 10000) in paragraph at lines 398--1
 
  []
 
-[206]
+[207] [208]
 付 録 C  
+[209
 
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 13--29
- [][] 
- []
-
-
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 36--48
- [][] 
- []
-
-[207
-
-]
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 55--65
- [][] 
- []
-
-
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 74--90
- [][] 
- []
-
-[208]
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 97--109
- [][] 
- []
-
-
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 118--134
- [][] 
- []
-
-[209]
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 141--152
- [][] 
- []
-
-
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 161--173
- [][] 
- []
-
-[210]
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 180--191
- [][] 
- []
-
-
-Overfull \hbox (27.56616pt too wide) in paragraph at lines 198--209
- [][] 
- []
-
-[211]) (./contents/appendix_syllabus.tex [212] [213]
+] [210] [211] [212] [213] [214]) (./contents/appendix_syllabus.tex [215]
+[216]
 付 録 D  
 
-Overfull \hbox (96.91205pt too wide) in alignment at lines 8--12
- [] [] [] [] [] 
+Underfull \hbox (badness 3098) in paragraph at lines 26--26
+\OT1/cmr/m/n/8 Out-put, Con-text, For-
  []
 
 
-Overfull \hbox (96.91205pt too wide) in alignment at lines 12--16
- [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]|\JY1/mc/m/n/8 自分の研究
  []
 
 
-Overfull \hbox (96.91205pt too wide) in alignment at lines 16--19
- [] [] [] [] [] 
+Underfull \hbox (badness 3333) in paragraph at lines 26--27
+\JY1/mc/m/n/8 を \OT1/cmr/m/n/8 ROCF \JY1/mc/m/n/8 で
  []
 
 
-Overfull \hbox (96.91205pt too wide) in alignment at lines 19--21
- [] [] [] [] [] 
+Underfull \hbox (badness 1509) in paragraph at lines 26--27
+\JY1/mc/m/n/8 設計し 、 \OT1/cmr/m/n/8 3 \JY1/mc/m/n/8 パ
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 31--32
-[]|\JY1/mc/m/n/10 自分の研究の英語
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]|\JY1/mc/m/n/8 文献調査レ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/cmr/m/n/10 Ab-stract \JY1/mc/m/n/10 （\OT1/cmr/m/n/10 150--250
+Underfull \hbox (badness 1895) in paragraph at lines 30--31
+\JY1/mc/m/n/8 ポ ート （ 先行
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]|\JY1/mc/m/n/10 コ ードを改善し 、
+Underfull \hbox (badness 1442) in paragraph at lines 32--33
+\JY1/mc/m/n/8 （\OT1/cmr/m/n/8 150--250 \JY1/mc/m/n/8 語 ）
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-[]|\JY1/mc/m/n/10 ガクチカ完成版
+Underfull \hbox (badness 1796) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/8 GitHub Web
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 45--46
-\JY1/mc/m/n/10 （\OT1/cmr/m/n/10 400 \JY1/mc/m/n/10 字以内 ） 、 \OT1/cmr/m/n/1
-0 Be-
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]|\OT1/cmr/m/n/8 GitHub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 fore/After \JY1/mc/m/n/10 比較付
+Underfull \hbox (badness 1231) in paragraph at lines 42--43
+\OT1/cmr/m/n/8 Pages \JY1/mc/m/n/8 による
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 49--50
-\JY1/mc/m/n/10 （\OT1/cmr/m/n/10 GitHub \JY1/mc/m/n/10 リポジト
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]|\JY1/mc/m/n/8 ガクチカ完
  []
 
 
-Overfull \hbox (96.91205pt too wide) in alignment at lines 21--52
- [] [] [] [] [] 
- []
-
-[214
-
-] [215] [216] [217]
-Underfull \hbox (badness 2865) in paragraph at lines 104--104
-[]|\OT1/cmr/m/n/9 README \JY1/mc/m/n/9 充実 、
+Underfull \hbox (badness 3930) in paragraph at lines 46--47
+\JY1/mc/m/n/8 成版 （\OT1/cmr/m/n/8 400 \JY1/mc/m/n/8 字
  []
 
 
-Overfull \hbox (84.77867pt too wide) in paragraph at lines 94--109
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\JY1/mc/m/n/8 以内 ） 、 \OT1/cmr/m/n/8 Be-
  []
 
-[218])
+
+Underfull \hbox (badness 4048) in paragraph at lines 46--47
+\OT1/cmr/m/n/8 fore/After \JY1/mc/m/n/8 比
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]|\JY1/mc/m/n/8 研究ポ ー
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\JY1/mc/m/n/8 トフ ォリオ
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 50--51
+\JY1/mc/m/n/8 ジトリ ） の完
+ []
+
+[217
+
+] [218] [219]
+Underfull \hbox (badness 1616) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/8 README \JY1/mc/m/n/8 充
+ []
+
+[220])
 No file ai_research.ind.
 >>>>>2005/9/09 v1.0 pLaTeX class ALL Rights reserved Copyright SANBI Co., Ltd. 
 for CORONA PUBLISHING CO., Ltd.<<<<<
-[219] [220] (./ai_research.aux)
+[221] (./ai_research.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -1275,12 +1209,12 @@ Package rerunfilecheck Info: File `ai_research.out' has not changed.
 (rerunfilecheck)             Checksum: 9A88156EA41091FCA8D8A4DC9BBF0E5E;45722.
  ) 
 Here is how much of TeX's memory you used:
- 14219 strings out of 474774
- 212593 string characters out of 5758802
+ 14221 strings out of 474774
+ 212617 string characters out of 5758802
  2124032 words of memory out of 5000000
- 36275 multiletter control sequences out of 15000+600000
- 609586 words of font info for 132 fonts, out of 8000000 for 9000
+ 36277 multiletter control sequences out of 15000+600000
+ 609649 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,14n,79p,994b,2292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ai_research.dvi (236 pages, 949304 bytes).
+Output written on ai_research.dvi (237 pages, 947696 bytes).

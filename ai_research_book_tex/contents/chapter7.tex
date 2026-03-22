@@ -50,7 +50,8 @@
 データ分析の第一歩は、手元のデータを正しく理解することである。
 
 \begin{promptbox}
-以下のCSVファイルを読み込み、データの概要を把握するPythonスクリプトを作成してください。
+以下のCSVファイルを読み込み、データの概要を把握する\\
+Pythonスクリプトを作成してください。
 
 ファイル: experiment\_results.csv\\
 使用ライブラリ: pandas
@@ -60,7 +61,8 @@
 \item データの形状（行数×列数）
 \item 各列のデータ型
 \item 最初の5行の表示
-\item 基本統計量（数値列: 平均・標準偏差・最小・最大、カテゴリ列: ユニーク数・最頻値）
+\item 基本統計量（数値列: 平均・標準偏差・最小・最大、\\
+カテゴリ列: ユニーク数・最頻値）
 \item 欠損値の数と割合（列ごと）
 \item 各数値列のヒストグラム
 \end{enumerate}
@@ -132,6 +134,7 @@ def explore_data(file_path: str) -> pd.DataFrame:
 \begin{itembox}[l]{欠損値処理の主な方法}
 \begin{table}[H]
 \centering
+\footnotesize
 \begin{tabular}{lll}
 \toprule
 方法 & 適用場面 & Pythonコード \\
@@ -147,8 +150,10 @@ def explore_data(file_path: str) -> pd.DataFrame:
 \end{itembox}
 
 \begin{promptbox}
-以下のDataFrameの数値列について、外れ値を検出するコードを作成してください。
-外れ値の定義: IQR法（Q1 - 1.5*IQR 未満、または Q3 + 1.5*IQR 超過）
+以下のDataFrameの数値列について、外れ値を検出する\\
+コードを作成してください。\\
+外れ値の定義: IQR法（Q1 - 1.5*IQR 未満、\\
+または Q3 + 1.5*IQR 超過）\\
 外れ値がある行を表示し、箱ひげ図で可視化してください。
 \end{promptbox}
 
@@ -158,7 +163,8 @@ def explore_data(file_path: str) -> pd.DataFrame:
 探索的データ分析（Exploratory Data Analysis, EDA）\index{EDA@EDA}は、データの構造やパターンを視覚的に把握するプロセスである。
 
 \begin{promptbox}
-以下のDataFrameについて、探索的データ分析（EDA）を行うPythonコードを作成してください。
+以下のDataFrameについて、探索的データ分析（EDA）を行う\\
+Pythonコードを作成してください。
 
 分析内容:
 \begin{enumerate}
@@ -197,7 +203,8 @@ def explore_data(file_path: str) -> pd.DataFrame:
 \end{itembox}
 
 \begin{promptbox}
-以下のデータについて、2群間の平均値の差を検定するPythonコードを作成してください。
+以下のデータについて、2群間の平均値の差を検定する\\
+Pythonコードを作成してください。
 
 データ構造:
 \begin{itemize}
@@ -219,7 +226,7 @@ def explore_data(file_path: str) -> pd.DataFrame:
 \index{pち@$p$値}
 \begin{table}[H]
 \centering
-\begin{tabular}{p{5cm}p{6cm}}
+\begin{tabular}{p{4.5cm}p{5cm}}
 \toprule
 誤った解釈 & 正しい解釈 \\
 \midrule
@@ -248,6 +255,7 @@ Pythonでグラフを作成するための2大ライブラリがmatplotlib\index
 
 \begin{table}[H]
 \centering
+\small
 \begin{tabular}{lll}
 \toprule
 データの性質 & 推奨グラフ & 用途 \\
@@ -291,7 +299,8 @@ Pythonでグラフを作成するための2大ライブラリがmatplotlib\index
 \subsection{AIでグラフ作成コードを生成するプロンプト例}
 
 \begin{promptbox}
-以下の仕様で論文品質の棒グラフを作成するPythonコードを書いてください。
+以下の仕様で論文品質の棒グラフを作成する\\
+Pythonコードを書いてください。
 
 データ:
 \begin{itemize}
