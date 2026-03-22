@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 13:56
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,19 +709,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \JY1/mc/m/n/9 目 次
  []
 
-[12]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\JY1/mc/m/n/9 目 次
- []
-
-[13] [14
-
-] (./contents/preface.tex [15
+[12] (./contents/preface.tex [13
 
 
-] [16]) [17
 
-] [18
+] [14]) [15
+
+] [16
 
 ] (./contents/chapter1.tex
 第 1 章
@@ -744,16 +738,7 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14> not available
 ] (./bu1.aux)
 \openout4 = `bu1.aux'.
 
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 51.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
-(Font)              scaled to size 7.39253pt on input line 51.
-
-
-LaTeX Warning: Citation `vaswani2017attention' on page 2 undefined on input lin
-e 51.
-
-[2]
+ [2]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
@@ -781,27 +766,13 @@ Overfull \hbox (0.36256pt too wide) detected at line 202
 \OT1/cmr/bx/n/10 Canva AI
  []
 
-[7] [8] [9]
-
-LaTeX Warning: Citation `brooks1986silver' on page 10 undefined on input line 3
-39.
-
-[10]
-
-LaTeX Warning: Citation `ji2023hallucination' on page 11 undefined on input lin
-e 365.
-
-[11]
-
-LaTeX Warning: Citation `vaswani2017attention' on page 12 undefined on input li
-ne 383.
-
-[12] [13]
-
-LaTeX Warning: Citation `nature2023editorial' on page 14 undefined on input lin
-e 436.
-
-[14] [15] [16] [17]) (./bu1.bbl [18]) (./bu1.aux)
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]) (./bu1.bbl [18]
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
+)
+(./bu1.aux)
 No file bu.aux.
 (./contents/chapter2.tex [19
 
@@ -813,41 +784,14 @@ No file bu.aux.
 ] (./bu2.aux)
 \openout4 = `bu2.aux'.
 
-
-
-LaTeX Warning: Citation `liu2023pretrain' on page 21 undefined on input line 61
-.
-
-[21] [22] [23] [24] [25]
+ [21] [22] [23] [24] [25]
 Underfull \hbox (badness 3536) in paragraph at lines 211--212
 []\OT1/cmr/m/n/10 ``Retrieval-Augmented Gen-er-a-tion for Knowledge-Intensive N
 LP
  []
 
-[26]
-
-LaTeX Warning: Citation `brown2020language' on page 27 undefined on input line 
-229.
-
-[27]
-
-LaTeX Warning: Citation `wei2022chain' on page 28 undefined on input line 277.
-
-[28] [29] [30] [31]
-
-LaTeX Warning: Citation `zhou2023large' on page 32 undefined on input line 419.
-
-
-[32] [33] [34] [35] [36] [37] [38] [39]
-
-LaTeX Warning: Citation `santurkar2018batch' on page 40 undefined on input line
- 667.
-
-[40] [41] [42] [43] [44] [45] [46] [47] [48]) (./bu2.bbl [49]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu2.aux)
+[26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
+[41] [42] [43] [44] [45] [46] [47] [48]) (./bu2.bbl [49]) (./bu2.aux)
 No file bu.aux.
 (./contents/chapter3.tex [50
 
@@ -857,89 +801,53 @@ No file bu.aux.
 [51
 
 ] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
-[66] [67] [68] [69]) (./bu3.aux)
-\openout4 = `bu3.aux'.
-
- (./bu3.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 625--1
+[66] [67] [68] [69])
+Underfull \hbox (badness 10000) in paragraph at lines 625--162
 
  []
 
-[70]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu3.aux)
-No file bu.aux.
-(./contents/chapter4.tex [71
-
-
-]
+(./contents/chapter4.tex [70]
 第 4 章
-[72
+[71
 
-] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
 Overfull \hbox (3.9145pt too wide) in paragraph at lines 427--428
 \OT1/cmr/m/n/10 ap-proach fine-tunes a mul-ti-lin-gual BERT model on high-resou
 rce
  []
 
-[83] [84]
+[82] [83]
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 481.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 481.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 481.
- [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96]
+ [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
 Underfull \hbox (badness 1342) in paragraph at lines 980--981
 []|\OT1/cmr/m/n/8 ``The im-prove-ment is sta-tis-ti-cally sig-nif-i-cant
  []
 
-[97] [98] [99] [100] [101]) (./bu4.aux)
-\openout4 = `bu4.aux'.
-
- (./bu4.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1
+[96] [97] [98] [99] [100])
+Underfull \hbox (badness 10000) in paragraph at lines 1086--164
 
  []
 
-[102]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu4.aux)
-No file bu.aux.
-(./contents/chapter5.tex [103
-
-
-]
+(./contents/chapter5.tex [101]
 第 5 章
-[104
+[102
 
-] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
-[116] [117] [118] [119] [120] [121] [122]) (./bu5.aux)
-\openout4 = `bu5.aux'.
-
- (./bu5.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 734--1
+] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119] [120])
+Underfull \hbox (badness 10000) in paragraph at lines 734--166
 
  []
 
-[123]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu5.aux)
-No file bu.aux.
-(./contents/chapter6.tex [124
-
-
-]
+(./contents/chapter6.tex [121]
 第 6 章
-[125
+[122
 
-] [126] [127] [128] [129] [130] [131] [132] [133]
+] [123] [124] [125] [126] [127] [128] [129] [130]
 Underfull \hbox (badness 2680) in paragraph at lines 360--368
 []\JY1/mc/m/n/10 関数名\OT1/cmr/m/n/10 : cal-cu-late[]effect[]size \JY1/mc/m/n/
 10 入力\OT1/cmr/m/n/10 : group1 (list[float]), group2
@@ -956,37 +864,25 @@ Underfull \hbox (badness 8000) in paragraph at lines 402--407
 \OT1/cmr/m/n/10 last): File "anal-y-sis.py", line 42, in <mod-ule> re-sult =
  []
 
-[134] [135] [136] [137]
+[131] [132] [133] [134]
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [138]
-[139] [140] [141] [142] [143] [144] [145] [146] [147]) (./bu6.aux)
-\openout4 = `bu6.aux'.
-
- (./bu6.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 906--1
+) [135]
+[136] [137] [138] [139] [140] [141] [142] [143] [144])
+Underfull \hbox (badness 10000) in paragraph at lines 906--168
 
  []
 
-[148]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu6.aux)
-No file bu.aux.
-(./contents/chapter7.tex [149
-
-
-]
+(./contents/chapter7.tex [145]
 第 7 章
-[150
+[146
 
-] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
-[162] (./bu7.aux)
-\openout4 = `bu7.aux'.
+] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
+[158] (./bu3.aux)
+\openout4 = `bu3.aux'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 448--449
@@ -998,43 +894,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--449
 \JY1/mc/m/n/8 （\OT1/cmtt/m/n/8 scipy.stats.wilcoxon \JY1/mc/m/n/8 の
  []
 
-[163] [164] [165]) (./bu7.bbl [166]
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
-) (./bu7.aux)
+[159] [160] [161]) (./bu3.bbl [162]) (./bu3.aux)
 No file bu.aux.
-(./contents/chapter8.tex [167
+(./contents/chapter8.tex [163
 
 
 ]
 第 8 章
-[168
+[164
 
-] [169]
+] [165]
 Overfull \hbox (1.4598pt too wide) in paragraph at lines 99--112
  [][] 
  []
 
-[170] [171] [172] [173] [174] [175] [176] [177]) (./bu8.aux)
-\openout4 = `bu8.aux'.
-
- (./bu8.bbl
-[178]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu8.aux)
-No file bu.aux.
-(./contents/chapter9.tex [179
-
-
-]
+[166] [167] [168] [169] [170] [171] [172] [173]) (./contents/chapter9.tex
+[174]
 第 9 章
-[180
+[175
 
-] [181] [182] [183]
+] [176] [177] [178]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 148.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
@@ -1044,84 +923,50 @@ Overfull \hbox (6.19301pt too wide) in paragraph at lines 144--154
  [][] 
  []
 
-[184] [185] [186] [187] [188] [189] [190]) (./bu9.aux)
-\openout4 = `bu9.aux'.
-
- (./bu9.bbl [191]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu9.aux)
-No file bu.aux.
-(./contents/chapter10.tex [192
-
-
-]
+[179] [180] [181] [182] [183] [184] [185]) (./contents/chapter10.tex [186]
 第 10 章
-[193
+[187
 
-] [194] [195] [196] [197] [198] [199] [200]
+] [188] [189] [190] [191] [192] [193] [194]
 Overfull \hbox (11.09157pt too wide) in paragraph at lines 261--272
  [][] 
  []
 
-[201] [202] [203]) (./bu10.aux)
-\openout4 = `bu10.aux'.
-
- (./bu10.bbl [204]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) (./bu10.aux)
-No file bu.aux.
-(./contents/appendix_tools.tex [205
-
-
-]
+[195] [196] [197]) (./contents/appendix_tools.tex [198]
 付 録 A  
-[206
+[199
 
-]
-Overfull \hbox (4.98845pt too wide) in paragraph at lines 81--81
-[]|\OT1/cmr/m/n/8 GitHub/OpenAI| 
- []
-
-
-Overfull \hbox (7.4785pt too wide) in paragraph at lines 77--87
- [][] 
- []
-
-[207]
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+] [200]
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\JY1/mc/m/n/8 無料版あり\OT1/cmr/m/n/8 /Pro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\JY1/mc/m/n/8 無料版あり\OT1/cmr/m/n/8 /Plus
  []
 
 
-Overfull \hbox (4.0256pt too wide) in paragraph at lines 97--107
+Overfull \hbox (4.0256pt too wide) in paragraph at lines 98--108
  [][] 
  []
 
-) (./contents/appendix_prompts.tex [208]
+) (./contents/appendix_prompts.tex [201]
 付 録 B  
-[209
+[202
 
-] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219])
+] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212])
 (./contents/appendix_english.tex
 Underfull \hbox (badness 10000) in paragraph at lines 398--1
 
  []
 
-[220] [221]
+[213] [214]
 付 録 C  
-[222
+[215
 
-] [223] [224] [225] [226] [227]) (./contents/appendix_syllabus.tex [228]
-[229]
+] [216] [217] [218] [219] [220]) (./contents/appendix_syllabus.tex [221]
+[222]
 付 録 D  
 
 Underfull \hbox (badness 3098) in paragraph at lines 26--26
@@ -1208,37 +1053,33 @@ Underfull \hbox (badness 1895) in paragraph at lines 50--51
 \JY1/mc/m/n/8 ジトリ ） の完
  []
 
-[230
+[223
 
-] [231] [232]
+] [224] [225]
 Underfull \hbox (badness 1616) in paragraph at lines 106--106
 []|\OT1/cmr/m/n/8 README \JY1/mc/m/n/8 充
  []
 
-[233])
+[226])
 No file ai_research.ind.
 >>>>>2005/9/09 v1.0 pLaTeX class ALL Rights reserved Copyright SANBI Co., Ltd. 
 for CORONA PUBLISHING CO., Ltd.<<<<<
-[234] (./ai_research.aux)
+[227] (./ai_research.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `ai_research.out' has not changed.
-(rerunfilecheck)             Checksum: 80D57AB286FF2F71C43133513837449E;47462.
+(rerunfilecheck)             Checksum: 2A19920E0A6669BE5470E9AB874AB0F6;46703.
  ) 
 Here is how much of TeX's memory you used:
- 14239 strings out of 474774
- 212903 string characters out of 5758802
+ 14153 strings out of 474774
+ 212040 string characters out of 5758802
  2124032 words of memory out of 5000000
- 36293 multiletter control sequences out of 15000+600000
- 610340 words of font info for 135 fonts, out of 8000000 for 9000
+ 36257 multiletter control sequences out of 15000+600000
+ 609938 words of font info for 133 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,15n,79p,994b,2292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,994b,2287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ai_research.dvi (252 pages, 1003484 bytes).
+Output written on ai_research.dvi (243 pages, 996248 bytes).

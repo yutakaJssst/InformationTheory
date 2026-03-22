@@ -74,16 +74,17 @@ DeepL Write & DeepL & 無料版あり/Pro 8ユーロ/月 & 英文の改善・書
 \begin{table}[H]
 \centering
 \footnotesize
-\begin{tabular}{lp{2cm}p{3cm}l}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
 \toprule
 ツール名 & 開発元 & 料金 & 得意分野 \\
 \midrule
-GitHub Copilot & GitHub/OpenAI & 無料（学生）/\$10/月 & コード補完・生成 \\
+GitHub Copilot & GitHub/OpenAI & 無料枠あり/Pro \$10/月 & コード補完・生成 \\
 Claude Code & Anthropic & Pro/Maxプランに含まれる & コード生成、デバッグ \\
 Cursor & Cursor & 無料版あり/Pro \$20/月 & AI統合エディタ \\
 Google Colab AI & Google & 無料版あり/Pro \$12/月 & Pythonコード支援 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 \textbf{選び方のポイント}: 研究でプログラミングを行う場合、GitHub Copilotは最も広く使われている。学生は無料で利用できるため、まずこれを試すことを推奨する。より高度なコード生成やプロジェクト全体の理解が必要な場合は、Claude CodeやCursorが有効である。

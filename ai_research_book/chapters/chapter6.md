@@ -23,7 +23,7 @@
 | GitHub Copilot | VS Code統合、コード補完に特化 | 学生無料（GitHub Education） |
 | Cursor | AI統合型エディタ、対話的開発 | 無料枠あり、Pro月$20 |
 | ChatGPT / GPT-4 | 汎用的、説明付きコード生成 | 無料枠あり、Plus月$20 |
-| Gemini Pro | Google連携、長文コンテキスト | 無料枠あり |
+| Gemini | Google連携、長文コンテキスト | 無料枠あり |
 | Claude | 長文コンテキスト、正確な推論 | 無料枠あり、Pro月$20 |
 
 ### 6.1.2 開発者のAI利用統計
@@ -196,7 +196,7 @@ def load_experiment_data(file_path: str) -> pd.DataFrame:
 
 ## 6.3 主要ツールの活用法
 
-### 6.3.1 Gemini Pro / ChatGPT / Claude でのコード生成
+### 6.3.1 Gemini / ChatGPT / Claude でのコード生成
 
 ブラウザベースのAIチャットツールは、最も手軽にコード生成を始められる方法である。
 

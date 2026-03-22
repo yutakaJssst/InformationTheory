@@ -1,10 +1,34 @@
 \begin{thebibliography}{1}
 
-\bibitem{mext2023ai}
+\bibitem{Vaswani2017}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems 30 (NeurIPS
+  2017)}, pages 5998--6008, 2017.
+
+\bibitem{Brooks1986}
+Frederick~P. Brooks.
+\newblock No silver bullet: Essence and accidents of software engineering.
+\newblock {\em Computer}, 19(4):10--19, 1986.
+
+\bibitem{ji2023hallucination}
+Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii,
+  Yejin Bang, Andrea Madotto, and Pascale Fung.
+\newblock Survey of hallucination in natural language generation.
+\newblock {\em ACM Computing Surveys}, 55(12):1--38, 2023.
+
+\bibitem{MEXT2023AI}
 {文部科学省}.
 \newblock
   大学・高専における生成{AI}の教学面の取扱いについて（暫定的な考え方）.
 \newblock \url{https://www.mext.go.jp/b_menu/houdou/2023/mext_01260.html},
   2023.
+
+\bibitem{nature2023editorial}
+{Nature Editorial}.
+\newblock Tools such as {ChatGPT} threaten transparent science; here are our
+  ground rules for their use.
+\newblock {\em Nature}, 613:612, 2023.
 
 \end{thebibliography}
