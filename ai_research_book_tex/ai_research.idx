@@ -37,118 +37,122 @@
 \indexentry{だんかいてきせいちか@段階的精緻化|hyperpage}{31}
 \indexentry{めたぷろんぷてぃんぐ@メタプロンプティング|hyperpage}{32}
 \indexentry{せいやくじょうけん@制約条件|hyperpage}{33}
-\indexentry{はるしねーしょん@ハルシネーション|hyperpage}{35}
-\indexentry{arXiv|hyperpage}{47}
-\indexentry{ぶんけんちょうさ@文献調査|hyperpage}{48}
-\indexentry{しんきせい@新規性|hyperpage}{48}
-\indexentry{Perplexity|hyperpage}{49}
-\indexentry{NotebookLM|hyperpage}{50}
-\indexentry{Elicit|hyperpage}{50}
-\indexentry{Connected Papers|hyperpage}{50}
-\indexentry{Semantic Scholar|hyperpage}{50}
-\indexentry{きーわーどかくちょう@キーワード拡張|hyperpage}{51}
-\indexentry{さーべい@サーベイ|hyperpage}{53}
-\indexentry{さぶんまとりくす@差分マトリクス|hyperpage}{58}
-\indexentry{ふぁくとちぇっく@ファクトチェック|hyperpage}{59}
-\indexentry{はるしねーしょん@ハルシネーション|hyperpage}{59}
-\indexentry{ばいあす@バイアス|hyperpage}{60}
-\indexentry{ぶんけんかんりつーる@文献管理ツール|hyperpage}{62}
-\indexentry{Zotero|hyperpage}{62}
-\indexentry{Mendeley|hyperpage}{62}
-\indexentry{EndNote|hyperpage}{62}
-\indexentry{えいごろんぶん@英語論文|hyperpage}{67}
-\indexentry{こくさいかいぎ@国際会議|hyperpage}{67}
-\indexentry{じゃーなる@ジャーナル|hyperpage}{67}
-\indexentry{IMRaD@IMRaD構造|hyperpage}{68}
-\indexentry{ぱらぐらふ@パラグラフ|hyperpage}{70}
-\indexentry{えいやくわーくふろー@英訳ワークフロー|hyperpage}{71}
-\indexentry{すいこう@推敲|hyperpage}{74}
-\indexentry{ぎゃくほんやくちぇっく@逆翻訳チェック|hyperpage}{75}
-\indexentry{Abstract@Abstract|hyperpage}{77}
-\indexentry{じせい@時制|hyperpage}{79}
-\indexentry{かんし@冠詞|hyperpage}{80}
-\indexentry{じゅどうたい@受動態|hyperpage}{80}
-\indexentry{ちょくやく@直訳|hyperpage}{81}
-\indexentry{せんもんようご@専門用語|hyperpage}{81}
-\indexentry{がくじゅつえいごひょうげん@学術英語表現|hyperpage}{82}
-\indexentry{けんきゅうはっぴょうすらいど@研究発表スライド|hyperpage}{89}
-\indexentry{がっかいはっぴょう@学会発表|hyperpage}{89}
-\indexentry{こうせいあん@構成案|hyperpage}{91}
-\indexentry{えれべーたーぴっち@エレベーターピッチ|hyperpage}{91}
-\indexentry{でざいんAI@デザインAI|hyperpage}{97}
-\indexentry{Gamma@Gamma|hyperpage}{97}
-\indexentry{Canva AI@Canva AI|hyperpage}{98}
-\indexentry{がいねんず@概念図|hyperpage}{99}
-\indexentry{がぞうせいせいAI@画像生成AI|hyperpage}{99}
-\indexentry{Mermaid.js@Mermaid.js|hyperpage}{100}
-\indexentry{ちょさくけん@著作権|hyperpage}{102}
-\indexentry{そうごれびゅー@相互レビュー|hyperpage}{103}
-\indexentry{こーどせいせいAI@コード生成AI|hyperpage}{110}
-\indexentry{こーどせいせい@コード生成|hyperpage}{112}
-\indexentry{GitHub Copilot@GitHub Copilot|hyperpage}{116}
-\indexentry{たいわてきこーどかいはつ@対話的コード開発|hyperpage}{117}
-\indexentry{てすとくどうかいはつ@テスト駆動開発|hyperpage}{118}
-\indexentry{りふぁくたりんぐ@リファクタリング|hyperpage}{119}
-\indexentry{でばっぐ@デバッグ|hyperpage}{119}
-\indexentry{てすとこーど@テストコード|hyperpage}{120}
-\indexentry{pytest@pytest|hyperpage}{120}
-\indexentry{てすとかばれっじ@テストカバレッジ|hyperpage}{123}
-\indexentry{こーどれびゅー@コードレビュー|hyperpage}{124}
-\indexentry{せきゅりてぃ@セキュリティ|hyperpage}{127}
-\indexentry{らいせんす@ライセンス|hyperpage}{129}
-\indexentry{さいげんせい@再現性|hyperpage}{130}
-\indexentry{でーたぶんせき@データ分析|hyperpage}{135}
-\indexentry{でーたぶんせき@データ分析|hyperpage}{135}
-\indexentry{わーくふろー@ワークフロー|hyperpage}{136}
-\indexentry{たんさくてきでーたぶんせき@探索的データ分析|hyperpage}{139}
-\indexentry{EDA@EDA|hyperpage}{139}
-\indexentry{とうけいてきけんてい@統計的検定|hyperpage}{140}
-\indexentry{pち@$p$値|hyperpage}{142}
-\indexentry{ぐらふさくせい@グラフ作成|hyperpage}{142}
-\indexentry{matplotlib@matplotlib|hyperpage}{142}
-\indexentry{seaborn@seaborn|hyperpage}{142}
-\indexentry{いんたらくてぃぶかしか@インタラクティブ可視化|hyperpage}{144}
-\indexentry{Plotly@Plotly|hyperpage}{144}
-\indexentry{pはっきんぐ@$p$ハッキング|hyperpage}{146}
-\indexentry{たじゅうひかく@多重比較|hyperpage}{146}
-\indexentry{かがくしゅう@過学習|hyperpage}{146}
-\indexentry{GitHub@GitHub|hyperpage}{150}
-\indexentry{ばーじょんかんり@バージョン管理|hyperpage}{150}
-\indexentry{おーぷんさいえんす@オープンサイエンス|hyperpage}{151}
-\indexentry{Git@Git|hyperpage}{152}
-\indexentry{りぽじとり@リポジトリ|hyperpage}{152}
-\indexentry{こみっと@コミット|hyperpage}{152}
-\indexentry{ぶらんち@ブランチ|hyperpage}{152}
-\indexentry{GitHub Desktop@GitHub Desktop|hyperpage}{153}
-\indexentry{VS Code@VS Code|hyperpage}{154}
-\indexentry{Webページ@Webページ|hyperpage}{155}
-\indexentry{GitHub Pages@GitHub Pages|hyperpage}{156}
-\indexentry{ぽーとふぉりお@ポートフォリオ|hyperpage}{157}
-\indexentry{README@README.md|hyperpage}{157}
-\indexentry{Issue@Issue|hyperpage}{158}
-\indexentry{Pull Request@Pull Request|hyperpage}{158}
-\indexentry{らいせんす@ライセンス|hyperpage}{158}
-\indexentry{しゅうしょくかつどう@就職活動|hyperpage}{162}
-\indexentry{がくちか@ガクチカ|hyperpage}{164}
-\indexentry{STAR法@STAR法|hyperpage}{164}
-\indexentry{STAR法@STAR法|hyperpage}{165}
-\indexentry{えれべーたーぴっち@エレベーターピッチ|hyperpage}{168}
-\indexentry{えんとりーしーと@エントリーシート|hyperpage}{169}
-\indexentry{しんきせい@新規性|hyperpage}{175}
-\indexentry{ほうほうろんてきしんきせい@方法論的新規性|hyperpage}{176}
-\indexentry{じっせんてきしんきせい@実践的新規性|hyperpage}{177}
-\indexentry{ChatGPT@ChatGPT|hyperpage}{187}
-\indexentry{Claude@Claude|hyperpage}{187}
-\indexentry{Gemini@Gemini|hyperpage}{187}
-\indexentry{Perplexity@Perplexity|hyperpage}{188}
-\indexentry{Consensus@Consensus|hyperpage}{188}
-\indexentry{Elicit@Elicit|hyperpage}{188}
-\indexentry{Semantic Scholar@Semantic Scholar|hyperpage}{188}
-\indexentry{Writefull@Writefull|hyperpage}{188}
-\indexentry{Grammarly@Grammarly|hyperpage}{188}
-\indexentry{GitHub Copilot@GitHub Copilot|hyperpage}{189}
-\indexentry{Claude Code@Claude Code|hyperpage}{189}
-\indexentry{Cursor@Cursor|hyperpage}{189}
-\indexentry{Canva@Canva|hyperpage}{189}
-\indexentry{Gamma@Gamma|hyperpage}{189}
-\indexentry{Mermaid@Mermaid|hyperpage}{189}
+\indexentry{XMLたぐ@XMLタグ|hyperpage}{35}
+\indexentry{こんてきすとはいち@コンテキスト配置|hyperpage}{36}
+\indexentry{いんようべーすかいとう@引用ベース回答|hyperpage}{37}
+\indexentry{ぐらうんでぃんぐ@グラウンディング|hyperpage}{37}
+\indexentry{はるしねーしょん@ハルシネーション|hyperpage}{39}
+\indexentry{arXiv|hyperpage}{51}
+\indexentry{ぶんけんちょうさ@文献調査|hyperpage}{52}
+\indexentry{しんきせい@新規性|hyperpage}{52}
+\indexentry{Perplexity|hyperpage}{54}
+\indexentry{NotebookLM|hyperpage}{54}
+\indexentry{Elicit|hyperpage}{54}
+\indexentry{Connected Papers|hyperpage}{54}
+\indexentry{Semantic Scholar|hyperpage}{54}
+\indexentry{きーわーどかくちょう@キーワード拡張|hyperpage}{56}
+\indexentry{さーべい@サーベイ|hyperpage}{58}
+\indexentry{さぶんまとりくす@差分マトリクス|hyperpage}{62}
+\indexentry{ふぁくとちぇっく@ファクトチェック|hyperpage}{63}
+\indexentry{はるしねーしょん@ハルシネーション|hyperpage}{63}
+\indexentry{ばいあす@バイアス|hyperpage}{64}
+\indexentry{ぶんけんかんりつーる@文献管理ツール|hyperpage}{66}
+\indexentry{Zotero|hyperpage}{66}
+\indexentry{Mendeley|hyperpage}{66}
+\indexentry{EndNote|hyperpage}{66}
+\indexentry{えいごろんぶん@英語論文|hyperpage}{71}
+\indexentry{こくさいかいぎ@国際会議|hyperpage}{71}
+\indexentry{じゃーなる@ジャーナル|hyperpage}{71}
+\indexentry{IMRaD@IMRaD構造|hyperpage}{72}
+\indexentry{ぱらぐらふ@パラグラフ|hyperpage}{74}
+\indexentry{えいやくわーくふろー@英訳ワークフロー|hyperpage}{75}
+\indexentry{すいこう@推敲|hyperpage}{78}
+\indexentry{ぎゃくほんやくちぇっく@逆翻訳チェック|hyperpage}{79}
+\indexentry{Abstract@Abstract|hyperpage}{81}
+\indexentry{じせい@時制|hyperpage}{83}
+\indexentry{かんし@冠詞|hyperpage}{84}
+\indexentry{じゅどうたい@受動態|hyperpage}{84}
+\indexentry{ちょくやく@直訳|hyperpage}{85}
+\indexentry{せんもんようご@専門用語|hyperpage}{85}
+\indexentry{がくじゅつえいごひょうげん@学術英語表現|hyperpage}{86}
+\indexentry{けんきゅうはっぴょうすらいど@研究発表スライド|hyperpage}{93}
+\indexentry{がっかいはっぴょう@学会発表|hyperpage}{93}
+\indexentry{こうせいあん@構成案|hyperpage}{95}
+\indexentry{えれべーたーぴっち@エレベーターピッチ|hyperpage}{95}
+\indexentry{でざいんAI@デザインAI|hyperpage}{101}
+\indexentry{Gamma@Gamma|hyperpage}{101}
+\indexentry{Canva AI@Canva AI|hyperpage}{102}
+\indexentry{がいねんず@概念図|hyperpage}{104}
+\indexentry{がぞうせいせいAI@画像生成AI|hyperpage}{104}
+\indexentry{Mermaid.js@Mermaid.js|hyperpage}{105}
+\indexentry{ちょさくけん@著作権|hyperpage}{107}
+\indexentry{そうごれびゅー@相互レビュー|hyperpage}{107}
+\indexentry{こーどせいせいAI@コード生成AI|hyperpage}{114}
+\indexentry{こーどせいせい@コード生成|hyperpage}{116}
+\indexentry{GitHub Copilot@GitHub Copilot|hyperpage}{120}
+\indexentry{たいわてきこーどかいはつ@対話的コード開発|hyperpage}{121}
+\indexentry{てすとくどうかいはつ@テスト駆動開発|hyperpage}{122}
+\indexentry{りふぁくたりんぐ@リファクタリング|hyperpage}{123}
+\indexentry{でばっぐ@デバッグ|hyperpage}{123}
+\indexentry{てすとこーど@テストコード|hyperpage}{124}
+\indexentry{pytest@pytest|hyperpage}{124}
+\indexentry{てすとかばれっじ@テストカバレッジ|hyperpage}{127}
+\indexentry{こーどれびゅー@コードレビュー|hyperpage}{128}
+\indexentry{せきゅりてぃ@セキュリティ|hyperpage}{131}
+\indexentry{らいせんす@ライセンス|hyperpage}{133}
+\indexentry{さいげんせい@再現性|hyperpage}{134}
+\indexentry{でーたぶんせき@データ分析|hyperpage}{139}
+\indexentry{でーたぶんせき@データ分析|hyperpage}{139}
+\indexentry{わーくふろー@ワークフロー|hyperpage}{140}
+\indexentry{たんさくてきでーたぶんせき@探索的データ分析|hyperpage}{143}
+\indexentry{EDA@EDA|hyperpage}{143}
+\indexentry{とうけいてきけんてい@統計的検定|hyperpage}{144}
+\indexentry{pち@$p$値|hyperpage}{146}
+\indexentry{ぐらふさくせい@グラフ作成|hyperpage}{146}
+\indexentry{matplotlib@matplotlib|hyperpage}{146}
+\indexentry{seaborn@seaborn|hyperpage}{146}
+\indexentry{いんたらくてぃぶかしか@インタラクティブ可視化|hyperpage}{148}
+\indexentry{Plotly@Plotly|hyperpage}{148}
+\indexentry{pはっきんぐ@$p$ハッキング|hyperpage}{150}
+\indexentry{たじゅうひかく@多重比較|hyperpage}{150}
+\indexentry{かがくしゅう@過学習|hyperpage}{150}
+\indexentry{GitHub@GitHub|hyperpage}{154}
+\indexentry{ばーじょんかんり@バージョン管理|hyperpage}{154}
+\indexentry{おーぷんさいえんす@オープンサイエンス|hyperpage}{155}
+\indexentry{Git@Git|hyperpage}{156}
+\indexentry{りぽじとり@リポジトリ|hyperpage}{156}
+\indexentry{こみっと@コミット|hyperpage}{156}
+\indexentry{ぶらんち@ブランチ|hyperpage}{156}
+\indexentry{GitHub Desktop@GitHub Desktop|hyperpage}{157}
+\indexentry{VS Code@VS Code|hyperpage}{158}
+\indexentry{Webページ@Webページ|hyperpage}{159}
+\indexentry{GitHub Pages@GitHub Pages|hyperpage}{160}
+\indexentry{ぽーとふぉりお@ポートフォリオ|hyperpage}{161}
+\indexentry{README@README.md|hyperpage}{161}
+\indexentry{Issue@Issue|hyperpage}{162}
+\indexentry{Pull Request@Pull Request|hyperpage}{162}
+\indexentry{らいせんす@ライセンス|hyperpage}{162}
+\indexentry{しゅうしょくかつどう@就職活動|hyperpage}{166}
+\indexentry{がくちか@ガクチカ|hyperpage}{168}
+\indexentry{STAR法@STAR法|hyperpage}{168}
+\indexentry{STAR法@STAR法|hyperpage}{169}
+\indexentry{えれべーたーぴっち@エレベーターピッチ|hyperpage}{172}
+\indexentry{えんとりーしーと@エントリーシート|hyperpage}{173}
+\indexentry{しんきせい@新規性|hyperpage}{179}
+\indexentry{ほうほうろんてきしんきせい@方法論的新規性|hyperpage}{180}
+\indexentry{じっせんてきしんきせい@実践的新規性|hyperpage}{181}
+\indexentry{ChatGPT@ChatGPT|hyperpage}{192}
+\indexentry{Claude@Claude|hyperpage}{192}
+\indexentry{Gemini@Gemini|hyperpage}{192}
+\indexentry{Perplexity@Perplexity|hyperpage}{193}
+\indexentry{Consensus@Consensus|hyperpage}{193}
+\indexentry{Elicit@Elicit|hyperpage}{193}
+\indexentry{Semantic Scholar@Semantic Scholar|hyperpage}{193}
+\indexentry{Writefull@Writefull|hyperpage}{193}
+\indexentry{Grammarly@Grammarly|hyperpage}{193}
+\indexentry{GitHub Copilot@GitHub Copilot|hyperpage}{194}
+\indexentry{Claude Code@Claude Code|hyperpage}{194}
+\indexentry{Cursor@Cursor|hyperpage}{194}
+\indexentry{Canva@Canva|hyperpage}{194}
+\indexentry{Gamma@Gamma|hyperpage}{194}
+\indexentry{Mermaid@Mermaid|hyperpage}{194}
