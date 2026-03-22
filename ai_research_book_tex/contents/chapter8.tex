@@ -1,0 +1,350 @@
+\chapter{GitHubによる研究成果管理}
+\label{chap8}
+
+\begin{chapterbox}
+\textbf{【この章で学ぶこと】}
+\begin{itemize}
+\item Git/GitHubの基本操作を習得する
+\item AIを活用したWebページ作成とGitHub Pagesでの公開を実践できる
+\item 研究ポートフォリオの構築と活用方法を理解する
+\end{itemize}
+\end{chapterbox}
+\vspace{5mm}
+
+\section{なぜ大学院生がGitHubを使うべきか}
+\index{GitHub@GitHub}
+
+\subsection{研究コードのバージョン管理}
+
+大学院での研究では、コードを何度も修正する。バージョン管理\index{ばーじょんかんり@バージョン管理}なしでは、以下のような問題が生じる。
+
+\begin{verbatim}
+よくある悲劇:
+analysis.py
+analysis_v2.py
+analysis_v2_final.py
+analysis_v2_final_revised.py
+analysis_v2_final_revised_REAL_FINAL.py
+\end{verbatim}
+
+このようなファイル管理では、「どの時点で何を変更したか」「なぜ変更したか」が全く分からなくなる。Gitを使えば、一つのファイルの変更履歴を完全に追跡でき、いつでも過去の状態に戻れる。
+
+\subsection{共同研究での活用}
+
+研究は一人で行うものではない。GitHubを使えば、以下が可能になる。
+
+\begin{itemize}
+\item \textbf{コードの共有}: URLを送るだけで共同研究者がコードにアクセスできる
+\item \textbf{同時作業}: 複数人が同じプロジェクトを同時に編集できる
+\item \textbf{変更の追跡}: 誰が、いつ、何を変更したかが一目で分かる
+\item \textbf{レビュー}: 共同研究者の変更をレビューしてからマージできる
+\end{itemize}
+
+\subsection{就職活動でのポートフォリオ効果}
+
+技術系の就職活動において、GitHubのプロフィールは「第二の履歴書」として機能する。特にIT企業やデータサイエンス関連のポジションでは、GitHubでの活動が評価される。
+
+\begin{itembox}[l]{GitHubプロフィールで評価されるポイント}
+\begin{itemize}
+\item 定期的なコミット（継続的に開発・研究している証拠）
+\item README.md が整備されたリポジトリ（ドキュメンテーション能力）
+\item コードの品質（命名規則、コメント、テストの有無）
+\item オープンソースプロジェクトへの貢献
+\end{itemize}
+\end{itembox}
+
+\subsection{オープンサイエンスへの貢献}
+\index{おーぷんさいえんす@オープンサイエンス}
+
+近年、研究のオープン化（Open Science）が世界的なトレンドとなっている。論文のデータや分析コードをGitHubで公開することで、以下のメリットがある。
+
+\begin{itemize}
+\item \textbf{研究の透明性向上}: 分析手法が第三者に検証可能になる
+\item \textbf{再現性の担保}: 他の研究者が同じ分析を再現できる
+\item \textbf{引用の増加}: 公開されたコードやデータは他の研究者に利用され、引用が増える傾向がある
+\item \textbf{学術コミュニティへの貢献}: 研究ツールやデータセットの共有
+\end{itemize}
+
+\section{Gitの基礎}
+\index{Git@Git}
+
+\subsection{バージョン管理とは何か}
+
+バージョン管理とは、ファイルの変更履歴を記録し、過去の任意の時点の状態を復元できるようにする仕組みである。
+
+\subsection{リポジトリ、コミット、ブランチの基本概念}
+
+Gitを理解するための3つの核心概念を、ゲームのアナロジーで説明する。
+
+\begin{itembox}[l]{Gitの基本概念}
+\index{りぽじとり@リポジトリ}\index{こみっと@コミット}\index{ぶらんち@ブランチ}
+
+\textbf{リポジトリ（Repository）= セーブデータフォルダ}
+
+プロジェクトの全ファイルとその変更履歴を格納する場所である。
+
+\textbf{コミット（Commit）= セーブポイント}
+
+ある時点でのファイルの状態を保存する操作である。各コミットには「何を変更したか」を説明するメッセージを付ける。
+
+\textbf{ブランチ（Branch）= 並行世界}
+
+メインの開発ラインから分岐して、独立に作業できる仕組みである。
+\end{itembox}
+
+\begin{table}[H]
+\centering
+\caption{Git用語とゲームのアナロジー}
+\begin{tabular}{lll}
+\toprule
+Git 用語 & ゲームのアナロジー & 説明 \\
+\midrule
+リポジトリ & セーブデータフォルダ & プロジェクト全体の格納場所 \\
+コミット & セーブポイント & ある時点の状態を記録 \\
+ブランチ & 並行ルート & 分岐して独立に作業 \\
+マージ & ルートの合流 & 分岐した作業を統合 \\
+プッシュ & クラウドに同期 & ローカルの変更をGitHubに送る \\
+プル & クラウドから同期 & GitHubの変更をローカルに取得 \\
+クローン & セーブデータをコピー & GitHubからプロジェクトをダウンロード \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{GitHubの基本操作}
+
+\subsection{GitHubアカウントの作成}
+
+\begin{enumerate}
+\item \texttt{https://github.com} にアクセスする
+\item 「Sign up」をクリックし、メールアドレス・ユーザー名・パスワードを入力する
+\item メール認証を完了する
+\end{enumerate}
+
+ユーザー名は本名またはそれに近い名前が望ましい（就職活動で使うため）。GitHub Education（\texttt{https://education.github.com}）に大学のメールアドレスで学生認証を行うと、GitHub Copilotが無料で使えるなどの特典がある。
+
+\subsection{GitHub Desktop のセットアップ}
+\index{GitHub Desktop@GitHub Desktop}
+
+コマンドラインが苦手な人には、GitHub Desktop（GUIアプリ）が推奨される。\texttt{https://desktop.github.com} からダウンロードし、GitHubアカウントでサインインする。
+
+\subsection{リポジトリの作成とクローン}
+
+GitHub上でリポジトリを作成する手順:
+\begin{enumerate}
+\item GitHub にログイン
+\item 右上の「+」→「New repository」をクリック
+\item Repository name、Description を入力し、Public または Private を選択
+\item 「Add a README file」にチェックし、「Create repository」をクリック
+\end{enumerate}
+
+\subsection{コミット→プッシュの基本フロー}
+
+日常的な作業の流れは以下の通りである。
+
+\begin{enumerate}
+\item ファイルを編集する（VS Code等で）
+\item 変更をステージングする（保存したい変更を選択）
+\item コミットメッセージを書く
+\item コミットする（ローカルにセーブ）
+\item プッシュする（GitHubにアップロード）
+\end{enumerate}
+
+\begin{itembox}[l]{良いコミットメッセージの書き方}
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+\toprule
+悪い例 & 良い例 \\
+\midrule
+「更新」 & 「t検定の結果を棒グラフで可視化」 \\
+「修正」 & 「欠損値処理のバグを修正: NaNが残る問題」 \\
+「追加」 & 「相関分析のコードとヒートマップを追加」 \\
+\bottomrule
+\end{tabular}
+\end{table}
+コミットメッセージは「何を、なぜ変更したか」が分かるように書く。
+\end{itembox}
+
+\subsection{VS Code との連携}
+
+VS Code\index{VS Code@VS Code}にはGitの操作機能が組み込まれている。左サイドバーの「ソース管理」アイコンからファイルのステージング、コミット、プッシュが可能である。拡張機能として\textbf{GitLens}（コードの各行の変更履歴表示）や\textbf{Git Graph}（コミット履歴のグラフ表示）の導入を推奨する。
+
+\section{AIでWebページを作成する}
+\index{Webページ@Webページ}
+
+\subsection{AIでHTML/CSSコードを生成する}
+
+AIを使えば、プログラミングの知識がなくても自己紹介Webページを作成できる。
+
+\begin{promptbox}
+大学院生の自己紹介Webページを作成するHTML/CSSコードを書いてください。
+
+内容:
+\begin{itemize}
+\item 名前: 田中太郎
+\item 所属: ○○大学大学院 情報科学研究科 修士2年
+\item 研究テーマ: 「深層学習を用いた自然言語処理の研究」
+\item スキル: Python, PyTorch, 統計分析
+\end{itemize}
+
+デザイン要件:
+\begin{itemize}
+\item モダンでシンプルなデザイン
+\item レスポンシブ対応（スマホでも見やすい）
+\item セクション: ヘッダー、自己紹介、研究概要、業績、スキル、連絡先
+\item CSSは同一ファイルに含める（1ファイルで完結）
+\end{itemize}
+\end{promptbox}
+
+\subsection{VS Codeでの編集とプレビュー}
+
+生成されたHTMLをVS Codeで編集する手順は以下の通りである。
+
+\begin{enumerate}
+\item VS Codeでプロジェクトフォルダを開く
+\item \texttt{index.html}という名前でファイルを作成
+\item AIが生成したコードを貼り付ける
+\item 拡張機能「Live Server」をインストール
+\item \texttt{index.html}を右クリック→「Open with Live Server」
+\item ブラウザでリアルタイムにプレビューが表示される
+\end{enumerate}
+
+\subsection{AIでカスタマイズする}
+
+Webページの修正やカスタマイズもAIに依頼できる。デザインの変更やセクションの追加など、自然言語で指示するだけで対応してもらえる。
+
+\section{GitHub Pagesで公開する}
+\index{GitHub Pages@GitHub Pages}
+
+\subsection{GitHub Pagesとは}
+
+GitHub Pagesは、GitHubのリポジトリに置いたHTMLファイルを無料でWebサイトとして公開できるサービスである。
+
+\begin{itemize}
+\item 無料で利用可能
+\item \texttt{https://ユーザー名.github.io/リポジトリ名/} のURLで公開される
+\item リポジトリにプッシュするだけで自動的に更新される
+\item カスタムドメインも設定可能
+\end{itemize}
+
+\subsection{GitHub Pages の設定手順}
+
+\begin{enumerate}
+\item GitHubで新しいリポジトリを作成する（Publicに設定）
+\item リポジトリに \texttt{index.html} をアップロードする
+\item リポジトリの「Settings」→「Pages」をクリック
+\item 「Source」でBranch: \texttt{main}、Folder: \texttt{/ (root)} を設定し「Save」
+\item 数分後に \texttt{https://ユーザー名.github.io/リポジトリ名/} で公開される
+\end{enumerate}
+
+\subsection{更新フロー}
+
+ローカルで\texttt{index.html}を編集し、Live Serverでプレビュー確認した後、GitHub Desktopでコミット・プッシュすると、数分後にWebサイトに反映される。
+
+\section{研究ポートフォリオの構築}
+\index{ぽーとふぉりお@ポートフォリオ}
+
+\subsection{ポートフォリオに含めるもの}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{llc}
+\toprule
+セクション & 内容 & 重要度 \\
+\midrule
+自己紹介 & 名前、所属、研究分野、顔写真 & 必須 \\
+研究概要 & 研究テーマの説明（一般向け） & 必須 \\
+業績一覧 & 論文、学会発表、受賞歴 & 必須 \\
+スキル & プログラミング言語、ツール、資格 & 推奨 \\
+プロジェクト & 研究プロジェクトの詳細と成果物 & 推奨 \\
+連絡先 & メールアドレス、SNS & 必須 \\
+CV/履歴書 & PDF形式でダウンロード可能 & 推奨 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{README.md の書き方}
+
+README.md\index{README@README.md}は、リポジトリの「顔」である。GitHubでリポジトリを開いたとき最初に表示されるため、丁寧に書くことが重要である。プロジェクト概要、特徴、インストール方法、使い方、ファイル構成、依存ライブラリ、ライセンス、著者情報を含めるとよい。
+
+\subsection{フォルダ構成のベストプラクティス}
+
+\begin{verbatim}
+my-research-project/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── src/              # ソースコード
+├── data/
+│   ├── raw/          # 生データ（変更不可）
+│   └── processed/    # 処理済みデータ
+├── notebooks/        # Jupyter Notebook
+├── figures/          # 生成されたグラフ
+├── tests/            # テストコード
+└── docs/             # ドキュメント
+\end{verbatim}
+
+\begin{itembox}[l]{.gitignore ファイル}
+\texttt{.gitignore}は、Gitで追跡すべきでないファイルを指定するファイルである。大きなデータファイル、Pythonのキャッシュ（\texttt{\_\_pycache\_\_/}）、環境変数（\texttt{.env}）、OS固有ファイル（\texttt{.DS\_Store}）などを指定する。
+\end{itembox}
+
+\section{共同研究でのGitHub活用}
+
+\subsection{Issue による課題管理}
+\index{Issue@Issue}
+
+Issueは、プロジェクトの課題やタスクを管理する機能である。タイトルと説明を記入し、ラベル（bug, enhancement, question等）を付与し、担当者を指定する。研究プロジェクトでは、データ前処理、統計分析、図表作成などのタスクをIssueとして管理できる。
+
+\subsection{Pull Request によるコードレビュー}
+\index{Pull Request@Pull Request}
+
+Pull Request（PR）は、ブランチの変更をメインブランチに統合する前に、レビューを行う仕組みである。
+
+\begin{enumerate}
+\item 新しいブランチを作成する
+\item ブランチ上でコードを書いてコミットする
+\item GitHub上でPull Requestを作成する
+\item 共同研究者がコードをレビューする
+\item レビューが通ったらマージする
+\end{enumerate}
+
+\subsection{研究コードの共有とライセンス}
+\index{らいせんす@ライセンス}
+
+研究コードを公開する場合、適切なライセンスを選択することが重要である。
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lll}
+\toprule
+ライセンス & 特徴 & 推奨場面 \\
+\midrule
+MIT & 最も自由。商用利用・改変・再配布可能 & 研究コードの一般公開 \\
+Apache 2.0 & MIT + 特許条項 & ツール・ライブラリの公開 \\
+GPL v3 & 派生物も同じライセンスで公開必須 & 強いオープンソースを望む場合 \\
+CC BY 4.0 & クリエイティブ・コモンズ & データセットの公開 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+研究コードには\textbf{MITライセンス}が最も広く使われている。迷ったらMITを選べば間違いない。
+
+\section*{演習問題}
+
+\begin{enumerate}
+\item[\textbf{演習8-1}] \textbf{GitHubアカウントとリポジトリの作成}\\
+GitHubアカウントを作成し、GitHub Educationに登録しなさい。\texttt{my-first-repo}という名前のリポジトリを作成し、GitHub Desktopでクローンした後、テキストファイルを1つ追加してコミット・プッシュしなさい。スクリーンショットを撮影して提出すること。
+
+\item[\textbf{演習8-2}] \textbf{AIでWebページを作成する}\\
+AIチャットツールを使って、自己紹介Webページを作成しなさい。自分の情報を含むプロンプトを作成し、AIにHTML/CSSコードを生成させ、VS Codeで編集してLive Serverでプレビューすること。最低2回はAIにカスタマイズを依頼して改善しなさい。
+
+\item[\textbf{演習8-3}] \textbf{GitHub Pagesで公開する}\\
+演習8-2で作成したWebページをGitHub Pagesで公開しなさい。公開URLにアクセスして表示を確認し、公開URLとスクリーンショットを提出すること。
+
+\item[\textbf{演習8-4}] \textbf{README.md の作成}\\
+自分の研究プロジェクト（または架空の研究プロジェクト）について、AIを活用してREADME.mdを作成しなさい。プロジェクト概要、インストール方法、使い方（コード例付き）、ファイル構成、ライセンスを含めること。
+
+\item[\textbf{演習8-5}] \textbf{共同作業の実践}\\
+2人以上のグループで共有リポジトリを作成し、Issueを3つ以上作成して担当者を割り当て、各メンバーがブランチを作成してPull Requestとコードレビューを行いなさい。作業の流れと学んだことをレポートにまとめること。
+\end{enumerate}

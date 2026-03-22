@@ -1,0 +1,6 @@
+% mendex style file for corona-a5.cls
+% corona-a5.cls の \indexspace{見出し} 形式に対応
+heading_flag 1
+heading_prefix "\n\\indexspace{"
+heading_suffix "}\n"
+group_skip ""

@@ -1,0 +1,106 @@
+\chapter{主要AIツールリファレンス}
+\label{app:tools}
+
+\begin{quote}
+\textbf{注記}: AIツールの開発・更新は非常に速いペースで進んでいる。本付録の情報は2026年3月時点のものであり、最新のツール情報・料金体系については、本書のWebサポートページを参照されたい。
+\end{quote}
+
+\section{対話型AI（汎用）}
+\index{ChatGPT@ChatGPT}\index{Claude@Claude}\index{Gemini@Gemini}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+ツール名 & 開発元 & 料金 & 得意分野 \\
+\midrule
+ChatGPT & OpenAI & 無料版あり/Plus \$20/月 & 汎用的な対話、文章・コード生成 \\
+Claude & Anthropic & 無料版あり/Pro \$20/月 & 長文の分析・生成、論理的推論 \\
+Gemini & Google & 無料版あり/Advanced \$20/月 & Google連携、マルチモーダル \\
+Copilot & Microsoft & 無料版あり/Pro \$20/月 & Office連携、Web検索統合 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{選び方のポイント}: 研究用途では、長文の分析能力と正確性が重要である。複数のツールを試し、自分の研究分野で最も精度の高い回答を返すツールを見つけることを推奨する。
+
+\section{検索特化型AI}
+\index{Perplexity@Perplexity}\index{Consensus@Consensus}\index{Elicit@Elicit}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+ツール名 & 開発元 & 料金 & 得意分野 \\
+\midrule
+Perplexity & Perplexity AI & 無料版あり/Pro \$20/月 & 出典付き検索、最新情報の収集 \\
+Consensus & Consensus & 無料版あり/Premium \$12/月 & 学術論文に特化した検索・要約 \\
+Elicit & Elicit & 無料版あり/Plus \$12/月 & 学術論文の検索・分析・要約 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{選び方のポイント}: 文献調査の初期段階では、学術論文に特化したConsensusやElicitが有効である。一般的な情報収集にはPerplexityが便利だが、学術的な正確性を求める場合はGoogle Scholarとの併用を推奨する。
+
+\section{論文分析・執筆支援AI}
+\index{Semantic Scholar@Semantic Scholar}\index{Writefull@Writefull}\index{Grammarly@Grammarly}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+ツール名 & 開発元 & 料金 & 得意分野 \\
+\midrule
+Semantic Scholar & Allen AI & 無料 & 論文検索、引用分析 \\
+Connected Papers & Connected Papers & 無料版あり/月額\$3〜 & 論文の関連性グラフ可視化 \\
+Writefull & Writefull & 無料版あり/Premium 16ユーロ/月 & 学術英語の文法・表現チェック \\
+Grammarly & Grammarly & 無料版あり/Premium \$12/月 & 英文の文法・スタイルチェック \\
+DeepL Write & DeepL & 無料版あり/Pro 8ユーロ/月 & 英文の改善・書き換え提案 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{選び方のポイント}: 論文執筆では、Writefullのように学術英語に特化したツールが有効である。GrammarlyやDeepL Writeは一般的な英文チェックに優れるが、学術特有の表現については専門ツールが勝る。
+
+\section{コード支援AI}
+\index{GitHub Copilot@GitHub Copilot}\index{Claude Code@Claude Code}\index{Cursor@Cursor}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+ツール名 & 開発元 & 料金 & 得意分野 \\
+\midrule
+GitHub Copilot & GitHub/OpenAI & 無料（学生）/\$10/月 & コード補完・生成 \\
+Claude Code & Anthropic & Pro/Maxプランに含まれる & コード生成、デバッグ \\
+Cursor & Cursor & 無料版あり/Pro \$20/月 & AI統合エディタ \\
+Google Colab AI & Google & 無料版あり/Pro \$12/月 & Pythonコード支援 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{選び方のポイント}: 研究でプログラミングを行う場合、GitHub Copilotは最も広く使われている。学生は無料で利用できるため、まずこれを試すことを推奨する。より高度なコード生成やプロジェクト全体の理解が必要な場合は、Claude CodeやCursorが有効である。
+
+\section{デザイン・プレゼンテーションAI}
+\index{Canva@Canva}\index{Gamma@Gamma}\index{Mermaid@Mermaid}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+ツール名 & 開発元 & 料金 & 得意分野 \\
+\midrule
+Canva（AI機能） & Canva & 無料版あり/Pro \$13/月 & スライド・ポスターデザイン \\
+Gamma & Gamma & 無料版あり/Plus \$8/月 & AI自動スライド生成 \\
+Beautiful.ai & Beautiful.ai & \$12/月〜 & デザイン自動調整スライド \\
+Mermaid & オープンソース & 無料 & テキストから図表生成 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{選び方のポイント}: 学会発表用のスライドは、\LaTeX{} BeamerやPowerPointで作成するのが一般的だが、Gammaを使って初期構成を自動生成し、その後手動で調整するワークフローも効果的である。図表の生成にはMermaidが便利で、Markdown文書に直接埋め込める。
