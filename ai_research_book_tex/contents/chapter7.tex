@@ -16,12 +16,12 @@
 
 \subsection{なぜデータ分析が重要か}
 
-大学院での研究において、データ分析\index{でーたぶんせき@データ分析}は以下の場面で不可欠な役割を果たす。
+大学院での研究において、データ分析\index{でーたぶんせき@データ分析}は以下の場面で欠かせない。
 
 \begin{enumerate}
 \item \textbf{実験結果の解釈}: 収集したデータから意味のあるパターンを見出す
 \item \textbf{仮説の検証}: 統計的手法により、仮説が支持されるかを客観的に判断する
-\item \textbf{論文の説得力}: 適切な分析と可視化は、論文の査読者を説得する強力な武器である
+\item \textbf{論文の説得力}: 適切な分析と可視化は、論文の査読者を説得する論文の説得力を大きく左右する
 \item \textbf{新たな発見}: 探索的データ分析（EDA）により、予想外の知見が得られることがある
 \end{enumerate}
 
@@ -29,7 +29,7 @@
 
 \subsection{AIがデータ分析をどう変えるか}
 
-従来、データ分析を行うには、プログラミング言語（Python, R等）の習得に多くの時間を要した。AIの登場により、この障壁は大幅に低下している。
+従来、データ分析を行うには、プログラミング言語（Python, R等）の習得に多くの時間を要した。AIの登場により、このハードルは大幅に下がっている。
 
 \begin{itembox}[l]{AIが特に役立つ場面}
 \begin{itemize}
@@ -139,7 +139,7 @@ def explore_data(file_path: str) -> pd.DataFrame:
 行の削除 & 欠損が少ない場合 & \texttt{df.dropna()} \\
 平均値補完 & 正規分布に近いデータ & \texttt{df.fillna(df.mean())} \\
 中央値補完 & 外れ値がある場合 & \texttt{df.fillna(df.median())} \\
-前方補完 & 時系列データ & \texttt{df.fillna(method='ffill')} \\
+前方補完 & 時系列データ & \texttt{df.ffill()} \\
 多重代入法 & 欠損が多い場合 & \texttt{IterativeImputer} \\
 \bottomrule
 \end{tabular}
@@ -223,7 +223,7 @@ def explore_data(file_path: str) -> pd.DataFrame:
 \toprule
 誤った解釈 & 正しい解釈 \\
 \midrule
-$p = 0.03$は「差がある確率が97\%」 & 帰無仮説の下でこの結果が得られる確率が3\% \\
+$p = 0.03$は「差がある確率が97\%」 & 帰無仮説の下で、観測データ以上に極端な結果が得られる確率が3\% \\
 $p < 0.05$は「重要な差がある」 & 統計的に有意だが、実用的な重要性は効果量で判断 \\
 $p = 0.06$は「差がない」 & 有意水準を超えただけで、差がないとは限らない \\
 $p$値が小さいほど効果が大きい & $p$値はサンプルサイズの影響を受ける。効果量を見るべき \\
@@ -241,7 +241,7 @@ Pythonでグラフを作成するための2大ライブラリがmatplotlib\index
 
 \begin{itemize}
 \item \textbf{matplotlib}: 低レベルの描画ライブラリ。細かいカスタマイズが可能
-\item \textbf{seaborn}: matplotlibの上位ライブラリ。統計的な可視化に特化し、美しいデフォルト設定を持つ
+\item \textbf{seaborn}: matplotlibをベースにした高レベルの可視化ライブラリ。統計的な可視化に特化し、美しいデフォルト設定を持つ
 \end{itemize}
 
 \subsection{効果的なグラフの選び方}

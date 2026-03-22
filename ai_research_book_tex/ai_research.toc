@@ -44,7 +44,7 @@
 \addvspace {3\h }
 \contentsline {chapter}{\numberline {2.}\mokuSEVENjidori {プロンプトエンジニアリング}}{20}{chapter.91}%
 \contentsline {section}{\numberline {2.1}\SEVENjidori {なぜプロンプトが重要か}}{20}{section.92}%
-\contentsline {subsection}{\numberline {2.1.1}\SEVENjidori {プロンプト次第で結果は劇的に変わる}}{20}{subsection.93}%
+\contentsline {subsection}{\numberline {2.1.1}\SEVENjidori {プロンプト次第で結果は大きく変わる}}{20}{subsection.93}%
 \contentsline {subsection}{\numberline {2.1.2}\SEVENjidori {プロンプトエンジニアリングとは}}{21}{subsection.94}%
 \contentsline {section}{\numberline {2.2}\SEVENjidori {ROCFモデル：良いプロンプトの4要素}}{22}{section.99}%
 \contentsline {subsection}{\numberline {2.2.1}\SEVENjidori {Role（役割）：AIに専門家の役割を与える}}{22}{subsection.100}%
@@ -150,15 +150,15 @@
 \contentsline {subsection}{\numberline {5.1.1}\SEVENjidori {学会発表の基本構成}}{89}{subsection.411}%
 \contentsline {subsection}{\numberline {5.1.2}\SEVENjidori {時間配分の目安（10分発表の場合）}}{90}{subsection.414}%
 \contentsline {subsection}{\numberline {5.1.3}\SEVENjidori {良いスライドの原則}}{91}{subsection.417}%
-\contentsline {section}{\numberline {5.2}\SEVENjidori {AIによる構成案の生成}}{92}{section.418}%
-\contentsline {subsection}{\numberline {5.2.1}\SEVENjidori {研究テーマの構造化}}{92}{subsection.419}%
+\contentsline {section}{\numberline {5.2}\SEVENjidori {AIによる構成案の生成}}{91}{section.418}%
+\contentsline {subsection}{\numberline {5.2.1}\SEVENjidori {研究テーマの構造化}}{91}{subsection.419}%
 \contentsline {subsection}{\numberline {5.2.2}\SEVENjidori {AIに構成案を提案させるプロンプト設計}}{92}{subsection.420}%
-\contentsline {subsection}{\numberline {5.2.3}\SEVENjidori {生成された構成案の批判的検討}}{93}{subsection.421}%
+\contentsline {subsection}{\numberline {5.2.3}\SEVENjidori {生成された構成案の批判的検討}}{92}{subsection.421}%
 \contentsline {section}{\numberline {5.3}\SEVENjidori {各スライドの内容生成}}{94}{section.422}%
 \contentsline {subsection}{\numberline {5.3.1}\SEVENjidori {研究背景の文章生成}}{94}{subsection.423}%
-\contentsline {subsection}{\numberline {5.3.2}\SEVENjidori {研究手法の説明文生成}}{95}{subsection.424}%
-\contentsline {subsection}{\numberline {5.3.3}\SEVENjidori {研究結果のまとめ生成}}{96}{subsection.425}%
-\contentsline {subsection}{\numberline {5.3.4}\SEVENjidori {専門用語と平易な表現のバランス調整}}{96}{subsection.426}%
+\contentsline {subsection}{\numberline {5.3.2}\SEVENjidori {研究手法の説明文生成}}{94}{subsection.424}%
+\contentsline {subsection}{\numberline {5.3.3}\SEVENjidori {研究結果のまとめ生成}}{95}{subsection.425}%
+\contentsline {subsection}{\numberline {5.3.4}\SEVENjidori {専門用語と平易な表現のバランス調整}}{95}{subsection.426}%
 \contentsline {subsection}{\numberline {5.3.5}\SEVENjidori {AIの出力を自分の言葉に修正する重要性}}{96}{subsection.427}%
 \contentsline {section}{\numberline {5.4}\SEVENjidori {デザインAIによるスライド作成}}{97}{section.431}%
 \contentsline {subsection}{\numberline {5.4.1}\SEVENjidori {Gamma --- テキストからスライドを自動生成}}{97}{subsection.432}%
@@ -166,8 +166,8 @@
 \contentsline {subsection}{\numberline {5.4.3}\SEVENjidori {デザインAIの使い分け}}{99}{subsection.444}%
 \contentsline {section}{\numberline {5.5}\SEVENjidori {図表・概念図の生成}}{99}{section.447}%
 \contentsline {subsection}{\numberline {5.5.1}\SEVENjidori {画像生成AIによる概念図}}{99}{subsection.448}%
-\contentsline {subsection}{\numberline {5.5.2}\SEVENjidori {テキストベース図表ツール --- Mermaid.jsの活用}}{101}{subsection.449}%
-\contentsline {subsection}{\numberline {5.5.3}\SEVENjidori {生成画像の著作権と正確性の検証}}{103}{subsection.469}%
+\contentsline {subsection}{\numberline {5.5.2}\SEVENjidori {テキストベース図表ツール --- Mermaid.jsの活用}}{100}{subsection.449}%
+\contentsline {subsection}{\numberline {5.5.3}\SEVENjidori {生成画像の著作権と正確性の検証}}{102}{subsection.469}%
 \contentsline {section}{\numberline {5.6}\SEVENjidori {相互レビューと改善}}{103}{section.470}%
 \contentsline {subsection}{\numberline {5.6.1}\SEVENjidori {ピアレビューのチェックポイント}}{103}{subsection.471}%
 \contentsline {subsection}{\numberline {5.6.2}\SEVENjidori {AIに「聴衆として」フィードバックさせる}}{104}{subsection.472}%
@@ -315,7 +315,7 @@
 \contentsline {APPsection}{\numberline {C.3}\SEVENjidori {Results で使える表現}}{205}{section.1091}%
 \contentsline {APPsection}{\numberline {C.4}\SEVENjidori {Discussion/Conclusion で使える表現}}{206}{section.1092}%
 \contentsline {APPsection}{\numberline {C.5}\SEVENjidori {接続表現・論理展開表現}}{207}{section.1093}%
-\contentsline {chapter}{\numberline {D.}\mokuSEVENjidori {15回授業計画}}{209}{appendix.1094}%
-\contentsline {APPsection}{\numberline {D.1}\SEVENjidori {授業計画表}}{209}{section.1095}%
-\contentsline {APPsection}{\numberline {D.2}\SEVENjidori {授業運営のヒント}}{213}{section.1097}%
-\contentsline {APPsection}{\numberline {D.3}\SEVENjidori {授業の変形パターン}}{214}{section.1098}%
+\contentsline {chapter}{\numberline {D.}\mokuSEVENjidori {15回授業計画}}{209}{appendix.1095}%
+\contentsline {APPsection}{\numberline {D.1}\SEVENjidori {授業計画表}}{209}{section.1096}%
+\contentsline {APPsection}{\numberline {D.2}\SEVENjidori {授業運営のヒント}}{213}{section.1098}%
+\contentsline {APPsection}{\numberline {D.3}\SEVENjidori {授業の変形パターン}}{214}{section.1099}%
