@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 13:02
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2025.3.5)  22 MAR 2026 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,34 +878,34 @@ Overfull \hbox (3.9145pt too wide) in paragraph at lines 427--428
 rce
  []
 
-[83] [84] [85] [86]
-Underfull \hbox (badness 1342) in paragraph at lines 670--671
+[83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
+Underfull \hbox (badness 1342) in paragraph at lines 868--869
 []|\OT1/cmr/m/n/8 ``The im-prove-ment is sta-tis-ti-cally sig-nif-i-cant
  []
 
-[87] [88] [89] [90]) (./bu4.aux)
+[93] [94] [95] [96] [97]) (./bu4.aux)
 \openout4 = `bu4.aux'.
 
  (./bu4.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 776--1
+Underfull \hbox (badness 10000) in paragraph at lines 974--1
 
  []
 
-[91] [92]
+[98]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu4.aux)
 No file bu.aux.
-(./contents/chapter5.tex [93
+(./contents/chapter5.tex [99
 
 
 ]
 第 5 章
-[94
+[100
 
-] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
-[107] [108] [109] [110] [111] [112]) (./bu5.aux)
+] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118]) (./bu5.aux)
 \openout4 = `bu5.aux'.
 
  (./bu5.bbl
@@ -913,20 +913,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 734--1
 
  []
 
-[113]
+[119]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu5.aux)
 No file bu.aux.
-(./contents/chapter6.tex [114
+(./contents/chapter6.tex [120
 
 
 ]
 第 6 章
-[115
+[121
 
-] [116] [117] [118] [119] [120] [121] [122] [123]
+] [122] [123] [124] [125] [126] [127] [128] [129]
 Underfull \hbox (badness 2680) in paragraph at lines 360--368
 []\JY1/mc/m/n/10 関数名\OT1/cmr/m/n/10 : cal-cu-late[]effect[]size \JY1/mc/m/n/
 10 入力\OT1/cmr/m/n/10 : group1 (list[float]), group2
@@ -943,14 +943,14 @@ Underfull \hbox (badness 8000) in paragraph at lines 402--407
 \OT1/cmr/m/n/10 last): File "anal-y-sis.py", line 42, in <mod-ule> re-sult =
  []
 
-[124] [125] [126] [127]
+[130] [131] [132] [133]
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [128]
-[129] [130] [131] [132] [133] [134] [135] [136] [137]) (./bu6.aux)
+) [134]
+[135] [136] [137] [138] [139] [140] [141] [142] [143]) (./bu6.aux)
 \openout4 = `bu6.aux'.
 
  (./bu6.bbl
@@ -958,21 +958,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 906--1
 
  []
 
-[138]
+[144]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu6.aux)
 No file bu.aux.
-(./contents/chapter7.tex [139
+(./contents/chapter7.tex [145
 
 
 ]
 第 7 章
-[140
+[146
 
-] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
-[152] (./bu7.aux)
+] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
+[158] (./bu7.aux)
 \openout4 = `bu7.aux'.
 
 
@@ -985,43 +985,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--449
 \JY1/mc/m/n/8 （\OT1/cmtt/m/n/8 scipy.stats.wilcoxon \JY1/mc/m/n/8 の
  []
 
-[153] [154] [155]) (./bu7.bbl [156]
+[159] [160] [161]) (./bu7.bbl [162]
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <9> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <9> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
 ) (./bu7.aux)
 No file bu.aux.
-(./contents/chapter8.tex [157
+(./contents/chapter8.tex [163
 
 
 ]
 第 8 章
-[158
+[164
 
-] [159]
+] [165]
 Overfull \hbox (1.4598pt too wide) in paragraph at lines 99--112
  [][] 
  []
 
-[160] [161] [162] [163] [164] [165] [166] [167]) (./bu8.aux)
+[166] [167] [168] [169] [170] [171] [172] [173]) (./bu8.aux)
 \openout4 = `bu8.aux'.
 
  (./bu8.bbl
-[168]
+[174]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu8.aux)
 No file bu.aux.
-(./contents/chapter9.tex [169
+(./contents/chapter9.tex [175
 
 
 ]
 第 9 章
-[170
+[176
 
-] [171] [172] [173]
+] [177] [178] [179]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 148.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' will be
@@ -1031,42 +1031,42 @@ Overfull \hbox (6.19301pt too wide) in paragraph at lines 144--154
  [][] 
  []
 
-[174] [175] [176] [177] [178] [179] [180]) (./bu9.aux)
+[180] [181] [182] [183] [184] [185] [186]) (./bu9.aux)
 \openout4 = `bu9.aux'.
 
- (./bu9.bbl [181]
+ (./bu9.bbl [187]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu9.aux)
 No file bu.aux.
-(./contents/chapter10.tex [182
+(./contents/chapter10.tex [188
 
 
 ]
 第 10 章
-[183
+[189
 
-] [184] [185] [186] [187] [188] [189] [190]
+] [190] [191] [192] [193] [194] [195] [196]
 Overfull \hbox (11.09157pt too wide) in paragraph at lines 261--272
  [][] 
  []
 
-[191] [192] [193]) (./bu10.aux)
+[197] [198] [199]) (./bu10.aux)
 \openout4 = `bu10.aux'.
 
- (./bu10.bbl [194]
+ (./bu10.bbl [200]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu10.aux)
 No file bu.aux.
-(./contents/appendix_tools.tex [195
+(./contents/appendix_tools.tex [201
 
 
 ]
 付 録 A  
-[196
+[202
 
 ]
 Overfull \hbox (4.98845pt too wide) in paragraph at lines 81--81
@@ -1078,7 +1078,7 @@ Overfull \hbox (7.4785pt too wide) in paragraph at lines 77--87
  [][] 
  []
 
-[197]
+[203]
 Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\JY1/mc/m/n/8 無料版あり\OT1/cmr/m/n/8 /Pro
  []
@@ -1093,22 +1093,22 @@ Overfull \hbox (4.0256pt too wide) in paragraph at lines 97--107
  [][] 
  []
 
-) (./contents/appendix_prompts.tex [198]
+) (./contents/appendix_prompts.tex [204]
 付 録 B  
-[199
+[205
 
-] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209])
+] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215])
 (./contents/appendix_english.tex
 Underfull \hbox (badness 10000) in paragraph at lines 398--1
 
  []
 
-[210] [211]
+[216] [217]
 付 録 C  
-[212
+[218
 
-] [213] [214] [215] [216] [217]) (./contents/appendix_syllabus.tex [218]
-[219]
+] [219] [220] [221] [222] [223]) (./contents/appendix_syllabus.tex [224]
+[225]
 付 録 D  
 
 Underfull \hbox (badness 3098) in paragraph at lines 26--26
@@ -1195,18 +1195,18 @@ Underfull \hbox (badness 1895) in paragraph at lines 50--51
 \JY1/mc/m/n/8 ジトリ ） の完
  []
 
-[220
+[226
 
-] [221] [222]
+] [227] [228]
 Underfull \hbox (badness 1616) in paragraph at lines 106--106
 []|\OT1/cmr/m/n/8 README \JY1/mc/m/n/8 充
  []
 
-[223])
+[229])
 No file ai_research.ind.
 >>>>>2005/9/09 v1.0 pLaTeX class ALL Rights reserved Copyright SANBI Co., Ltd. 
 for CORONA PUBLISHING CO., Ltd.<<<<<
-[224] (./ai_research.aux)
+[230] (./ai_research.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -1217,15 +1217,15 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ai_research.out' has not changed.
-(rerunfilecheck)             Checksum: 260265F4752E460F76B78E41798FF21A;46563.
+(rerunfilecheck)             Checksum: F2599CB1E3CD3AB1FBFD96424A286610;46795.
  ) 
 Here is how much of TeX's memory you used:
- 14231 strings out of 474774
- 212787 string characters out of 5758802
+ 14235 strings out of 474774
+ 212852 string characters out of 5758802
  2124032 words of memory out of 5000000
- 36286 multiletter control sequences out of 15000+600000
+ 36290 multiletter control sequences out of 15000+600000
  609994 words of font info for 134 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,15n,79p,994b,2292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ai_research.dvi (240 pages, 966088 bytes).
+Output written on ai_research.dvi (246 pages, 989652 bytes).

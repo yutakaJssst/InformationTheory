@@ -139,201 +139,211 @@
 \contentsline {subsection}{\numberline {4.5.2}\SEVENjidori {150--200語にまとめるプロンプト設計}}{82}{subsection.359}%
 \contentsline {subsection}{\numberline {4.5.3}\SEVENjidori {良いAbstractと悪いAbstractの比較}}{82}{subsection.360}%
 \contentsline {section}{\numberline {4.6}\SEVENjidori {よくあるミスと対策}}{84}{section.361}%
-\contentsline {subsection}{\numberline {4.6.1}\SEVENjidori {時制の不統一}}{84}{subsection.362}%
-\contentsline {subsection}{\numberline {4.6.2}\SEVENjidori {冠詞の誤り}}{85}{subsection.365}%
-\contentsline {subsection}{\numberline {4.6.3}\SEVENjidori {受動態の過剰使用}}{85}{subsection.366}%
-\contentsline {subsection}{\numberline {4.6.4}\SEVENjidori {直訳による不自然な表現}}{86}{subsection.369}%
-\contentsline {subsection}{\numberline {4.6.5}\SEVENjidori {専門用語の確認方法}}{86}{subsection.372}%
-\contentsline {section}{\numberline {4.7}\SEVENjidori {学術英語表現集}}{87}{section.375}%
-\contentsline {subsection}{\numberline {4.7.1}\SEVENjidori {Introductionの定型表現}}{87}{subsection.376}%
-\contentsline {subsection}{\numberline {4.7.2}\SEVENjidori {Methodsの定型表現}}{89}{subsection.379}%
-\contentsline {subsection}{\numberline {4.7.3}\SEVENjidori {Resultsの定型表現}}{89}{subsection.382}%
-\contentsline {subsection}{\numberline {4.7.4}\SEVENjidori {Discussion / Conclusionの定型表現}}{89}{subsection.385}%
+\contentsline {subsection}{\numberline {4.6.1}\SEVENjidori {能動態と受動態の使い分け}}{84}{subsection.362}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 1\hfill {\rm )}}}「まっすぐ能動態主義」の原則}{84}{subsubsection.363}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 2\hfill {\rm )}}}受動態を使うべき4つの場面}{85}{subsubsection.364}%
+\contentsline {subsection}{\numberline {4.6.2}\SEVENjidori {冠詞（a/the）の使い分け}}{87}{subsection.371}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 1\hfill {\rm )}}}なぜ冠詞が難しいのか}{87}{subsubsection.372}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 2\hfill {\rm )}}}theの3つの用法}{87}{subsubsection.373}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 3\hfill {\rm )}}}可算名詞と不可算名詞}{88}{subsubsection.377}%
+\contentsline {subsection}{\numberline {4.6.3}\SEVENjidori {時制の選択}}{89}{subsection.378}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 1\hfill {\rm )}}}論文のセクションと時制の関係}{89}{subsubsection.379}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 2\hfill {\rm )}}}単純現在形の本質: 再現性100\%}{89}{subsubsection.380}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 3\hfill {\rm )}}}現在完了形の3つの用法}{90}{subsubsection.381}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 4\hfill {\rm )}}}助動詞の使い分け}{90}{subsubsection.385}%
+\contentsline {subsection}{\numberline {4.6.4}\SEVENjidori {自動詞と他動詞の注意}}{91}{subsection.388}%
+\contentsline {subsection}{\numberline {4.6.5}\SEVENjidori {直訳による不自然な表現}}{92}{subsection.389}%
+\contentsline {subsection}{\numberline {4.6.6}\SEVENjidori {専門用語の確認方法}}{93}{subsection.392}%
+\contentsline {section}{\numberline {4.7}\SEVENjidori {学術英語表現集}}{96}{section.395}%
+\contentsline {subsection}{\numberline {4.7.1}\SEVENjidori {Introductionの定型表現}}{96}{subsection.396}%
+\contentsline {subsection}{\numberline {4.7.2}\SEVENjidori {Methodsの定型表現}}{96}{subsection.399}%
+\contentsline {subsection}{\numberline {4.7.3}\SEVENjidori {Resultsの定型表現}}{96}{subsection.402}%
+\contentsline {subsection}{\numberline {4.7.4}\SEVENjidori {Discussion / Conclusionの定型表現}}{96}{subsection.405}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{93}{chapter*.417}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{99}{chapter*.437}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {5.}\mokuSEVENjidori {研究発表スライドの作成}}{94}{chapter.418}%
-\contentsline {section}{\numberline {5.1}\SEVENjidori {研究発表スライドの基本}}{94}{section.419}%
-\contentsline {subsection}{\numberline {5.1.1}\SEVENjidori {学会発表の基本構成}}{94}{subsection.420}%
-\contentsline {subsection}{\numberline {5.1.2}\SEVENjidori {時間配分の目安（10分発表の場合）}}{95}{subsection.423}%
-\contentsline {subsection}{\numberline {5.1.3}\SEVENjidori {良いスライドの原則}}{96}{subsection.426}%
-\contentsline {section}{\numberline {5.2}\SEVENjidori {AIによる構成案の生成}}{96}{section.427}%
-\contentsline {subsection}{\numberline {5.2.1}\SEVENjidori {研究テーマの構造化}}{96}{subsection.428}%
-\contentsline {subsection}{\numberline {5.2.2}\SEVENjidori {AIに構成案を提案させるプロンプト設計}}{97}{subsection.429}%
-\contentsline {subsection}{\numberline {5.2.3}\SEVENjidori {生成された構成案の批判的検討}}{98}{subsection.430}%
-\contentsline {section}{\numberline {5.3}\SEVENjidori {各スライドの内容生成}}{99}{section.431}%
-\contentsline {subsection}{\numberline {5.3.1}\SEVENjidori {研究背景の文章生成}}{99}{subsection.432}%
-\contentsline {subsection}{\numberline {5.3.2}\SEVENjidori {研究手法の説明文生成}}{100}{subsection.433}%
-\contentsline {subsection}{\numberline {5.3.3}\SEVENjidori {研究結果のまとめ生成}}{101}{subsection.434}%
-\contentsline {subsection}{\numberline {5.3.4}\SEVENjidori {専門用語と平易な表現のバランス調整}}{101}{subsection.435}%
-\contentsline {subsection}{\numberline {5.3.5}\SEVENjidori {AIの出力を自分の言葉に修正する重要性}}{101}{subsection.436}%
-\contentsline {section}{\numberline {5.4}\SEVENjidori {デザインAIによるスライド作成}}{102}{section.440}%
-\contentsline {subsection}{\numberline {5.4.1}\SEVENjidori {Gamma --- テキストからスライドを自動生成}}{102}{subsection.441}%
-\contentsline {subsection}{\numberline {5.4.2}\SEVENjidori {Canva AI --- テンプレートベースのデザイン支援}}{103}{subsection.447}%
-\contentsline {subsection}{\numberline {5.4.3}\SEVENjidori {デザインAIの使い分け}}{104}{subsection.453}%
-\contentsline {section}{\numberline {5.5}\SEVENjidori {図表・概念図の生成}}{105}{section.456}%
-\contentsline {subsection}{\numberline {5.5.1}\SEVENjidori {画像生成AIによる概念図}}{105}{subsection.457}%
-\contentsline {subsection}{\numberline {5.5.2}\SEVENjidori {テキストベース図表ツール --- Mermaid.jsの活用}}{106}{subsection.458}%
-\contentsline {subsection}{\numberline {5.5.3}\SEVENjidori {生成画像の著作権と正確性の検証}}{108}{subsection.478}%
-\contentsline {section}{\numberline {5.6}\SEVENjidori {相互レビューと改善}}{108}{section.479}%
-\contentsline {subsection}{\numberline {5.6.1}\SEVENjidori {ピアレビューのチェックポイント}}{108}{subsection.480}%
-\contentsline {subsection}{\numberline {5.6.2}\SEVENjidori {AIに「聴衆として」フィードバックさせる}}{109}{subsection.481}%
+\contentsline {chapter}{\numberline {5.}\mokuSEVENjidori {研究発表スライドの作成}}{100}{chapter.438}%
+\contentsline {section}{\numberline {5.1}\SEVENjidori {研究発表スライドの基本}}{100}{section.439}%
+\contentsline {subsection}{\numberline {5.1.1}\SEVENjidori {学会発表の基本構成}}{100}{subsection.440}%
+\contentsline {subsection}{\numberline {5.1.2}\SEVENjidori {時間配分の目安（10分発表の場合）}}{101}{subsection.443}%
+\contentsline {subsection}{\numberline {5.1.3}\SEVENjidori {良いスライドの原則}}{102}{subsection.446}%
+\contentsline {section}{\numberline {5.2}\SEVENjidori {AIによる構成案の生成}}{102}{section.447}%
+\contentsline {subsection}{\numberline {5.2.1}\SEVENjidori {研究テーマの構造化}}{102}{subsection.448}%
+\contentsline {subsection}{\numberline {5.2.2}\SEVENjidori {AIに構成案を提案させるプロンプト設計}}{103}{subsection.449}%
+\contentsline {subsection}{\numberline {5.2.3}\SEVENjidori {生成された構成案の批判的検討}}{104}{subsection.450}%
+\contentsline {section}{\numberline {5.3}\SEVENjidori {各スライドの内容生成}}{105}{section.451}%
+\contentsline {subsection}{\numberline {5.3.1}\SEVENjidori {研究背景の文章生成}}{105}{subsection.452}%
+\contentsline {subsection}{\numberline {5.3.2}\SEVENjidori {研究手法の説明文生成}}{106}{subsection.453}%
+\contentsline {subsection}{\numberline {5.3.3}\SEVENjidori {研究結果のまとめ生成}}{107}{subsection.454}%
+\contentsline {subsection}{\numberline {5.3.4}\SEVENjidori {専門用語と平易な表現のバランス調整}}{107}{subsection.455}%
+\contentsline {subsection}{\numberline {5.3.5}\SEVENjidori {AIの出力を自分の言葉に修正する重要性}}{107}{subsection.456}%
+\contentsline {section}{\numberline {5.4}\SEVENjidori {デザインAIによるスライド作成}}{108}{section.460}%
+\contentsline {subsection}{\numberline {5.4.1}\SEVENjidori {Gamma --- テキストからスライドを自動生成}}{108}{subsection.461}%
+\contentsline {subsection}{\numberline {5.4.2}\SEVENjidori {Canva AI --- テンプレートベースのデザイン支援}}{109}{subsection.467}%
+\contentsline {subsection}{\numberline {5.4.3}\SEVENjidori {デザインAIの使い分け}}{110}{subsection.473}%
+\contentsline {section}{\numberline {5.5}\SEVENjidori {図表・概念図の生成}}{111}{section.476}%
+\contentsline {subsection}{\numberline {5.5.1}\SEVENjidori {画像生成AIによる概念図}}{111}{subsection.477}%
+\contentsline {subsection}{\numberline {5.5.2}\SEVENjidori {テキストベース図表ツール --- Mermaid.jsの活用}}{112}{subsection.478}%
+\contentsline {subsection}{\numberline {5.5.3}\SEVENjidori {生成画像の著作権と正確性の検証}}{114}{subsection.498}%
+\contentsline {section}{\numberline {5.6}\SEVENjidori {相互レビューと改善}}{114}{section.499}%
+\contentsline {subsection}{\numberline {5.6.1}\SEVENjidori {ピアレビューのチェックポイント}}{114}{subsection.500}%
+\contentsline {subsection}{\numberline {5.6.2}\SEVENjidori {AIに「聴衆として」フィードバックさせる}}{115}{subsection.501}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{114}{chapter*.511}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{120}{chapter*.531}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {6.}\mokuSEVENjidori {AIによるコード生成とテスト}}{115}{chapter.512}%
-\contentsline {section}{\numberline {6.1}\SEVENjidori {AIとソフトウェア開発の現在}}{115}{section.513}%
-\contentsline {subsection}{\numberline {6.1.1}\SEVENjidori {コード生成AIの普及状況}}{115}{subsection.514}%
-\contentsline {subsection}{\numberline {6.1.2}\SEVENjidori {開発者のAI利用統計}}{115}{subsection.517}%
-\contentsline {subsection}{\numberline {6.1.3}\SEVENjidori {AIが変える開発ワークフロー}}{116}{subsection.518}%
-\contentsline {section}{\numberline {6.2}\SEVENjidori {AIによるコード生成の基本}}{117}{section.519}%
-\contentsline {subsection}{\numberline {6.2.1}\SEVENjidori {基本フロー}}{117}{subsection.520}%
-\contentsline {subsection}{\numberline {6.2.2}\SEVENjidori {効果的なプロンプトの4要素}}{117}{subsection.521}%
-\contentsline {subsection}{\numberline {6.2.3}\SEVENjidori {Bad prompt vs Good prompt の比較}}{118}{subsection.524}%
-\contentsline {section}{\numberline {6.3}\SEVENjidori {主要ツールの活用法}}{120}{section.583}%
-\contentsline {subsection}{\numberline {6.3.1}\SEVENjidori {Gemini Pro / ChatGPT / Claude でのコード生成}}{120}{subsection.584}%
-\contentsline {subsection}{\numberline {6.3.2}\SEVENjidori {GitHub Copilot の活用}}{121}{subsection.588}%
-\contentsline {subsection}{\numberline {6.3.3}\SEVENjidori {対話的コード開発のテクニック}}{122}{subsection.599}%
-\contentsline {section}{\numberline {6.4}\SEVENjidori {実践テクニック}}{123}{section.600}%
-\contentsline {subsection}{\numberline {6.4.1}\SEVENjidori {段階的開発: 関数単位で生成・検証}}{123}{subsection.601}%
-\contentsline {subsection}{\numberline {6.4.2}\SEVENjidori {テスト駆動: テストケースを先に書かせる}}{123}{subsection.602}%
-\contentsline {subsection}{\numberline {6.4.3}\SEVENjidori {リファクタリング依頼}}{124}{subsection.603}%
-\contentsline {subsection}{\numberline {6.4.4}\SEVENjidori {デバッグ支援: エラーメッセージの活用}}{124}{subsection.604}%
-\contentsline {section}{\numberline {6.5}\SEVENjidori {テストコードの自動生成}}{125}{section.605}%
-\contentsline {subsection}{\numberline {6.5.1}\SEVENjidori {pytestによるテストケース生成}}{125}{subsection.606}%
-\contentsline {subsection}{\numberline {6.5.2}\SEVENjidori {テストカバレッジの考え方}}{128}{subsection.702}%
-\contentsline {subsection}{\numberline {6.5.3}\SEVENjidori {AI生成テストの検証ポイント}}{129}{subsection.707}%
-\contentsline {section}{\numberline {6.6}\SEVENjidori {AIコードレビューとリファクタリング}}{129}{section.712}%
-\contentsline {subsection}{\numberline {6.6.1}\SEVENjidori {AIにコードレビューを依頼するプロンプト}}{129}{subsection.713}%
-\contentsline {subsection}{\numberline {6.6.2}\SEVENjidori {コードレビューチェックリスト}}{130}{subsection.714}%
-\contentsline {subsection}{\numberline {6.6.3}\SEVENjidori {リファクタリングの種類と適用場面}}{131}{subsection.715}%
-\contentsline {subsection}{\numberline {6.6.4}\SEVENjidori {ドキュメント自動生成}}{131}{subsection.718}%
-\contentsline {section}{\numberline {6.7}\SEVENjidori {AI生成コードの品質と注意点}}{132}{section.719}%
-\contentsline {subsection}{\numberline {6.7.1}\SEVENjidori {セキュリティリスク}}{132}{subsection.720}%
-\contentsline {subsection}{\numberline {6.7.2}\SEVENjidori {ライセンス問題}}{134}{subsection.757}%
-\contentsline {subsection}{\numberline {6.7.3}\SEVENjidori {「信頼するが検証する」の原則}}{134}{subsection.758}%
-\contentsline {subsection}{\numberline {6.7.4}\SEVENjidori {研究コードの再現性確保}}{135}{subsection.759}%
+\contentsline {chapter}{\numberline {6.}\mokuSEVENjidori {AIによるコード生成とテスト}}{121}{chapter.532}%
+\contentsline {section}{\numberline {6.1}\SEVENjidori {AIとソフトウェア開発の現在}}{121}{section.533}%
+\contentsline {subsection}{\numberline {6.1.1}\SEVENjidori {コード生成AIの普及状況}}{121}{subsection.534}%
+\contentsline {subsection}{\numberline {6.1.2}\SEVENjidori {開発者のAI利用統計}}{121}{subsection.537}%
+\contentsline {subsection}{\numberline {6.1.3}\SEVENjidori {AIが変える開発ワークフロー}}{122}{subsection.538}%
+\contentsline {section}{\numberline {6.2}\SEVENjidori {AIによるコード生成の基本}}{123}{section.539}%
+\contentsline {subsection}{\numberline {6.2.1}\SEVENjidori {基本フロー}}{123}{subsection.540}%
+\contentsline {subsection}{\numberline {6.2.2}\SEVENjidori {効果的なプロンプトの4要素}}{123}{subsection.541}%
+\contentsline {subsection}{\numberline {6.2.3}\SEVENjidori {Bad prompt vs Good prompt の比較}}{124}{subsection.544}%
+\contentsline {section}{\numberline {6.3}\SEVENjidori {主要ツールの活用法}}{126}{section.603}%
+\contentsline {subsection}{\numberline {6.3.1}\SEVENjidori {Gemini Pro / ChatGPT / Claude でのコード生成}}{126}{subsection.604}%
+\contentsline {subsection}{\numberline {6.3.2}\SEVENjidori {GitHub Copilot の活用}}{127}{subsection.608}%
+\contentsline {subsection}{\numberline {6.3.3}\SEVENjidori {対話的コード開発のテクニック}}{128}{subsection.619}%
+\contentsline {section}{\numberline {6.4}\SEVENjidori {実践テクニック}}{129}{section.620}%
+\contentsline {subsection}{\numberline {6.4.1}\SEVENjidori {段階的開発: 関数単位で生成・検証}}{129}{subsection.621}%
+\contentsline {subsection}{\numberline {6.4.2}\SEVENjidori {テスト駆動: テストケースを先に書かせる}}{129}{subsection.622}%
+\contentsline {subsection}{\numberline {6.4.3}\SEVENjidori {リファクタリング依頼}}{130}{subsection.623}%
+\contentsline {subsection}{\numberline {6.4.4}\SEVENjidori {デバッグ支援: エラーメッセージの活用}}{130}{subsection.624}%
+\contentsline {section}{\numberline {6.5}\SEVENjidori {テストコードの自動生成}}{131}{section.625}%
+\contentsline {subsection}{\numberline {6.5.1}\SEVENjidori {pytestによるテストケース生成}}{131}{subsection.626}%
+\contentsline {subsection}{\numberline {6.5.2}\SEVENjidori {テストカバレッジの考え方}}{134}{subsection.722}%
+\contentsline {subsection}{\numberline {6.5.3}\SEVENjidori {AI生成テストの検証ポイント}}{135}{subsection.727}%
+\contentsline {section}{\numberline {6.6}\SEVENjidori {AIコードレビューとリファクタリング}}{135}{section.732}%
+\contentsline {subsection}{\numberline {6.6.1}\SEVENjidori {AIにコードレビューを依頼するプロンプト}}{135}{subsection.733}%
+\contentsline {subsection}{\numberline {6.6.2}\SEVENjidori {コードレビューチェックリスト}}{136}{subsection.734}%
+\contentsline {subsection}{\numberline {6.6.3}\SEVENjidori {リファクタリングの種類と適用場面}}{137}{subsection.735}%
+\contentsline {subsection}{\numberline {6.6.4}\SEVENjidori {ドキュメント自動生成}}{137}{subsection.738}%
+\contentsline {section}{\numberline {6.7}\SEVENjidori {AI生成コードの品質と注意点}}{138}{section.739}%
+\contentsline {subsection}{\numberline {6.7.1}\SEVENjidori {セキュリティリスク}}{138}{subsection.740}%
+\contentsline {subsection}{\numberline {6.7.2}\SEVENjidori {ライセンス問題}}{140}{subsection.777}%
+\contentsline {subsection}{\numberline {6.7.3}\SEVENjidori {「信頼するが検証する」の原則}}{140}{subsection.778}%
+\contentsline {subsection}{\numberline {6.7.4}\SEVENjidori {研究コードの再現性確保}}{141}{subsection.779}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{139}{chapter*.824}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{145}{chapter*.844}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {7.}\mokuSEVENjidori {データ分析と可視化}}{140}{chapter.825}%
-\contentsline {section}{\numberline {7.1}\SEVENjidori {研究におけるデータ分析}}{140}{section.826}%
-\contentsline {subsection}{\numberline {7.1.1}\SEVENjidori {なぜデータ分析が重要か}}{140}{subsection.827}%
-\contentsline {subsection}{\numberline {7.1.2}\SEVENjidori {AIがデータ分析をどう変えるか}}{141}{subsection.832}%
-\contentsline {section}{\numberline {7.2}\SEVENjidori {データ分析ワークフロー}}{141}{section.833}%
-\contentsline {subsection}{\numberline {7.2.1}\SEVENjidori {Step 1: データの理解と前処理}}{141}{subsection.834}%
-\contentsline {subsection}{\numberline {7.2.2}\SEVENjidori {Step 2: 探索的データ分析（EDA）}}{144}{subsection.900}%
-\contentsline {subsection}{\numberline {7.2.3}\SEVENjidori {Step 3: 統計的検定}}{145}{subsection.905}%
-\contentsline {section}{\numberline {7.3}\SEVENjidori {論文品質のグラフ作成}}{147}{section.911}%
-\contentsline {subsection}{\numberline {7.3.1}\SEVENjidori {matplotlib / seaborn の基本}}{147}{subsection.912}%
-\contentsline {subsection}{\numberline {7.3.2}\SEVENjidori {効果的なグラフの選び方}}{148}{subsection.913}%
-\contentsline {subsection}{\numberline {7.3.3}\SEVENjidori {論文に必要なグラフの要素}}{148}{subsection.914}%
-\contentsline {subsection}{\numberline {7.3.4}\SEVENjidori {白黒印刷対応のグラフ設計}}{149}{subsection.915}%
-\contentsline {subsection}{\numberline {7.3.5}\SEVENjidori {AIでグラフ作成コードを生成するプロンプト例}}{149}{subsection.920}%
-\contentsline {section}{\numberline {7.4}\SEVENjidori {インタラクティブ可視化}}{150}{section.921}%
-\contentsline {subsection}{\numberline {7.4.1}\SEVENjidori {Plotlyの紹介}}{150}{subsection.922}%
-\contentsline {subsection}{\numberline {7.4.2}\SEVENjidori {データ探索での活用}}{150}{subsection.943}%
-\contentsline {section}{\numberline {7.5}\SEVENjidori {AIを使ったデータ分析の落とし穴}}{151}{section.944}%
-\contentsline {subsection}{\numberline {7.5.1}\SEVENjidori {統計的な誤解}}{151}{subsection.945}%
-\contentsline {subsection}{\numberline {7.5.2}\SEVENjidori {過学習への注意}}{151}{subsection.946}%
-\contentsline {subsection}{\numberline {7.5.3}\SEVENjidori {AIが出した統計結果を鵜呑みにしない}}{152}{subsection.947}%
-\contentsline {section}{\numberline {7.6}\SEVENjidori {実例：AIを用いたアンケート調査データの統計分析}}{152}{section.948}%
-\contentsline {subsection}{\numberline {7.6.1}\SEVENjidori {研究の概要}}{152}{subsection.949}%
-\contentsline {subsection}{\numberline {7.6.2}\SEVENjidori {AIとの協働の実際：コミット履歴から}}{153}{subsection.950}%
-\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 1\hfill {\rm )}}}Phase 1：データ投入と初期分析（2026年1月14日、8コミット）}{153}{subsubsection.951}%
-\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 2\hfill {\rm )}}}Phase 2：統計手法の修正サイクル（1月15日～21日、15コミット）}{153}{subsubsection.952}%
-\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 3\hfill {\rm )}}}Phase 3：論文執筆と推敲（3月7日～14日、20コミット）}{154}{subsubsection.955}%
-\contentsline {subsection}{\numberline {7.6.3}\SEVENjidori {AIが間違えた具体例}}{154}{subsection.956}%
-\contentsline {paragraph}{\numberline {\hbox to2zw{{\rm (}\hfill a\hfill {\rm )}}}例1：効果量の計算方法}{154}{paragraph.957}%
-\contentsline {paragraph}{\numberline {\hbox to2zw{{\rm (}\hfill b\hfill {\rm )}}}例2：小標本での検定手法}{155}{paragraph.958}%
-\contentsline {subsection}{\numberline {7.6.4}\SEVENjidori {この事例から学べること}}{155}{subsection.959}%
+\contentsline {chapter}{\numberline {7.}\mokuSEVENjidori {データ分析と可視化}}{146}{chapter.845}%
+\contentsline {section}{\numberline {7.1}\SEVENjidori {研究におけるデータ分析}}{146}{section.846}%
+\contentsline {subsection}{\numberline {7.1.1}\SEVENjidori {なぜデータ分析が重要か}}{146}{subsection.847}%
+\contentsline {subsection}{\numberline {7.1.2}\SEVENjidori {AIがデータ分析をどう変えるか}}{147}{subsection.852}%
+\contentsline {section}{\numberline {7.2}\SEVENjidori {データ分析ワークフロー}}{147}{section.853}%
+\contentsline {subsection}{\numberline {7.2.1}\SEVENjidori {Step 1: データの理解と前処理}}{147}{subsection.854}%
+\contentsline {subsection}{\numberline {7.2.2}\SEVENjidori {Step 2: 探索的データ分析（EDA）}}{150}{subsection.920}%
+\contentsline {subsection}{\numberline {7.2.3}\SEVENjidori {Step 3: 統計的検定}}{151}{subsection.925}%
+\contentsline {section}{\numberline {7.3}\SEVENjidori {論文品質のグラフ作成}}{153}{section.931}%
+\contentsline {subsection}{\numberline {7.3.1}\SEVENjidori {matplotlib / seaborn の基本}}{153}{subsection.932}%
+\contentsline {subsection}{\numberline {7.3.2}\SEVENjidori {効果的なグラフの選び方}}{154}{subsection.933}%
+\contentsline {subsection}{\numberline {7.3.3}\SEVENjidori {論文に必要なグラフの要素}}{154}{subsection.934}%
+\contentsline {subsection}{\numberline {7.3.4}\SEVENjidori {白黒印刷対応のグラフ設計}}{155}{subsection.935}%
+\contentsline {subsection}{\numberline {7.3.5}\SEVENjidori {AIでグラフ作成コードを生成するプロンプト例}}{155}{subsection.940}%
+\contentsline {section}{\numberline {7.4}\SEVENjidori {インタラクティブ可視化}}{156}{section.941}%
+\contentsline {subsection}{\numberline {7.4.1}\SEVENjidori {Plotlyの紹介}}{156}{subsection.942}%
+\contentsline {subsection}{\numberline {7.4.2}\SEVENjidori {データ探索での活用}}{156}{subsection.963}%
+\contentsline {section}{\numberline {7.5}\SEVENjidori {AIを使ったデータ分析の落とし穴}}{157}{section.964}%
+\contentsline {subsection}{\numberline {7.5.1}\SEVENjidori {統計的な誤解}}{157}{subsection.965}%
+\contentsline {subsection}{\numberline {7.5.2}\SEVENjidori {過学習への注意}}{157}{subsection.966}%
+\contentsline {subsection}{\numberline {7.5.3}\SEVENjidori {AIが出した統計結果を鵜呑みにしない}}{158}{subsection.967}%
+\contentsline {section}{\numberline {7.6}\SEVENjidori {実例：AIを用いたアンケート調査データの統計分析}}{158}{section.968}%
+\contentsline {subsection}{\numberline {7.6.1}\SEVENjidori {研究の概要}}{158}{subsection.969}%
+\contentsline {subsection}{\numberline {7.6.2}\SEVENjidori {AIとの協働の実際：コミット履歴から}}{159}{subsection.970}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 1\hfill {\rm )}}}Phase 1：データ投入と初期分析（2026年1月14日、8コミット）}{159}{subsubsection.971}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 2\hfill {\rm )}}}Phase 2：統計手法の修正サイクル（1月15日～21日、15コミット）}{159}{subsubsection.972}%
+\contentsline {subsubsection}{\numberline {\hbox to2zw{{\rm (}\hfill 3\hfill {\rm )}}}Phase 3：論文執筆と推敲（3月7日～14日、20コミット）}{160}{subsubsection.975}%
+\contentsline {subsection}{\numberline {7.6.3}\SEVENjidori {AIが間違えた具体例}}{160}{subsection.976}%
+\contentsline {paragraph}{\numberline {\hbox to2zw{{\rm (}\hfill a\hfill {\rm )}}}例1：効果量の計算方法}{160}{paragraph.977}%
+\contentsline {paragraph}{\numberline {\hbox to2zw{{\rm (}\hfill b\hfill {\rm )}}}例2：小標本での検定手法}{161}{paragraph.978}%
+\contentsline {subsection}{\numberline {7.6.4}\SEVENjidori {この事例から学べること}}{161}{subsection.979}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{157}{chapter*.965}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{163}{chapter*.985}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {8.}\mokuSEVENjidori {GitHubによる研究成果管理}}{158}{chapter.966}%
-\contentsline {section}{\numberline {8.1}\SEVENjidori {なぜ大学院生がGitHubを使うべきか}}{158}{section.967}%
-\contentsline {subsection}{\numberline {8.1.1}\SEVENjidori {研究コードのバージョン管理}}{158}{subsection.968}%
-\contentsline {subsection}{\numberline {8.1.2}\SEVENjidori {共同研究での活用}}{159}{subsection.969}%
-\contentsline {subsection}{\numberline {8.1.3}\SEVENjidori {就職活動でのポートフォリオ効果}}{159}{subsection.970}%
-\contentsline {subsection}{\numberline {8.1.4}\SEVENjidori {オープンサイエンスへの貢献}}{159}{subsection.971}%
-\contentsline {section}{\numberline {8.2}\SEVENjidori {Gitの基礎}}{160}{section.972}%
-\contentsline {subsection}{\numberline {8.2.1}\SEVENjidori {バージョン管理とは何か}}{160}{subsection.973}%
-\contentsline {subsection}{\numberline {8.2.2}\SEVENjidori {リポジトリ、コミット、ブランチの基本概念}}{160}{subsection.974}%
-\contentsline {section}{\numberline {8.3}\SEVENjidori {GitHubの基本操作}}{161}{section.977}%
-\contentsline {subsection}{\numberline {8.3.1}\SEVENjidori {GitHubアカウントの作成}}{161}{subsection.978}%
-\contentsline {subsection}{\numberline {8.3.2}\SEVENjidori {GitHub Desktop のセットアップ}}{161}{subsection.982}%
-\contentsline {subsection}{\numberline {8.3.3}\SEVENjidori {リポジトリの作成とクローン}}{162}{subsection.983}%
-\contentsline {subsection}{\numberline {8.3.4}\SEVENjidori {コミット→プッシュの基本フロー}}{162}{subsection.988}%
-\contentsline {subsection}{\numberline {8.3.5}\SEVENjidori {VS Code との連携}}{162}{subsection.994}%
-\contentsline {section}{\numberline {8.4}\SEVENjidori {AIでWebページを作成する}}{163}{section.995}%
-\contentsline {subsection}{\numberline {8.4.1}\SEVENjidori {AIでHTML/CSSコードを生成する}}{163}{subsection.996}%
-\contentsline {subsection}{\numberline {8.4.2}\SEVENjidori {VS Codeでの編集とプレビュー}}{163}{subsection.997}%
-\contentsline {subsection}{\numberline {8.4.3}\SEVENjidori {AIでカスタマイズする}}{164}{subsection.1004}%
-\contentsline {section}{\numberline {8.5}\SEVENjidori {GitHub Pagesで公開する}}{164}{section.1005}%
-\contentsline {subsection}{\numberline {8.5.1}\SEVENjidori {GitHub Pagesとは}}{164}{subsection.1006}%
-\contentsline {subsection}{\numberline {8.5.2}\SEVENjidori {GitHub Pages の設定手順}}{164}{subsection.1007}%
-\contentsline {subsection}{\numberline {8.5.3}\SEVENjidori {更新フロー}}{164}{subsection.1013}%
-\contentsline {section}{\numberline {8.6}\SEVENjidori {研究ポートフォリオの構築}}{165}{section.1014}%
-\contentsline {subsection}{\numberline {8.6.1}\SEVENjidori {ポートフォリオに含めるもの}}{165}{subsection.1015}%
-\contentsline {subsection}{\numberline {8.6.2}\SEVENjidori {README.md の書き方}}{165}{subsection.1016}%
-\contentsline {subsection}{\numberline {8.6.3}\SEVENjidori {フォルダ構成のベストプラクティス}}{165}{subsection.1017}%
-\contentsline {section}{\numberline {8.7}\SEVENjidori {共同研究でのGitHub活用}}{166}{section.1018}%
-\contentsline {subsection}{\numberline {8.7.1}\SEVENjidori {Issue による課題管理}}{166}{subsection.1019}%
-\contentsline {subsection}{\numberline {8.7.2}\SEVENjidori {Pull Request によるコードレビュー}}{166}{subsection.1020}%
-\contentsline {subsection}{\numberline {8.7.3}\SEVENjidori {研究コードの共有とライセンス}}{167}{subsection.1026}%
+\contentsline {chapter}{\numberline {8.}\mokuSEVENjidori {GitHubによる研究成果管理}}{164}{chapter.986}%
+\contentsline {section}{\numberline {8.1}\SEVENjidori {なぜ大学院生がGitHubを使うべきか}}{164}{section.987}%
+\contentsline {subsection}{\numberline {8.1.1}\SEVENjidori {研究コードのバージョン管理}}{164}{subsection.988}%
+\contentsline {subsection}{\numberline {8.1.2}\SEVENjidori {共同研究での活用}}{165}{subsection.989}%
+\contentsline {subsection}{\numberline {8.1.3}\SEVENjidori {就職活動でのポートフォリオ効果}}{165}{subsection.990}%
+\contentsline {subsection}{\numberline {8.1.4}\SEVENjidori {オープンサイエンスへの貢献}}{165}{subsection.991}%
+\contentsline {section}{\numberline {8.2}\SEVENjidori {Gitの基礎}}{166}{section.992}%
+\contentsline {subsection}{\numberline {8.2.1}\SEVENjidori {バージョン管理とは何か}}{166}{subsection.993}%
+\contentsline {subsection}{\numberline {8.2.2}\SEVENjidori {リポジトリ、コミット、ブランチの基本概念}}{166}{subsection.994}%
+\contentsline {section}{\numberline {8.3}\SEVENjidori {GitHubの基本操作}}{167}{section.997}%
+\contentsline {subsection}{\numberline {8.3.1}\SEVENjidori {GitHubアカウントの作成}}{167}{subsection.998}%
+\contentsline {subsection}{\numberline {8.3.2}\SEVENjidori {GitHub Desktop のセットアップ}}{167}{subsection.1002}%
+\contentsline {subsection}{\numberline {8.3.3}\SEVENjidori {リポジトリの作成とクローン}}{168}{subsection.1003}%
+\contentsline {subsection}{\numberline {8.3.4}\SEVENjidori {コミット→プッシュの基本フロー}}{168}{subsection.1008}%
+\contentsline {subsection}{\numberline {8.3.5}\SEVENjidori {VS Code との連携}}{168}{subsection.1014}%
+\contentsline {section}{\numberline {8.4}\SEVENjidori {AIでWebページを作成する}}{169}{section.1015}%
+\contentsline {subsection}{\numberline {8.4.1}\SEVENjidori {AIでHTML/CSSコードを生成する}}{169}{subsection.1016}%
+\contentsline {subsection}{\numberline {8.4.2}\SEVENjidori {VS Codeでの編集とプレビュー}}{169}{subsection.1017}%
+\contentsline {subsection}{\numberline {8.4.3}\SEVENjidori {AIでカスタマイズする}}{170}{subsection.1024}%
+\contentsline {section}{\numberline {8.5}\SEVENjidori {GitHub Pagesで公開する}}{170}{section.1025}%
+\contentsline {subsection}{\numberline {8.5.1}\SEVENjidori {GitHub Pagesとは}}{170}{subsection.1026}%
+\contentsline {subsection}{\numberline {8.5.2}\SEVENjidori {GitHub Pages の設定手順}}{170}{subsection.1027}%
+\contentsline {subsection}{\numberline {8.5.3}\SEVENjidori {更新フロー}}{170}{subsection.1033}%
+\contentsline {section}{\numberline {8.6}\SEVENjidori {研究ポートフォリオの構築}}{171}{section.1034}%
+\contentsline {subsection}{\numberline {8.6.1}\SEVENjidori {ポートフォリオに含めるもの}}{171}{subsection.1035}%
+\contentsline {subsection}{\numberline {8.6.2}\SEVENjidori {README.md の書き方}}{171}{subsection.1036}%
+\contentsline {subsection}{\numberline {8.6.3}\SEVENjidori {フォルダ構成のベストプラクティス}}{171}{subsection.1037}%
+\contentsline {section}{\numberline {8.7}\SEVENjidori {共同研究でのGitHub活用}}{172}{section.1038}%
+\contentsline {subsection}{\numberline {8.7.1}\SEVENjidori {Issue による課題管理}}{172}{subsection.1039}%
+\contentsline {subsection}{\numberline {8.7.2}\SEVENjidori {Pull Request によるコードレビュー}}{172}{subsection.1040}%
+\contentsline {subsection}{\numberline {8.7.3}\SEVENjidori {研究コードの共有とライセンス}}{173}{subsection.1046}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{169}{chapter*.1028}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{175}{chapter*.1048}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {9.}\mokuSEVENjidori {就活文書の作成}}{170}{chapter.1029}%
-\contentsline {section}{\numberline {9.1}\SEVENjidori {大学院生の就職活動とAI}}{170}{section.1030}%
-\contentsline {section}{\numberline {9.2}\SEVENjidori {ガクチカとは何か}}{172}{section.1033}%
-\contentsline {section}{\numberline {9.3}\SEVENjidori {AIを使ったガクチカ作成ワークフロー}}{173}{section.1038}%
-\contentsline {subsection}{\numberline {9.3.1}\SEVENjidori {Step 1: 素材の棚卸し --- AIに壁打ちしてもらう}}{173}{subsection.1039}%
-\contentsline {subsection}{\numberline {9.3.2}\SEVENjidori {Step 2: STAR法での構造化}}{174}{subsection.1040}%
-\contentsline {subsection}{\numberline {9.3.3}\SEVENjidori {Step 3: AIで文章化（400字程度）}}{174}{subsection.1041}%
-\contentsline {subsection}{\numberline {9.3.4}\SEVENjidori {Step 4: AIで推敲・添削}}{175}{subsection.1042}%
-\contentsline {section}{\numberline {9.4}\SEVENjidori {研究を非専門家に伝える技法}}{176}{section.1050}%
-\contentsline {section}{\numberline {9.5}\SEVENjidori {ES全体でのAI活用}}{177}{section.1055}%
-\contentsline {section}{\numberline {9.6}\SEVENjidori {面接準備でのAI活用}}{178}{section.1060}%
+\contentsline {chapter}{\numberline {9.}\mokuSEVENjidori {就活文書の作成}}{176}{chapter.1049}%
+\contentsline {section}{\numberline {9.1}\SEVENjidori {大学院生の就職活動とAI}}{176}{section.1050}%
+\contentsline {section}{\numberline {9.2}\SEVENjidori {ガクチカとは何か}}{178}{section.1053}%
+\contentsline {section}{\numberline {9.3}\SEVENjidori {AIを使ったガクチカ作成ワークフロー}}{179}{section.1058}%
+\contentsline {subsection}{\numberline {9.3.1}\SEVENjidori {Step 1: 素材の棚卸し --- AIに壁打ちしてもらう}}{179}{subsection.1059}%
+\contentsline {subsection}{\numberline {9.3.2}\SEVENjidori {Step 2: STAR法での構造化}}{180}{subsection.1060}%
+\contentsline {subsection}{\numberline {9.3.3}\SEVENjidori {Step 3: AIで文章化（400字程度）}}{180}{subsection.1061}%
+\contentsline {subsection}{\numberline {9.3.4}\SEVENjidori {Step 4: AIで推敲・添削}}{181}{subsection.1062}%
+\contentsline {section}{\numberline {9.4}\SEVENjidori {研究を非専門家に伝える技法}}{182}{section.1070}%
+\contentsline {section}{\numberline {9.5}\SEVENjidori {ES全体でのAI活用}}{183}{section.1075}%
+\contentsline {section}{\numberline {9.6}\SEVENjidori {面接準備でのAI活用}}{184}{section.1080}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{182}{chapter*.1067}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{188}{chapter*.1087}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {10.}\mokuSEVENjidori {研究の新規性分析と総合演習}}{183}{chapter.1068}%
-\contentsline {section}{\numberline {10.1}\SEVENjidori {なぜ新規性の言語化が重要か}}{183}{section.1069}%
-\contentsline {section}{\numberline {10.2}\SEVENjidori {新規性分析の3つの観点}}{184}{section.1070}%
-\contentsline {subsection}{\numberline {10.2.1}\SEVENjidori {観点1: 方法論的新規性 --- 新しい手法・アプローチの提案}}{184}{subsection.1071}%
-\contentsline {subsection}{\numberline {10.2.2}\SEVENjidori {観点2: 実践的新規性 --- 実世界への適用・検証}}{185}{subsection.1072}%
-\contentsline {subsection}{\numberline {10.2.3}\SEVENjidori {観点3: 時間的観点 --- 最新の研究動向の中での位置づけ}}{185}{subsection.1073}%
-\contentsline {subsection}{\numberline {10.2.4}\SEVENjidori {実例：自動運転安全保証研究の新規性分析}}{186}{subsection.1074}%
-\contentsline {section}{\numberline {10.3}\SEVENjidori {AIを使った新規性分析ワークフロー}}{186}{section.1075}%
-\contentsline {subsection}{\numberline {10.3.1}\SEVENjidori {Step 1: 研究の位置づけマッピング}}{187}{subsection.1076}%
-\contentsline {subsection}{\numberline {10.3.2}\SEVENjidori {Step 2: 既存研究との差分分析}}{188}{subsection.1082}%
-\contentsline {subsection}{\numberline {10.3.3}\SEVENjidori {Step 3: 新規性の言語化}}{189}{subsection.1087}%
-\contentsline {section}{\numberline {10.4}\SEVENjidori {総合演習: 研究ポートフォリオの完成}}{189}{section.1088}%
-\contentsline {section}{\numberline {10.5}\SEVENjidori {AI活用の振り返りと今後}}{191}{section.1089}%
+\contentsline {chapter}{\numberline {10.}\mokuSEVENjidori {研究の新規性分析と総合演習}}{189}{chapter.1088}%
+\contentsline {section}{\numberline {10.1}\SEVENjidori {なぜ新規性の言語化が重要か}}{189}{section.1089}%
+\contentsline {section}{\numberline {10.2}\SEVENjidori {新規性分析の3つの観点}}{190}{section.1090}%
+\contentsline {subsection}{\numberline {10.2.1}\SEVENjidori {観点1: 方法論的新規性 --- 新しい手法・アプローチの提案}}{190}{subsection.1091}%
+\contentsline {subsection}{\numberline {10.2.2}\SEVENjidori {観点2: 実践的新規性 --- 実世界への適用・検証}}{191}{subsection.1092}%
+\contentsline {subsection}{\numberline {10.2.3}\SEVENjidori {観点3: 時間的観点 --- 最新の研究動向の中での位置づけ}}{191}{subsection.1093}%
+\contentsline {subsection}{\numberline {10.2.4}\SEVENjidori {実例：自動運転安全保証研究の新規性分析}}{192}{subsection.1094}%
+\contentsline {section}{\numberline {10.3}\SEVENjidori {AIを使った新規性分析ワークフロー}}{192}{section.1095}%
+\contentsline {subsection}{\numberline {10.3.1}\SEVENjidori {Step 1: 研究の位置づけマッピング}}{193}{subsection.1096}%
+\contentsline {subsection}{\numberline {10.3.2}\SEVENjidori {Step 2: 既存研究との差分分析}}{194}{subsection.1102}%
+\contentsline {subsection}{\numberline {10.3.3}\SEVENjidori {Step 3: 新規性の言語化}}{195}{subsection.1107}%
+\contentsline {section}{\numberline {10.4}\SEVENjidori {総合演習: 研究ポートフォリオの完成}}{195}{section.1108}%
+\contentsline {section}{\numberline {10.5}\SEVENjidori {AI活用の振り返りと今後}}{197}{section.1109}%
 \addvspace {3\h }
-\contentsline {TUKIMONOchapter}{引用・参考文献}{195}{chapter*.1100}%
+\contentsline {TUKIMONOchapter}{引用・参考文献}{201}{chapter*.1120}%
 \addvspace {3\h }
-\contentsline {chapter}{\numberline {A.}\mokuSEVENjidori {主要AIツールリファレンス}}{196}{appendix.1101}%
-\contentsline {APPsection}{\numberline {A.1}\SEVENjidori {対話型AI（汎用）}}{196}{section.1102}%
-\contentsline {APPsection}{\numberline {A.2}\SEVENjidori {検索特化型AI}}{197}{section.1103}%
-\contentsline {APPsection}{\numberline {A.3}\SEVENjidori {論文分析・執筆支援AI}}{197}{section.1104}%
-\contentsline {APPsection}{\numberline {A.4}\SEVENjidori {コード支援AI}}{198}{section.1105}%
-\contentsline {APPsection}{\numberline {A.5}\SEVENjidori {デザイン・プレゼンテーションAI}}{198}{section.1106}%
-\contentsline {chapter}{\numberline {B.}\mokuSEVENjidori {プロンプトテンプレート集}}{199}{appendix.1107}%
-\contentsline {APPsection}{\numberline {B.1}\SEVENjidori {文献調査用プロンプト}}{200}{section.1108}%
-\contentsline {APPsection}{\numberline {B.2}\SEVENjidori {英語論文用プロンプト}}{202}{section.1109}%
-\contentsline {APPsection}{\numberline {B.3}\SEVENjidori {コード生成用プロンプト}}{205}{section.1110}%
-\contentsline {APPsection}{\numberline {B.4}\SEVENjidori {データ分析用プロンプト}}{207}{section.1111}%
-\contentsline {APPsection}{\numberline {B.5}\SEVENjidori {スライド作成用プロンプト}}{208}{section.1112}%
-\contentsline {APPsection}{\numberline {B.6}\SEVENjidori {ガクチカ・ES用プロンプト}}{210}{section.1113}%
-\contentsline {chapter}{\numberline {C.}\mokuSEVENjidori {学術英語表現集}}{212}{appendix.1114}%
-\contentsline {APPsection}{\numberline {C.1}\SEVENjidori {Introduction で使える表現}}{213}{section.1115}%
-\contentsline {APPsection}{\numberline {C.2}\SEVENjidori {Methods で使える表現}}{215}{section.1116}%
-\contentsline {APPsection}{\numberline {C.3}\SEVENjidori {Results で使える表現}}{216}{section.1117}%
-\contentsline {APPsection}{\numberline {C.4}\SEVENjidori {Discussion/Conclusion で使える表現}}{217}{section.1118}%
-\contentsline {APPsection}{\numberline {C.5}\SEVENjidori {接続表現・論理展開表現}}{218}{section.1119}%
-\contentsline {chapter}{\numberline {D.}\mokuSEVENjidori {15回授業計画}}{220}{appendix.1121}%
-\contentsline {APPsection}{\numberline {D.1}\SEVENjidori {授業計画表}}{220}{section.1122}%
-\contentsline {APPsection}{\numberline {D.2}\SEVENjidori {授業運営のヒント}}{222}{section.1124}%
-\contentsline {APPsection}{\numberline {D.3}\SEVENjidori {授業の変形パターン}}{223}{section.1125}%
+\contentsline {chapter}{\numberline {A.}\mokuSEVENjidori {主要AIツールリファレンス}}{202}{appendix.1121}%
+\contentsline {APPsection}{\numberline {A.1}\SEVENjidori {対話型AI（汎用）}}{202}{section.1122}%
+\contentsline {APPsection}{\numberline {A.2}\SEVENjidori {検索特化型AI}}{203}{section.1123}%
+\contentsline {APPsection}{\numberline {A.3}\SEVENjidori {論文分析・執筆支援AI}}{203}{section.1124}%
+\contentsline {APPsection}{\numberline {A.4}\SEVENjidori {コード支援AI}}{204}{section.1125}%
+\contentsline {APPsection}{\numberline {A.5}\SEVENjidori {デザイン・プレゼンテーションAI}}{204}{section.1126}%
+\contentsline {chapter}{\numberline {B.}\mokuSEVENjidori {プロンプトテンプレート集}}{205}{appendix.1127}%
+\contentsline {APPsection}{\numberline {B.1}\SEVENjidori {文献調査用プロンプト}}{206}{section.1128}%
+\contentsline {APPsection}{\numberline {B.2}\SEVENjidori {英語論文用プロンプト}}{208}{section.1129}%
+\contentsline {APPsection}{\numberline {B.3}\SEVENjidori {コード生成用プロンプト}}{211}{section.1130}%
+\contentsline {APPsection}{\numberline {B.4}\SEVENjidori {データ分析用プロンプト}}{213}{section.1131}%
+\contentsline {APPsection}{\numberline {B.5}\SEVENjidori {スライド作成用プロンプト}}{214}{section.1132}%
+\contentsline {APPsection}{\numberline {B.6}\SEVENjidori {ガクチカ・ES用プロンプト}}{216}{section.1133}%
+\contentsline {chapter}{\numberline {C.}\mokuSEVENjidori {学術英語表現集}}{218}{appendix.1134}%
+\contentsline {APPsection}{\numberline {C.1}\SEVENjidori {Introduction で使える表現}}{219}{section.1135}%
+\contentsline {APPsection}{\numberline {C.2}\SEVENjidori {Methods で使える表現}}{221}{section.1136}%
+\contentsline {APPsection}{\numberline {C.3}\SEVENjidori {Results で使える表現}}{222}{section.1137}%
+\contentsline {APPsection}{\numberline {C.4}\SEVENjidori {Discussion/Conclusion で使える表現}}{223}{section.1138}%
+\contentsline {APPsection}{\numberline {C.5}\SEVENjidori {接続表現・論理展開表現}}{224}{section.1139}%
+\contentsline {chapter}{\numberline {D.}\mokuSEVENjidori {15回授業計画}}{226}{appendix.1141}%
+\contentsline {APPsection}{\numberline {D.1}\SEVENjidori {授業計画表}}{226}{section.1142}%
+\contentsline {APPsection}{\numberline {D.2}\SEVENjidori {授業運営のヒント}}{228}{section.1144}%
+\contentsline {APPsection}{\numberline {D.3}\SEVENjidori {授業の変形パターン}}{229}{section.1145}%
