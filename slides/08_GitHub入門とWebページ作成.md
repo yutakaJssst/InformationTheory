@@ -89,6 +89,7 @@ footer: "情報論 2026 ｜ matsulab"
 ## 情報論 2026 第8回 ― AI活用(6)
 
 情報科学専攻 ｜ 松野 裕
+matsuno.yutaka@nihon-u.ac.jp
 2026年6月10日（対面授業・100分）
 
 ---
