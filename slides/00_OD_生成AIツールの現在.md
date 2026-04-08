@@ -23,12 +23,22 @@ style: |
     font-family: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
     color: var(--color-text);
     background: #FFFFFF;
-    padding: 40px 60px 60px 60px;
+    padding: 36px 60px 72px 60px;
+    overflow: hidden;
+    font-size: 26px;
   }
 
   section::after {
     content: '';
     font-size: 0;
+  }
+
+  section p, section ul, section ol {
+    margin: 0.5em 0;
+  }
+
+  section li {
+    margin: 0.15em 0;
   }
 
   footer {
@@ -37,28 +47,32 @@ style: |
     font-weight: 700;
     font-size: 14px !important;
     left: 40px !important;
-    bottom: 16px !important;
+    bottom: 20px !important;
     letter-spacing: 1px;
   }
 
   h1 {
     color: var(--color-text);
     font-weight: 700;
+    font-size: 1.7em;
+    margin: 0 0 0.4em 0;
     border-bottom: none;
   }
 
   h2 {
     color: var(--color-text);
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.25em;
+    margin: 0.5em 0 0.3em 0;
     border-bottom: 3px solid var(--color-line);
-    padding-bottom: 8px;
+    padding-bottom: 6px;
   }
 
   h3 {
     color: var(--color-accent);
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.05em;
+    margin: 0.5em 0 0.2em 0;
   }
 
   code {
@@ -389,7 +403,7 @@ footer: "情報論 2026 ｜ matsulab"
 
 ## 連絡・提出
 
-- 授業資料の配布・課題の提出はいずれも**CSTポータル**
+- 授業資料の配布・課題の提出はいずれも**Google Classroom**
 
 ---
 
@@ -430,6 +444,6 @@ footer: "情報論 2026 ｜ matsulab"
 
 # ご質問・ご相談は
 
-CSTポータルまたはメールでお気軽にどうぞ
+Google Classroom またはメールでお気軽にどうぞ
 
 松野 裕 ｜ 情報科学専攻
