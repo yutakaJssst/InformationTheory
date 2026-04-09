@@ -404,7 +404,7 @@ matsuno.yutaka@nihon-u.ac.jp
 
 ## 使用ツール
 
-- <span class="teal">**Gemini**</span>（Google）: 本授業の推奨ツール（**無料で利用可能**）。他のツールも適宜紹介・比較
+- AIツール（ChatGPT / Claude / Gemini / Google AI Studio 等）を目的に応じて使い分ける。**特定のツールは指定しない**
 
 ## 連絡・提出
 
@@ -437,11 +437,11 @@ matsuno.yutaka@nihon-u.ac.jp
 ### 内容
 
 - 授業の詳細ガイダンス（評価方法・スケジュール）／AIツールの全体像を把握する
-- <span class="teal">**Gemini**</span> のセットアップと基本操作／無料で使える便利なAIツールの紹介
+- AIツールの全体像と無料で使えるツールの紹介
 
 ### 準備しておくこと
 
-- Google アカウントの確認（Gemini で使用）／ノートPC を用意（演習で使用）
+- 使いたいAIツールのアカウント作成（Google / OpenAI / Anthropic等）／ノートPC を用意（演習で使用）
 
 ---
 
