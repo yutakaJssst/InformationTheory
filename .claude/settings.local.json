@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mdls -name kMDItemNumberOfPages /Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf)",
+      "Bash(rm -rf /tmp/slide02_pages)",
+      "Bash(mkdir /tmp/slide02_pages)",
+      "Bash(pdftoppm -r 100 -png \"/Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_pages/page)",
+      "Read(//tmp/**)",
+      "Bash(npx @marp-team/marp-cli slides/02_プロンプトエンジニアリング実践.md --pdf --allow-local-files)",
+      "Bash(npx @marp-team/marp-cli slides/02_プロンプトエンジニアリング実践.md --pptx --allow-local-files)",
+      "Bash(rm -rf /tmp/slide02_pages2)",
+      "Bash(mkdir /tmp/slide02_pages2)",
+      "Bash(pdftoppm -r 100 -png \"/Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_pages2/page)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(rm -rf /tmp/slide02_pages3)",
+      "Bash(mkdir /tmp/slide02_pages3)",
+      "Bash(pdftoppm -r 100 -png \"/Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_pages3/page)",
+      "Bash(rm -rf /tmp/slide02_pages4)",
+      "Bash(mkdir /tmp/slide02_pages4)",
+      "Bash(pdftoppm -r 100 -png \"/Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_pages4/page)",
+      "Bash(rm -rf /tmp/slide02_pages5)",
+      "Bash(mkdir /tmp/slide02_pages5)",
+      "Bash(pdftoppm -r 100 -png \"/Users/yutaka/Documents/GitHub/InformationTheory/slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_pages5/page)"
+    ]
+  }
+}
