@@ -48,7 +48,16 @@
       "Bash(git push *)",
       "Bash(rm -rf /tmp/kadai_check3)",
       "Bash(mkdir /tmp/kadai_check3)",
-      "Bash(pdftoppm -r 90 -png \"slides/補_課題0-1分析共有.pdf\" /tmp/kadai_check3/p)"
+      "Bash(pdftoppm -r 90 -png \"slides/補_課題0-1分析共有.pdf\" /tmp/kadai_check3/p)",
+      "Bash(rm -rf /tmp/slide02_check_t6)",
+      "Bash(mkdir /tmp/slide02_check_t6)",
+      "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6/p -f 13 -l 13)",
+      "Bash(rm -rf /tmp/slide02_check_t6b)",
+      "Bash(mkdir /tmp/slide02_check_t6b)",
+      "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6b/p -f 13 -l 13)",
+      "Bash(rm -rf /tmp/slide02_check_t6c)",
+      "Bash(mkdir /tmp/slide02_check_t6c)",
+      "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6c/p -f 13 -l 13)"
     ]
   }
 }
