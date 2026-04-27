@@ -57,7 +57,10 @@
       "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6b/p -f 13 -l 13)",
       "Bash(rm -rf /tmp/slide02_check_t6c)",
       "Bash(mkdir /tmp/slide02_check_t6c)",
-      "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6c/p -f 13 -l 13)"
+      "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6c/p -f 13 -l 13)",
+      "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --pdf --allow-local-files)",
+      "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --pptx --allow-local-files)",
+      "Bash(mdls -name kMDItemNumberOfPages slides/03_ガクチカES作成.pdf)"
     ]
   }
 }
