@@ -60,7 +60,20 @@
       "Bash(pdftoppm -r 100 -png \"slides/02_プロンプトエンジニアリング実践.pdf\" /tmp/slide02_check_t6c/p -f 13 -l 13)",
       "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --pdf --allow-local-files)",
       "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --pptx --allow-local-files)",
-      "Bash(mdls -name kMDItemNumberOfPages slides/03_ガクチカES作成.pdf)"
+      "Bash(mdls -name kMDItemNumberOfPages slides/03_ガクチカES作成.pdf)",
+      "Bash(md5 *.md *.pdf *.docx)",
+      "Bash(soffice --headless --convert-to docx \"/Users/yutaka/Documents/GitHub/InformationTheory/課題2026-2提出/情報論第2回レポート_M6023_武山颯一郎.docx\" --outdir /tmp/sub2_recover/)",
+      "Bash(unzip -l \"/Users/yutaka/Documents/GitHub/InformationTheory/課題2026-2提出/情報論第2回レポート_M6023_武山颯一郎.docx\")",
+      "Bash(pdfinfo /Users/yutaka/Documents/GitHub/InformationTheory/課題2026-2提出/__TRACKED_VAR__)",
+      "Bash(npx @marp-team/marp-cli slides/04_文献調査.md --pdf --allow-local-files)",
+      "Bash(npx @marp-team/marp-cli slides/04_文献調査.md --pptx --allow-local-files)",
+      "Bash(pdfinfo slides/04_文献調査.pdf)",
+      "Bash(grep -n \"^---$\\\\|^## \\\\|^# \" /Users/yutaka/Documents/GitHub/InformationTheory/slides/03_ガクチカES作成.md)",
+      "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --pdf --pptx --allow-local-files)",
+      "Bash(npx @marp-team/marp-cli slides/04_文献調査.md --pdf --pptx --allow-local-files)",
+      "Bash(pdfinfo slides/03_ガクチカES作成.pdf)",
+      "Bash(git status *)",
+      "Bash(xargs -I {} basename \"{}\")"
     ]
   }
 }
