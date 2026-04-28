@@ -73,7 +73,8 @@
       "Bash(npx @marp-team/marp-cli slides/04_文献調査.md --pdf --pptx --allow-local-files)",
       "Bash(pdfinfo slides/03_ガクチカES作成.pdf)",
       "Bash(git status *)",
-      "Bash(xargs -I {} basename \"{}\")"
+      "Bash(xargs -I {} basename \"{}\")",
+      "Bash(git commit *)"
     ]
   }
 }
