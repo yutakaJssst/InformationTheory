@@ -74,7 +74,10 @@
       "Bash(pdfinfo slides/03_ガクチカES作成.pdf)",
       "Bash(git status *)",
       "Bash(xargs -I {} basename \"{}\")",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(grep -n \"^---$\\\\|^## \\\\|^# \\\\|分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/03_ガクチカES作成.md)",
+      "Bash(grep -nE \"^---$|^## |^# |分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/03_ガクチカES作成.md)",
+      "Bash(grep -nE \"^---$|^## |^# |分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/10_研究の新規性分析とポートフォリオ.md)"
     ]
   }
 }
