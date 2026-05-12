@@ -67,9 +67,9 @@
       <p>リクナビ・マイナビの記事URLや就活サイトの解説テキストを<strong>プロンプトに添付</strong>してから質問を生成させていた提出者も。Few-shot的に「お手本」を与えると質問の質が上がる</p>
     </section>
 
-    <!-- 5. 共通の落とし穴 -->
+    <!-- 5a. 共通の落とし穴(1/2) -->
     <section>
-      <h2>共通の落とし穴</h2>
+      <h2>共通の落とし穴（1/2）</h2>
       <h3>落とし穴①: <span class="red">AIが渡した情報以上に話を「盛る」</span></h3>
       <p>複数の提出者が振り返りで指摘:</p>
       <ul>
@@ -77,6 +77,11 @@
         <li>「AIが文章生成する回数が増えるにつれ、<span class="highlight">渡した情報以上の創作内容が追加</span>された」</li>
       </ul>
       <blockquote><strong>対策</strong>: 素材を厚く渡す（数値・期間・人数・自分の判断）／プロンプトに「<strong>与えた情報以外を作らない</strong>」を明示</blockquote>
+    </section>
+
+    <!-- 5b. 共通の落とし穴(2/2) -->
+    <section>
+      <h2>共通の落とし穴（2/2）</h2>
       <h3>落とし穴②: <span class="red">「独自アルゴリズム」「データ分析」のまま終わる</span></h3>
       <p>専門性の高い研究テーマほど、AIは具体内容を埋められず<strong>抽象的な単語で逃げる</strong>。AI添削役からも「ブラックボックス化している」と何度も指摘されていた</p>
       <blockquote><strong>対策</strong>: 専門用語を残すか削るか以前に、<strong>「何の発想で独自と言えるか」</strong>を1点だけ自分の言葉で書き加える</blockquote>
@@ -180,16 +185,40 @@
       </table>
     </section>
 
-    <!-- 13. 機密情報 -->
+    <!-- 13a. 機密情報リスク3段階 -->
     <section>
-      <h2><span class="red">注意：機密情報の取り扱い</span></h2>
-      <ul>
-        <li><strong>未発表の研究データ</strong>をAIに入力してはならない</li>
-        <li><strong>特許出願前のアイデア</strong>も同様</li>
-        <li>入力データがAIの学習に使用される可能性がある</li>
-        <li>共同研究先との<strong>NDA（秘密保持契約）</strong>を確認すること</li>
-      </ul>
-      <blockquote>AIツールを使う前に、入力してよいデータかどうかを必ず確認する</blockquote>
+      <h2><span class="red">機密情報の取り扱い: リスク3段階で判断</span></h2>
+      <div class="small">
+        <table>
+          <thead><tr><th>リスク</th><th>該当データ</th><th>推奨対応</th></tr></thead>
+          <tbody>
+            <tr><td><span class="red"><strong>高</strong></span></td><td>特許出願前のアイデア／NDA対象データ</td><td><span class="red"><strong>どのAIにも入れない</strong></span>。公知化・契約違反リスク</td></tr>
+            <tr><td><span class="orange"><strong>中</strong></span></td><td>未発表だが自分の研究データ</td><td><strong>オプトアウト設定後</strong>に利用可。学習除外確認が前提</td></tr>
+            <tr><td><span class="green"><strong>低</strong></span></td><td>公開済論文・公開可能なメモ</td><td>通常利用OK</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <blockquote>「絶対入れない」より「<span class="highlight">契約と設定を確認した上で判断する</span>」が実務的</blockquote>
+    </section>
+
+    <!-- 13b. ツール別オプトアウト -->
+    <section>
+      <h2>ツール別 学習オプトアウト状況</h2>
+      <div class="small">
+        <table>
+          <thead><tr><th>ツール</th><th>デフォルト</th><th>オプトアウト方法</th></tr></thead>
+          <tbody>
+            <tr><td><strong>ChatGPT 無料/Plus</strong></td><td>学習対象</td><td>Settings → Data Controls → "Improve the model" OFF</td></tr>
+            <tr><td><strong>ChatGPT Team/Enterprise/API</strong></td><td><span class="green">学習対象外</span></td><td>デフォルトで保護</td></tr>
+            <tr><td><strong>Claude (Anthropic)</strong></td><td><span class="green">学習対象外</span></td><td>デフォルトで保護 (公式明言)</td></tr>
+            <tr><td><strong>Gemini 個人 Google アカウント</strong></td><td>学習対象</td><td>アクティビティ設定で OFF</td></tr>
+            <tr><td><strong>Gemini for Workspace</strong> (大学発行 .ac.jp)</td><td><span class="green">学習対象外</span></td><td>エンタープライズ保護</td></tr>
+            <tr><td><strong>Google AI Studio 無料</strong></td><td>学習対象</td><td>API経由なら未学習</td></tr>
+            <tr><td><strong>ローカルLLM</strong> (Ollama等)</td><td><span class="green">送信なし</span></td><td>ネットワーク隔離</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <blockquote><strong>オプトアウトしても</strong>ベンダーサーバには送信される。大学発行アカウントを優先的に使うのが最も安全</blockquote>
     </section>
 
     <!-- 14. Section divider: ツール -->
