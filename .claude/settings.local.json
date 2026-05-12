@@ -77,7 +77,9 @@
       "Bash(git commit *)",
       "Bash(grep -n \"^---$\\\\|^## \\\\|^# \\\\|分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/03_ガクチカES作成.md)",
       "Bash(grep -nE \"^---$|^## |^# |分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/03_ガクチカES作成.md)",
-      "Bash(grep -nE \"^---$|^## |^# |分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/10_研究の新規性分析とポートフォリオ.md)"
+      "Bash(grep -nE \"^---$|^## |^# |分\\\\\\)\" /Users/yutaka/Documents/GitHub/InformationTheory/slides/10_研究の新規性分析とポートフォリオ.md)",
+      "Bash(npx @marp-team/marp-cli slides/03_ガクチカES作成.md --html -o slides/03_ガクチカES作成.html)",
+      "Bash(gh repo *)"
     ]
   }
 }
