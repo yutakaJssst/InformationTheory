@@ -251,7 +251,7 @@
 
     <!-- 16. 検索特化型 -->
     <section>
-      <h2>検索特化型AI（網羅的調査）</h2>
+      <h2>検索特化型AI（候補を広げる調査）</h2>
       <h3>主なツール</h3>
       <table>
         <thead><tr><th>ツール</th><th>特徴</th><th>URL</th></tr></thead>
@@ -308,7 +308,7 @@
         <thead><tr><th>要素</th><th>意味</th><th>文献調査での例</th></tr></thead>
         <tbody>
           <tr><td><strong>R</strong> - Role</td><td>役割</td><td>「あなたは○○分野の専門家です」</td></tr>
-          <tr><td><strong>O</strong> - Objective</td><td>目的</td><td>「関連研究を網羅的に調査したい」</td></tr>
+          <tr><td><strong>O</strong> - Objective</td><td>目的</td><td>「関連研究の候補を広く調べたい」</td></tr>
           <tr><td><strong>C</strong> - Context</td><td>文脈</td><td>「私の研究テーマは○○です」</td></tr>
           <tr><td><strong>F</strong> - Format</td><td>出力形式</td><td>「表形式で比較してください」</td></tr>
         </tbody>
@@ -324,7 +324,7 @@
     <!-- 20. Step 1: キーワード -->
     <section class="ai-exercise">
       <h2><span class="ai-badge">AI演習</span> Step 1: 研究テーマのキーワード拡張</h2>
-      <p><strong>目的</strong>: 検索の漏れを防ぐため、関連キーワードを網羅的に洗い出す</p>
+      <p><strong>目的</strong>: 検索の漏れを減らすため、関連キーワードの候補を広く洗い出す</p>
       <h3>プロンプト例</h3>
       <div class="prompt-box">
         あなたは[自分の研究分野]の専門家です。私の研究テーマ「[テーマ]」について、以下をそれぞれ10個ずつリストアップしてください:<br>
@@ -343,20 +343,17 @@
       <p><strong>目的</strong>: 分野の重要論文と最新動向を効率的に把握する</p>
       <h3>Perplexityへのプロンプト例（英語推奨）</h3>
       <div class="prompt-box">
-        What are the seminal papers and recent survey papers on [keywords]?<br><br>
+        Find seminal papers and recent survey papers on [keywords].<br><br>
         For each paper, provide:<br>
-        - Title and authors<br>
-        - Year of publication<br>
-        - Brief summary (2-3 sentences)<br>
-        - Main contribution<br>
-        - Number of citations (if available)<br><br>
-        Focus on papers from the last 5 years, but include foundational works as well.
+        - Title, authors, and year<br>
+        - Brief summary and main contribution<br>
+        - Citation count if available<br><br>
+        Include both foundational works and papers from the last 5 years.
       </div>
       <h3>なぜ英語で検索するのか</h3>
       <ul>
         <li>学術論文の大半は英語で書かれている</li>
-        <li>英語のプロンプトの方が<span class="highlight">網羅性が高い</span></li>
-        <li>Perplexityの学術検索は英語に最適化されている</li>
+        <li>英語キーワード・英語タイトルで検索すると、英語圏の学術文献に当たりやすい</li>
       </ul>
     </section>
 
