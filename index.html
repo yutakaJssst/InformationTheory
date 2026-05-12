@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>情報論 2026 ｜ 日本大学大学院 情報科学専攻</title>
+<meta name="description" content="日本大学大学院 情報科学専攻「情報論」2026年度の授業資料公開ページ。担当: 松野裕。">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --color-text: #333333;
+    --color-muted: #777;
+    --color-accent: #0097A7;
+    --color-accent2: #4285F4;
+    --color-green: #02BD35;
+    --color-red: #D32F2F;
+    --color-purple: #5E35B1;
+    --color-orange: #FF8F00;
+    --color-bg: #FFFFFF;
+    --color-bg-light: #F5F5F5;
+    --color-bg-card: #FAFAFA;
+    --color-line: #D9EAD3;
+    --color-border: #E0E0E0;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+    color: var(--color-text);
+    background: var(--color-bg);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* Header */
+  .hero {
+    background: linear-gradient(135deg, #FAFAFA 0%, #F0F0F0 100%);
+    border-bottom: 3px solid var(--color-line);
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.6em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .hero .subtitle {
+    font-size: 1.15em;
+    color: var(--color-muted);
+    margin: 0 0 1.2em;
+  }
+  .hero .meta {
+    font-size: 0.95em;
+    color: var(--color-muted);
+  }
+  .hero .meta a { color: var(--color-accent); text-decoration: none; }
+  .hero .meta a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block;
+    background: var(--color-green);
+    color: white;
+    padding: 2px 12px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 0 4px;
+    letter-spacing: 1px;
+  }
+
+  /* Layout */
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  section.block { margin-bottom: 56px; }
+  h2.section-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 24px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--color-line);
+  }
+  h2.section-title .accent { color: var(--color-accent); }
+
+  /* Course summary */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .summary-card {
+    background: var(--color-bg-card);
+    border-left: 4px solid var(--color-accent);
+    padding: 14px 18px;
+    border-radius: 4px;
+  }
+  .summary-card .label {
+    font-size: 0.8em;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+  }
+  .summary-card .value {
+    font-size: 1.05em;
+    font-weight: 500;
+  }
+
+  /* Lecture cards */
+  .lecture-list {
+    display: grid;
+    gap: 14px;
+  }
+  .lecture-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-left: 5px solid var(--color-accent);
+    border-radius: 6px;
+    padding: 18px 22px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .lecture-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+  .lecture-card.special { border-left-color: var(--color-purple); }
+  .lecture-card.supplement { border-left-color: var(--color-orange); }
+
+  .lecture-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .lecture-number {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--color-accent);
+    background: rgba(0, 151, 167, 0.08);
+    padding: 2px 10px;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+  }
+  .lecture-card.special .lecture-number {
+    color: var(--color-purple);
+    background: rgba(94, 53, 177, 0.08);
+  }
+  .lecture-card.supplement .lecture-number {
+    color: var(--color-orange);
+    background: rgba(255, 143, 0, 0.08);
+  }
+  .lecture-date {
+    font-size: 0.85em;
+    color: var(--color-muted);
+  }
+  .lecture-title {
+    font-size: 1.15em;
+    font-weight: 700;
+    margin: 0;
+  }
+  .lecture-subtitle {
+    font-size: 0.92em;
+    color: var(--color-muted);
+    margin: 4px 0 0;
+  }
+
+  .lecture-links {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85em;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background 0.15s ease, color 0.15s ease;
+    font-weight: 500;
+  }
+  .link-btn.html {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+  .link-btn.html:hover { background: #007885; }
+  .link-btn.pdf {
+    background: white;
+    color: var(--color-text);
+    border-color: var(--color-border);
+  }
+  .link-btn.pdf:hover { background: #FFEBEE; border-color: var(--color-red); color: var(--color-red); }
+  .link-btn.pptx {
+    background: white;
+    color: var(--color-text);
+    border-color: var(--color-border);
+  }
+  .link-btn.pptx:hover { background: #E3F2FD; border-color: var(--color-accent2); color: var(--color-accent2); }
+  .link-btn.md {
+    background: white;
+    color: var(--color-muted);
+    border-color: var(--color-border);
+  }
+  .link-btn.md:hover { background: #F5F5F5; color: var(--color-text); }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--color-border);
+    padding: 32px 24px;
+    text-align: center;
+    color: var(--color-muted);
+    font-size: 0.85em;
+    background: var(--color-bg-light);
+  }
+  footer a { color: var(--color-accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .footer-brand {
+    font-weight: 700;
+    color: var(--color-green);
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 600px) {
+    .hero { padding: 40px 16px 32px; }
+    .hero h1 { font-size: 1.9em; }
+    main { padding: 32px 16px 60px; }
+    .lecture-card { padding: 14px 16px; }
+    .lecture-title { font-size: 1.05em; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>情報論 2026</h1>
+  <p class="subtitle">日本大学大学院 情報科学専攻 ／ 大学院授業</p>
+  <p class="meta">
+    担当: <strong>松野 裕</strong>（応用情報工学科 / 大学院 情報科学専攻 教授）<br>
+    <a href="mailto:matsuno.yutaka@nihon-u.ac.jp">matsuno.yutaka@nihon-u.ac.jp</a>
+    <span class="badge">2026年度</span>
+  </p>
+</header>
+
+<main>
+
+  <!-- Course summary -->
+  <section class="block">
+    <h2 class="section-title">授業<span class="accent">概要</span></h2>
+    <div class="summary-grid">
+      <div class="summary-card">
+        <div class="label">開講形式</div>
+        <div class="value">100分 × 13回 + OD 50分</div>
+      </div>
+      <div class="summary-card">
+        <div class="label">期間</div>
+        <div class="value">2026年4月 〜 2026年7月</div>
+      </div>
+      <div class="summary-card">
+        <div class="label">テーマ</div>
+        <div class="value">研究活動における生成AI活用</div>
+      </div>
+      <div class="summary-card">
+        <div class="label">対象</div>
+        <div class="value">情報科学専攻 大学院生</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section class="block">
+    <h2 class="section-title">スライド<span class="accent">一覧</span></h2>
+    <div class="lecture-list">
+
+      <!-- OD -->
+      <article class="lecture-card special">
+        <div class="lecture-header">
+          <span class="lecture-number">OD</span>
+          <span class="lecture-date">2026年4月13日〜4月27日（オンデマンド・50分）</span>
+        </div>
+        <h3 class="lecture-title">生成AIツールの現在 〜私の使い方〜</h3>
+        <p class="lecture-subtitle">導入回。生成AIツールの全体像と教員自身の活用事例を紹介する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/00_OD_生成AIツールの現在.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/00_OD_生成AIツールの現在.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/00_OD_生成AIツールの現在.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 01 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第01回</span>
+          <span class="lecture-date">2026年4月15日（水・オンライン・100分）</span>
+        </div>
+        <h3 class="lecture-title">授業ガイダンス ＋ AIツール総覧</h3>
+        <p class="lecture-subtitle">授業全体の目的と進め方を共有。主要AIツールの位置づけと使い分けを整理する。</p>
+        <div class="lecture-links">
+          <a class="link-btn html" href="slides/01_授業ガイダンスとAIツール総覧_reveal.html">HTML スライド</a>
+          <a class="link-btn pdf" href="slides/01_授業ガイダンスとAIツール総覧.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/01_授業ガイダンスとAIツール総覧.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/01_授業ガイダンスとAIツール総覧.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第02回</span>
+          <span class="lecture-date">2026年4月22日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">プロンプトエンジニアリング実践</h3>
+        <p class="lecture-subtitle">ROCFモデル・ペルソナ設定・Few-shot/CoT などを実際のプロンプトで体験する。</p>
+        <div class="lecture-links">
+          <a class="link-btn html" href="slides/02_プロンプトエンジニアリング実践_reveal.html">HTML スライド</a>
+          <a class="link-btn pdf" href="slides/02_プロンプトエンジニアリング実践.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/02_プロンプトエンジニアリング実践.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/02_プロンプトエンジニアリング実践.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 補講 -->
+      <article class="lecture-card supplement">
+        <div class="lecture-header">
+          <span class="lecture-number">補講</span>
+          <span class="lecture-date">2026年4月29日（水）</span>
+        </div>
+        <h3 class="lecture-title">課題0・1 提出内容の共有</h3>
+        <p class="lecture-subtitle">提出された回答からAI利用の実態を読み解き、クラス全体にフィードバックする補足資料。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/補_課題0-1分析共有.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/補_課題0-1分析共有.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/補_課題0-1分析共有.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第03回</span>
+          <span class="lecture-date">2026年4月29日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(1) 自己アピール文書の作成</h3>
+        <p class="lecture-subtitle">ガクチカ・ES・申請書をAIで磨く。STAR法と ROCF + ペルソナ推敲の4ステップ。</p>
+        <div class="lecture-links">
+          <a class="link-btn html" href="slides/03_ガクチカES作成_reveal.html">HTML スライド</a>
+          <a class="link-btn pdf" href="slides/03_ガクチカES作成.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/03_ガクチカES作成.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/03_ガクチカES作成.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 04 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第04回</span>
+          <span class="lecture-date">2026年5月13日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(2) 文献調査</h3>
+        <p class="lecture-subtitle">Gemini / Perplexity / NotebookLM を組み合わせ、キーワード拡張から新規性言語化まで実践する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/04_文献調査.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/04_文献調査.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/04_文献調査.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 05 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第05回</span>
+          <span class="lecture-date">2026年5月20日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(3) 英語論文作成(1)</h3>
+        <p class="lecture-subtitle">IMRaD構造と学術英語の基礎。AIを使った英訳ワークフローを体験する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/05_英語論文作成1.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/05_英語論文作成1.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/05_英語論文作成1.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 06 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第06回</span>
+          <span class="lecture-date">2026年5月27日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(4) 英語論文作成(2) — 推敲と相互レビュー</h3>
+        <p class="lecture-subtitle">英語ライティング4原則を踏まえ、AI推敲とピアレビューで論文を磨く。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/06_英語論文作成2.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/06_英語論文作成2.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/06_英語論文作成2.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 07 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第07回</span>
+          <span class="lecture-date">2026年6月3日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(5) 研究発表スライドの作成</h3>
+        <p class="lecture-subtitle">伝わる研究スライドの設計原則と、AIを使ったスライド構成の壁打ち。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/07_研究発表スライドの作成.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/07_研究発表スライドの作成.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/07_研究発表スライドの作成.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 08 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第08回</span>
+          <span class="lecture-date">2026年6月10日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(6) GitHub入門とWebページ作成</h3>
+        <p class="lecture-subtitle">GitHub の基本操作と、自分の研究成果を Pages で公開する流れを学ぶ。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/08_GitHub入門とWebページ作成.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/08_GitHub入門とWebページ作成.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/08_GitHub入門とWebページ作成.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 09 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第09回</span>
+          <span class="lecture-date">2026年6月17日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(7) データ分析と可視化</h3>
+        <p class="lecture-subtitle">AIによる分析コード生成・実行・可視化までを Jupyter Notebook で体験する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/09_データ分析と可視化.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/09_データ分析と可視化.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/09_データ分析と可視化.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第10回</span>
+          <span class="lecture-date">2026年6月24日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(8) 研究の新規性分析とポートフォリオ</h3>
+        <p class="lecture-subtitle">方法論的・実践的・時間的の3観点で新規性を分析。GitHub ポートフォリオを構築する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/10_研究の新規性分析とポートフォリオ.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/10_研究の新規性分析とポートフォリオ.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/10_研究の新規性分析とポートフォリオ.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 11 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第11回</span>
+          <span class="lecture-date">2026年7月1日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(9) ソフトウェア開発(1) コード生成</h3>
+        <p class="lecture-subtitle">AIを使ったコード生成のワークフローと品質チェックの観点を学ぶ。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/11_ソフトウェア開発1.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/11_ソフトウェア開発1.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/11_ソフトウェア開発1.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 12 -->
+      <article class="lecture-card">
+        <div class="lecture-header">
+          <span class="lecture-number">第12回</span>
+          <span class="lecture-date">2026年7月8日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">AI活用(10) ソフトウェア開発(2) テストと品質</h3>
+        <p class="lecture-subtitle">テスト設計・自動化と、AI生成コードの妥当性検証を実践する。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/12_ソフトウェア開発2.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/12_ソフトウェア開発2.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/12_ソフトウェア開発2.md">Markdown</a>
+        </div>
+      </article>
+
+      <!-- 13 -->
+      <article class="lecture-card special">
+        <div class="lecture-header">
+          <span class="lecture-number">第13回</span>
+          <span class="lecture-date">2026年7月15日（水・対面・100分）</span>
+        </div>
+        <h3 class="lecture-title">成果発表とピアレビュー（最終回）</h3>
+        <p class="lecture-subtitle">受講者全員によるポートフォリオ発表とピアレビュー。授業の総括。</p>
+        <div class="lecture-links">
+          <a class="link-btn pdf" href="slides/13_成果発表とピアレビュー.pdf">PDF</a>
+          <a class="link-btn pptx" href="slides/13_成果発表とピアレビュー.pptx">PPTX</a>
+          <a class="link-btn md" href="slides/13_成果発表とピアレビュー.md">Markdown</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- About / Notice -->
+  <section class="block">
+    <h2 class="section-title">利用上の<span class="accent">注意</span></h2>
+    <ul>
+      <li>本ページの資料は授業用に作成したものです。引用される場合は出典を明記してください。</li>
+      <li>学生の提出物に基づくフィードバック資料には、個人が特定される情報は含めていません。</li>
+      <li>PPTX / Markdown は閲覧用の参考として置いています。最新の表示は PDF または HTML スライド版を推奨します。</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p class="footer-brand">情報論 2026 ｜ matsulab</p>
+  <p>© 2026 松野 裕（日本大学大学院 情報科学専攻） ／
+    <a href="https://github.com/yutakaJssst/InformationTheory">GitHub リポジトリ</a></p>
+</footer>
+
+</body>
+</html>
