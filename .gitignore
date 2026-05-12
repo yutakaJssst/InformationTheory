@@ -1,23 +1,27 @@
-.DS_Store
+# Public repository: keep only the GitHub Pages site artifacts.
+*
 
-# 学生個人情報を含むファイル
-analysis/
-履修者一覧_*.xlsx
-情報論2026-*課題提出/
-情報論2025-*提出/
-課題2026-*提出/
-課題[0-9]*提出*/
-課題*提出*/
-課題0-1評価.xlsx
-課題３提出*/
-ガクチカの作成/
-文献調査/
-英語論文作成/
-スライドの作成/
-GitHubを使ったホームページ作成/
-翻訳したい日本語論文を提出してください/
-課題*評価.xlsx
-slides/補_課題0-1分析共有*
+!.gitattributes
+!.gitignore
+!.nojekyll
+!index.html
 
-# ローカル設定
-.claude/
+!.github/
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/pages.yml
+
+!slides/
+slides/*
+!slides/deck.css
+!slides/00_OD_生成AIツールの現在.pdf
+!slides/00_OD_生成AIツールの現在_reveal.html
+!slides/01_授業ガイダンスとAIツール総覧.pdf
+!slides/01_授業ガイダンスとAIツール総覧_reveal.html
+!slides/02_プロンプトエンジニアリング実践.pdf
+!slides/02_プロンプトエンジニアリング実践_reveal.html
+!slides/03_ガクチカES作成.pdf
+!slides/03_ガクチカES作成_reveal.html
+!slides/04_文献調査.pdf
+!slides/04_文献調査_reveal.html
