@@ -83,7 +83,7 @@
     <section>
       <h2>共通の落とし穴（2/2）</h2>
       <h3>落とし穴②: <span class="red">「独自アルゴリズム」「データ分析」のまま終わる</span></h3>
-      <p>専門性の高い研究テーマほど、AIは具体内容を埋められず<strong>抽象的な単語で逃げる</strong>。AI添削役からも「ブラックボックス化している」と何度も指摘されていた</p>
+      <p>専門性の高い研究テーマほど、AIは具体内容を埋められず<strong>抽象的な表現に寄りやすい</strong>。AI添削役からも「ブラックボックス化している」と何度も指摘されていた</p>
       <blockquote><strong>対策</strong>: 専門用語を残すか削るか以前に、<strong>「何の発想で独自と言えるか」</strong>を1点だけ自分の言葉で書き加える</blockquote>
       <h3>本日の文献調査でも構造は同じ</h3>
       <p>自分で集めた具体的な素材（論文タイトル・数値・比較軸）が厚いほど、<span class="highlight">AIから引き出せる回答も深くなる</span></p>
@@ -113,7 +113,7 @@
       <h2>研究調査における"あるある"な悩み（1/2）</h2>
       <h3>情報爆発</h3>
       <ul>
-        <li>arXivだけで<span class="highlight">年間約19万件</span>の論文が投稿される</li>
+        <li>arXivだけで<span class="highlight">年間20万件超</span>（2024年は約24万件）の論文が投稿される</li>
         <li>自分の分野でも毎週数十本の新しい論文が出る</li>
         <li>何から読めばいいか分からない</li>
       </ul>
@@ -160,12 +160,12 @@
       <h2>AIがもたらす研究スタイルの変革（AI活用）</h2>
       <h3>AIを活用した調査プロセス</h3>
       <ol>
-        <li>AIでキーワードを<span class="teal"><strong>拡張</strong></span></li>
-        <li>AI検索で<span class="teal"><strong>網羅的</strong></span>に調査</li>
+        <li>AIでキーワード候補を<span class="teal"><strong>広げる</strong></span></li>
+        <li>AI検索で<span class="teal"><strong>見落としを減らす</strong></span></li>
         <li>AIで論文を<span class="teal"><strong>要約・比較</strong></span></li>
-        <li>AIで関連研究を<span class="teal"><strong>発見</strong></span></li>
+        <li>AIで関連研究の<span class="teal"><strong>候補を提示</strong></span>させる</li>
         <li>AIで<span class="teal"><strong>構造的</strong></span>に整理</li>
-        <li>AIで新規性を<span class="teal"><strong>言語化</strong></span></li>
+        <li>AIで新規性の<span class="teal"><strong>たたき台</strong></span>を作る</li>
       </ol>
       <p class="small"><strong>所要時間: 数時間〜数日</strong></p>
       <blockquote>AIは研究の「代行」ではなく「加速」のためのツール</blockquote>
@@ -193,32 +193,33 @@
           <thead><tr><th>リスク</th><th>該当データ</th><th>推奨対応</th></tr></thead>
           <tbody>
             <tr><td><span class="red"><strong>高</strong></span></td><td>特許出願前のアイデア／NDA対象データ</td><td><span class="red"><strong>どのAIにも入れない</strong></span>。公知化・契約違反リスク</td></tr>
-            <tr><td><span class="orange"><strong>中</strong></span></td><td>未発表だが自分の研究データ</td><td><strong>オプトアウト設定後</strong>に利用可。学習除外確認が前提</td></tr>
+            <tr><td><span class="orange"><strong>中</strong></span></td><td>未発表だが自分の研究データ</td><td><span class="red"><strong>そのままは入力しない</strong></span>。匿名化・要約済み・公開して問題ない範囲に限定</td></tr>
             <tr><td><span class="green"><strong>低</strong></span></td><td>公開済論文・公開可能なメモ</td><td>通常利用OK</td></tr>
           </tbody>
         </table>
       </div>
-      <blockquote>「絶対入れない」より「<span class="highlight">契約と設定を確認した上で判断する</span>」が実務的</blockquote>
+      <blockquote>「絶対入れない」より「<span class="highlight">契約と設定を確認した上で判断する</span>」が実務的。NDA/特許出願前/共同研究データは原則入力しない</blockquote>
     </section>
 
-    <!-- 13b. ツール別オプトアウト -->
+    <!-- 13b. ツール別学習利用 -->
     <section>
-      <h2>ツール別 学習オプトアウト状況</h2>
+      <h2>ツール別 学習利用の状況</h2>
       <div class="small">
         <table>
-          <thead><tr><th>ツール</th><th>デフォルト</th><th>オプトアウト方法</th></tr></thead>
+          <thead><tr><th>ツール</th><th>改善目的の利用</th><th>備考</th></tr></thead>
           <tbody>
-            <tr><td><strong>ChatGPT 無料/Plus</strong></td><td>学習対象</td><td>Settings → Data Controls → "Improve the model" OFF</td></tr>
-            <tr><td><strong>ChatGPT Team/Enterprise/API</strong></td><td><span class="green">学習対象外</span></td><td>デフォルトで保護</td></tr>
-            <tr><td><strong>Claude (Anthropic)</strong></td><td><span class="green">学習対象外</span></td><td>デフォルトで保護 (公式明言)</td></tr>
-            <tr><td><strong>Gemini 個人 Google アカウント</strong></td><td>学習対象</td><td>アクティビティ設定で OFF</td></tr>
-            <tr><td><strong>Gemini for Workspace</strong> (大学発行 .ac.jp)</td><td><span class="green">学習対象外</span></td><td>エンタープライズ保護</td></tr>
-            <tr><td><strong>Google AI Studio 無料</strong></td><td>学習対象</td><td>API経由なら未学習</td></tr>
+            <tr><td><strong>ChatGPT 無料/Plus</strong></td><td>デフォルトで利用</td><td>Settings → Data Controls → "Improve the model" OFF で停止</td></tr>
+            <tr><td><strong>ChatGPT Team/Enterprise/API</strong></td><td><span class="green">利用しない</span></td><td>契約上保護</td></tr>
+            <tr><td><strong>Claude (Anthropic)</strong></td><td><span class="green">利用しない</span></td><td>デフォルトで未学習（公式明言）</td></tr>
+            <tr><td><strong>Gemini 個人 Google アカウント</strong></td><td>デフォルトで利用</td><td>アクティビティ設定で OFF</td></tr>
+            <tr><td><strong>Gemini API 無料枠 (AI Studio含む)</strong></td><td><span class="orange">利用される</span></td><td>入出力が改善目的に使われ、人間レビュアーが確認する場合あり</td></tr>
+            <tr><td><strong>Gemini API 有料枠 (Cloud Billing有効)</strong></td><td><span class="green">利用しない</span></td><td>規約上保護</td></tr>
+            <tr><td><strong>Gemini for Workspace (Education/Enterprise契約)</strong></td><td><span class="green">利用しない</span></td><td>管理者設定の対象、契約に紐づく</td></tr>
             <tr><td><strong>ローカルLLM</strong> (Ollama等)</td><td><span class="green">送信なし</span></td><td>ネットワーク隔離</td></tr>
           </tbody>
         </table>
       </div>
-      <blockquote><strong>オプトアウトしても</strong>ベンダーサーバには送信される。大学発行アカウントを優先的に使うのが最も安全</blockquote>
+      <blockquote><strong>学習利用の停止 ≠ 完全な秘匿</strong>: サーバ送信・一時保存・人手レビューの可能性は残る。入力するのは公開しても問題ない範囲のみが原則</blockquote>
     </section>
 
     <!-- 14. Section divider: ツール -->
@@ -295,8 +296,8 @@
 
     <!-- 18. Section divider: プロンプト -->
     <section class="section-divider">
-      <h1>"魔法の呪文" プロンプトエンジニアリング</h1>
-      <p>文献調査を加速する4つのStep</p>
+      <h1>文献調査のためのプロンプト設計</h1>
+      <p>4つのStepで進める</p>
     </section>
 
     <!-- 19. ROCF復習 -->
@@ -315,7 +316,7 @@
       <h3>文献調査で効くポイント</h3>
       <ul>
         <li><span class="teal"><strong>Role</strong></span>に分野名を入れる → 一般論ではなく分野固有の語彙で返ってくる</li>
-        <li><span class="teal"><strong>Context</strong></span>を厚くするほど推測の余地が減り、ハルシネーションも減る</li>
+        <li><span class="teal"><strong>Context</strong></span>を厚くするほど推測の余地が減る。ただし論文名・著者名・数値は<span class="red">必ず確認する</span></li>
         <li><span class="teal"><strong>Format</strong></span>で「表」「比較」を指定 → 後で読み返すコストが下がる</li>
       </ul>
     </section>
@@ -528,7 +529,7 @@
       <h2>AIと賢く付き合うために</h2>
       <h3>ファクトチェックは必須</h3>
       <ul>
-        <li>AIは<span class="red"><strong>もっともらしい嘘</strong></span>をつくことがある（ハルシネーション）</li>
+        <li>AIは<span class="red"><strong>もっともらしい誤情報</strong></span>を出力することがある（ハルシネーション）</li>
         <li>特に「論文の捏造」は要注意
           <ul>
             <li>著者名、タイトル、ジャーナル名が微妙に間違っている</li>
