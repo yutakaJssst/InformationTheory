@@ -31,10 +31,10 @@ jobs:
           cp .nojekyll _site/
           cp index.html _site/
           cp slides/deck.css _site/slides/
-          # 第0〜5回（OD含む）のHTMLスライドとPDFのみを公開対象に含める。
+          # 第0〜6回（OD含む）のHTMLスライドとPDFのみを公開対象に含める。
           # PPTX / Markdown ソース / 補講ファイルは公開しない。
-          cp slides/0[0-5]_*_reveal.html _site/slides/
-          cp slides/0[0-5]_*.pdf _site/slides/
+          cp slides/0[0-6]_*_reveal.html _site/slides/
+          cp slides/0[0-6]_*.pdf _site/slides/
           echo "=== Published files ==="
           find _site -type f | sort
 
