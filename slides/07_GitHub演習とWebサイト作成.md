@@ -118,7 +118,7 @@ footer: "情報論 2026 ｜ matsulab"
 
 日本大学大学院理工学研究科 ｜ 松野 裕
 matsuno.yutaka@nihon-u.ac.jp
-2026年6月3日（対面授業・100分）
+2026年6月3日（オンデマンド授業）
 
 ---
 
@@ -127,11 +127,13 @@ matsuno.yutaka@nihon-u.ac.jp
 | 時間 | 内容 |
 |------|------|
 | 10分 | Git/GitHubとGitHub Pagesの概要 |
-| 15分 | 環境準備（GitHub・GitHub Desktop・VS Code） |
+| 10分 | 環境準備（GitHub・GitHub Desktop・VS Code） |
 | 20分 | 修士課程学生のWebサイト設計 |
-| 20分 | AIでHTML/CSSを生成し、内容を編集 |
+| 25分 | AIでWebサイトの初期案を生成し、内容を編集 |
 | 20分 | GitHub Pagesで公開 |
-| 15分 | 相互確認・提出方法 |
+| 5分 | 提出方法・自己チェック |
+
+<span class="small">台風のため、本回はオンデマンドで実施します。次回の対面授業では第6回の内容を扱います。</span>
 
 ---
 
@@ -140,11 +142,11 @@ matsuno.yutaka@nihon-u.ac.jp
 この授業を終えると、以下のことができるようになります:
 
 1. <span class="teal">**GitHub Pages**</span>で自分のWebサイトを公開できる
-2. AIを使って、HTML/CSSの初期案を効率よく作成できる
+2. AIを使って、Webサイトの初期案を効率よく作成できる
 3. 修士課程学生として<span class="highlight">公開してよい情報・避けるべき情報</span>を判断できる
 4. WebサイトをGitHubで管理し、更新内容をコミット・プッシュできる
 
-> 今日のゴール: `https://ユーザー名.github.io/` で自分のページを表示する
+> 本回のゴール: `https://ユーザー名.github.io/` で自分のページを表示する
 
 ---
 
@@ -210,11 +212,11 @@ Webサイトは「派手な自己紹介」ではなく、研究者としての�
 |--------|------|-----|
 | GitHub | リポジトリ作成・Pages設定 | `https://github.com` |
 | GitHub Desktop | コミット・プッシュのGUI操作 | `https://desktop.github.com` |
-| VS Code | HTML/CSSの編集 | `https://code.visualstudio.com` |
+| VS Code | AIが生成したコードの編集 | `https://code.visualstudio.com` |
 
 ### VS Codeの推奨拡張機能
 
-- **Live Server**: HTMLをブラウザで即時プレビュー
+- **Live Server**: Webページをブラウザで即時プレビュー
 - **Prettier**: コードの自動整形
 - **Japanese Language Pack**: VS Codeの日本語化
 
@@ -379,7 +381,7 @@ VS Codeで編集<br>
 
 <!-- _class: section -->
 
-# AIでHTML/CSSを作成
+# AIでWebサイトを作成
 
 初期案を生成し、自分の内容に修正する
 
@@ -387,7 +389,7 @@ VS Codeで編集<br>
 
 <!-- _class: ai-exercise -->
 
-## <span class="ai-badge">AI演習</span> HTML/CSSの初期案を生成する
+## <span class="ai-badge">AI演習</span> Webサイトの初期案を生成する
 
 ### プロンプト例
 
@@ -453,28 +455,21 @@ AIが自動生成した「架空の業績」は必ず削除してください。
 
 ---
 
-## HTMLの基本構造を確認する
+## HTMLが分からなくてもWebサイトは作れる
 
-```html
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>名前 | Research Portfolio</title>
-    <style>
-      /* CSS */
-    </style>
-  </head>
-  <body>
-    <header>...</header>
-    <main>...</main>
-    <footer>...</footer>
-  </body>
-</html>
-```
+### AIを使う場面
 
-<span class="small">`lang="ja"` と `viewport` は忘れないようにします。</span>
+- Webサイトの初期案を作る
+- 配色やレイアウトを調整する
+- 文章を自然に整える
+- エラーや表示崩れの原因を相談する
+
+### 自分で必ず確認すること
+
+- 研究内容・所属・連絡先が正しいか
+- 公開してよい情報だけになっているか
+- スマートフォンでも読めるか
+- 架空の業績や無断転載画像が入っていないか
 
 ---
 
@@ -589,7 +584,7 @@ GitHub Pagesで公開確認
 | 画像が出ない | 画像パス・大文字小文字 | ファイル名を確認 |
 | Pushできない | サインイン未完了 | GitHub Desktopで再ログイン |
 
-<span class="small">困ったときは、画面を見せながら質問してください。</span>
+<span class="small">困ったときは、エラー画面・公開URL・試した手順をメモして、次回の授業で質問してください。</span>
 
 ---
 
@@ -618,22 +613,6 @@ AIで作成し、GitHub Pagesで公開する
 
 ---
 
-## 相互レビュー
-
-### 隣の人のページを見て確認する
-
-| 観点 | コメント例 |
-|------|------------|
-| 研究内容 | 初見でも何を研究しているか分かるか |
-| 読みやすさ | 文字サイズ、余白、配色が適切か |
-| 公開情報 | 個人情報や未公開情報が出ていないか |
-| リンク | GitHub、メール、外部リンクが動くか |
-| スマホ対応 | 画面幅を狭めても崩れないか |
-
-<span class="small">レビューは人ではなく成果物に対して行います。</span>
-
----
-
 <!-- _class: summary -->
 
 ## 課題
@@ -651,7 +630,7 @@ GitHub Pagesで公開した研究ポートフォリオWebサイトのURL
 
 ### 締切
 
-次回授業開始時まで（6/10）
+2週間後（2026年6月17日（水））
 
 ---
 
@@ -666,18 +645,3 @@ GitHub Pagesで公開した研究ポートフォリオWebサイトのURL
 | 更新性 | GitHubで管理され、今後更新できる |
 
 <span class="small">完成度よりも、公開・更新できる研究ポートフォリオの基礎を作ることを重視します。</span>
-
----
-
-## 次回予告
-
-### 第8回: Webサイトの完成確認と研究ポートフォリオ活用（6/10）
-
-- GitHub Pagesで公開したURLを確認する
-- 研究テーマ、成果物、リンクの見せ方を改善する
-- Webサイトを研究発表・就職活動・共同研究の入口として活用する
-
-### 準備しておくこと
-
-- 今日作成したWebサイトを完成版に近づける
-- 公開URLを提出できる状態にしておく
