@@ -604,7 +604,7 @@ Marpは、文章構成と版管理を重視する研究発表に向いている�
 - ブラウザ上でLaTeXプロジェクトを編集・コンパイルする
 - AIにBeamer形式の `.tex` を作ってもらう
 - コンパイルエラーの原因を相談する
-- `.tex` とPDFをセットで残す
+- 発表用PDFとして出力する
 
 <div class="note-box">
 BeamerはPrismやローカルLaTeX環境を使える人向けの発展課題にする。
@@ -899,7 +899,7 @@ Beamerは発展課題。PrismやローカルLaTeX環境を使える人は追加�
 - 必要に応じて、出典や根拠
 
 <div class="note-box">
-PPTX、Markdown、`.tex`、画面キャプチャは手元に残してよいが、提出するのは完成スライドPDFのみ。
+提出するのは完成スライドPDFのみ。
 </div>
 
 <div class="good-box">
@@ -912,7 +912,6 @@ PPTX、Markdown、`.tex`、画面キャプチャは手元に残してよいが�
 
 ### Beamerを試す場合
 
-- `.tex` は補助資料として残してよい
 - NotebookLM / Marp / Gammaの代わりに、Beamerを完成版に選んでもよい
 - 最終提出はPDFにそろえる
 
