@@ -25,16 +25,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Assemble publishable site (HTML/PDF only)
+      - name: Assemble publishable site
         run: |
           mkdir -p _site/slides
           cp .nojekyll _site/
           cp index.html _site/
+          cp -R book-support _site/
           cp slides/deck.css _site/slides/
-          # 第0〜7回（OD含む）のHTMLスライドとPDFのみを公開対象に含める。
-          # PPTX / Markdown ソース / 補講ファイルは公開しない。
+          # HTMLスライドは授業トップから参照するものを公開する。
           cp slides/0[0-7]_*_reveal.html _site/slides/
+          # 書籍Webサポートから参照する第8・9・13回を含め、授業PDFを公開する。
           cp slides/0[0-7]_*.pdf _site/slides/
+          cp slides/0[8-9]_*.pdf _site/slides/
+          cp slides/1[0-3]_*.pdf _site/slides/
+          # PPTX / Markdownソース / 補講ファイルは公開しない。
           echo "=== Published files ==="
           find _site -type f | sort
 
