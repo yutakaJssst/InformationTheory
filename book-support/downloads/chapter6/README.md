@@ -1,6 +1,7 @@
 # 第6章：平均値関数とテスト
 
-`stats.py` と `test_stats.py` を同じフォルダーに保存してください。
+`stats.py`、`test_stats.py`、`requirements.txt` の3ファイルを同じフォルダーに保存してください。
+本文で紹介したAIのテスト7件のうち、コードを掲載した3件を配布しています。
 
 ## 実行手順
 
@@ -9,4 +10,5 @@
 3. `python -m pytest -v` を実行します。
 4. 3件すべてが `PASSED` になれば、本文の例と同じ結果です。
 
-Google Colabを使う場合は、3ファイルをアップロードしてから、コードセルで `!python -m pytest -v` を実行できます。
+Google Colabを使う場合は、3ファイルをアップロードします。
+コードセルで `!python -m pip install -r requirements.txt` を実行してから、`!python -m pytest -v` を実行してください。

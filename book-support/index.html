@@ -322,6 +322,7 @@
     <nav class="site-nav" aria-label="ページ内ナビゲーション">
       <a href="#chapters">章別サポート</a>
       <a href="#templates">プロンプト</a>
+      <a href="#book-materials">本文対応教材</a>
       <a href="#downloads">ダウンロード</a>
       <a href="#updates">更新情報</a>
     </nav>
@@ -422,6 +423,7 @@
           <p>Abstractの構成、校正と推敲の分離、相互レビューを補います。</p>
           <ul class="support-items"><li>技術英語</li><li>Abstract</li><li>相互レビュー</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter4">本文対応教材</a>
             <a class="text-link" href="../slides/05_英語論文作成1.pdf">技術英語・Abstract（PDF）</a>
             <a class="text-link" href="../slides/06_英語論文作成2.pdf">英語論文の推敲（PDF）</a>
           </div>
@@ -435,6 +437,7 @@
           <p>発表の物語、1枚1メッセージ、AIの初稿を研究固有の発表に仕上げる方法を扱います。</p>
           <ul class="support-items"><li>構成案</li><li>文字量削減</li><li>想定Q&amp;A</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter5">本文対応教材</a>
             <a class="text-link" href="../slides/07_09_ai_presentation_slides.pdf">研究発表スライド（PDF）</a>
           </div>
         </div>
@@ -447,6 +450,7 @@
           <p>本文中の関数とテストを、そのまま実行できるファイルとして配布します。</p>
           <ul class="support-items"><li>Python</li><li>テスト</li><li>初学者向け手順</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter6">本文対応教材</a>
             <a class="text-link" href="../slides/07_11_software_development_pbl_reveal.html">アプリ開発PBLスライド</a>
             <a class="text-link" href="downloads/chapter6/stats.py" download>stats.py</a>
             <a class="text-link" href="downloads/chapter6/test_stats.py" download>test_stats.py</a>
@@ -462,6 +466,7 @@
           <p>Titanicデータを使った本文数値の検証と、掲載図の再生成に使うコードを配布します。</p>
           <ul class="support-items"><li>前処理</li><li>モデル評価</li><li>論文品質の図</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter7">本文対応教材</a>
             <a class="text-link" href="../slides/07_10_ai_data_analysis_slides_reveal.html">データ分析スライド</a>
             <a class="text-link" href="downloads/chapter7/verify_titanic.py" download>数値検証コード</a>
             <a class="text-link" href="downloads/chapter7/gen_figures.py" download>図生成コード</a>
@@ -476,6 +481,7 @@
           <p>GitHubの基本操作、研究者Webサイトの設計、公開前確認を補います。</p>
           <ul class="support-items"><li>GitHub Pages</li><li>Webサイト</li><li>公開チェック</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter8">本文対応教材</a>
             <a class="text-link" href="../slides/07_GitHub演習とWebサイト作成_reveal.html">GitHub Pages演習</a>
             <a class="text-link" href="../slides/08_GitHub入門とWebページ作成.pdf">GitHub入門（PDF）</a>
             <a class="text-link" href="downloads/publication-checklist.md">公開前チェックリスト</a>
@@ -490,6 +496,7 @@
           <p>研究ポートフォリオ、成果発表、ピアレビュー、AI活用の振り返りを扱います。</p>
           <ul class="support-items"><li>成果発表</li><li>ピアレビュー</li><li>経験の言語化</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter9">本文対応教材</a>
             <a class="text-link" href="../slides/13_成果発表とピアレビュー.pdf">成果発表・ピアレビュー（PDF）</a>
             <a class="text-link" href="../slides/03_ガクチカES作成_reveal.html">経験の言語化</a>
           </div>
@@ -606,6 +613,217 @@
     <p class="privacy-note"><strong>入力前の確認：</strong> 未公開の研究データ、個人情報、共同研究先の秘密情報、APIキーなどを、そのまま外部AIサービスへ入力しないでください。</p>
   </section>
 
+  <section id="book-materials" aria-labelledby="book-materials-title">
+    <div class="section-head">
+      <p class="section-kicker">BOOK COMPANION</p>
+      <h2 id="book-materials-title">本文の手順を実際に試す</h2>
+      <p>2026年9月5日の比較版原稿に対応する教材です。本文で依頼の考え方を学び、ここから必要なプロンプトやファイルを選んでください。角括弧の記入欄は自分の情報に置き換えます。</p>
+    </div>
+
+    <h3 id="materials-chapter4">第4章のコピー用プロンプト</h3>
+    <div class="template-grid">
+      <details>
+        <summary>文法だけを校正する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-4-1">次の英文を校正してください。
+今回は文法、冠詞、時制、スペルのみを修正し、研究内容や主張の強さは変えないでください。
+修正箇所、修正理由、修正後の英文を表で示してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-4-1">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>学術表現を推敲する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-4-2">次の英文を、学術論文のAbstractとして推敲してください。
+強すぎる主張、曖昧な評価語、名詞句の多用、接続表現を中心に指摘してください。
+修正案を出す場合、元の意味を変えた箇所は明記してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-4-2">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>読者の視点でAbstractを評価する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-4-3">このAbstractを査読者の視点で読み、背景、目的、方法、結果、意義が明確かを評価してください。
+不足している情報を3点以内で指摘してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-4-3">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+    </div>
+
+    <h3 id="materials-chapter5">第5章のコピー用プロンプト</h3>
+    <div class="template-grid">
+      <details>
+        <summary>Abstractからスライド構成を作る</summary>
+        <div class="template-body">
+          <pre id="book-prompt-5-4">あなたは大学院生の指導教員です。
+以下の英語Abstractと論文本文を、5分発表用の5〜8枚のスライド構成にしてください。
+聴衆は理工系のM1学生で、私の専門分野には詳しくありません。
+条件は以下です。
+- 英語Abstractを全体構成のベースにする
+- 論文本文から方法、図表、実験条件、評価指標を補う
+- 1枚1メッセージにする
+- 各スライドに主張タイトルを付ける
+- 資料にない結果、解釈、文献は追加しない
+- 各スライドに、口頭で補足すべき内容を1行で書く
+（英語Abstractと論文本文を貼る）</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-5-4">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+    </div>
+
+    <h3 id="materials-chapter6">第6章のコピー用プロンプト</h3>
+    <div class="template-grid">
+      <details>
+        <summary>最小構成のアプリを依頼する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-6-5">あなたは研究者・技術者を支援するソフトウェア開発者です。
+次の条件で、最小構成のアプリのコード案を作成してください。
+
+【アプリ名】[アプリ名]
+【利用者】[誰が使うか]
+【解決したい課題】[何を楽にしたいか]
+【技術】[HTML/CSS/JavaScript または Python + Streamlit]
+【最初に作る機能】[1つの機能]
+【入力】[ユーザが入力する値]
+【出力】[画面に表示する結果]
+【保存】[localStorage / CSV / JSON / 保存なし]
+【今回は作らない機能】[3つ程度]
+【完了条件】[何ができれば成功か]
+
+必要なファイル構成、コード、実行方法、動作確認手順を順番に示してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-6-5">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>技術選定を相談する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-6-6">私は演習で小さなアプリを作ります。
+プログラミング経験は [ほとんどない / Pythonを少し / HTMLを少し] です。
+
+【作りたいアプリ】[例: 論文メモを登録して一覧表示するアプリ]
+【必要な機能】[入力、保存、一覧表示など]
+【期間】[例: 2週間]
+【条件】環境構築で詰まりにくい、デモで見せやすい、無料で使える
+
+HTML/CSS/JavaScript、Python + Streamlit、Python CLIなどを比較し、今回どれがよいか理由つきで提案してください。
+難しすぎる構成は避けてください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-6-6">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>エラーの原因を切り分ける</summary>
+        <div class="template-body">
+          <pre id="book-prompt-6-7">次のアプリを実行したところエラーが出ました。
+原因を切り分け、最小限の修正案を提示してください。
+修正版コードを出す前に、どのファイルのどの箇所を直すべきか説明してください。
+
+【作ろうとしている機能】[機能名]
+【期待した動作】[何が起きてほしいか]
+【実際の動作】[何が起きたか]
+【エラー全文】[省略せず貼る]
+【関連コード】[該当部分]
+【制約】今回作る機能以外の機能は追加しないでください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-6-7">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+    </div>
+
+    <h3 id="materials-chapter9">第9章のコピー用プロンプト</h3>
+    <div class="template-grid">
+      <details>
+        <summary>ポートフォリオのREADMEを設計する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-8">私の研究ポートフォリオのREADMEを設計してください。
+手元にある成果物は次のとおりです: 英語Abstract、発表スライド、文献調査メモ、データ分析のノートブック。
+読み手は、私の研究を初めて見る大学院生と教員です。
+各成果物の説明にはAI活用の記録を1文含めます。
+README全体の見出し構成と、各項目に書くべき内容を提案してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-8">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>3分発表の原稿を圧縮する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-9">次の発表原稿は1200字あります。
+3分の発表用に900字以内へ圧縮してください。
+残すべき内容は、研究テーマ、分かったこととその根拠、AIを使った作業と検証方法、今後の方針です。
+削った箇所と、削ってよいと判断した理由を箇条書きで示してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-9">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>レビューコメントを整理する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-10">次のレビューコメント10件を、内容の類似性で分類してください。
+分類ごとに、共通する指摘の要約と、対応の優先度（すぐ直す、検討する、方針判断が必要）の案を示してください。
+優先度の判断理由も添えてください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-10">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>経験を振り返る質問を作る</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-11">私は自分の研究や業務の経験を整理しています。
+立場、担当したテーマ、主な活動は次のとおりです: [自分の情報を書く]。
+私の経験を深掘りする質問を10個作ってください。
+研究の中での困難と工夫、自発的な取り組み、失敗と学びに関する質問を含めてください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-11">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>経験の説明を添削する</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-12">あなたは技術系企業の採用担当者で、毎年多数のエントリーシートを読んでいます。
+次の研究や業務の経験の説明文を添削してください。
+観点は、最初の1文で興味を持てるか、課題と行動が具体的か、本人の貢献が分かるか、成果に数字があるか、入社後に活かせる力が見えるか、の5つです。
+観点ごとに評価と改善案を示してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-12">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+      <details>
+        <summary>面接の想定質問を作る</summary>
+        <div class="template-body">
+          <pre id="book-prompt-9-13">あなたは技術系企業の面接官です。
+次のエントリーシートを読み、面接で聞きそうな質問を10個作ってください。
+ガクチカの深掘り、研究内容、志望動機、人柄の4種類を含めてください。
+各質問について、質問の意図と回答の要点も示してください。</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-9-13">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
+    </div>
+
+    <div class="run-guide" id="materials-chapter7">
+      <h3>第7章：Titanicデータ分析ノートブック</h3>
+      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文のコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
+      <p><a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックをダウンロード</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
+      <ol>
+        <li><a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して <code>train.csv</code> を取得します。データ本体はここでは再配布していません。</li>
+        <li>Google Colabでダウンロードしたノートブックを開き、ファイル一覧から <code>train.csv</code> をアップロードします。手元のJupyterを使う場合は、同じフォルダに置きます。</li>
+        <li>上から順にセルを実行します。補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
+        <li>結果を本文の数値と照合します。検証環境とデータの確認方法はノートブック内に記載しています。</li>
+      </ol>
+    </div>
+    <div class="run-guide" id="materials-chapter8">
+      <h3>第8章：HTMLの骨格とプレビュー</h3>
+      <p>本文で説明するHTMLの骨格です。完成した研究紹介ページではなく、構造を確かめるための簡単な例です。</p>
+      <p><a class="text-link" href="downloads/chapter8/portfolio-skeleton.html" download="index.html">HTMLを保存する</a> <a class="text-link" href="downloads/chapter8/portfolio-skeleton.html">表示を見る</a></p>
+      <ol>
+        <li>新しい作業フォルダを作り、VS Codeで開きます。</li>
+        <li>取得したHTML、またはAIが生成したコードを <code>index.html</code> として保存します。</li>
+        <li>まずブラウザでファイルを開いて表示を確認します。VS CodeのLive Serverを使うと、編集しながらプレビューできます。</li>
+        <li>コードと表示を見比べ、名前、所属、研究内容を公開してよい情報へ直します。一度に1箇所ずつ変更し、その都度表示とリンクを確認します。</li>
+        <li>公開前チェックを済ませ、変更差分を確認してコミットします。GitHub Pagesへの公開後は、別の端末やシークレットウィンドウからも確認します。</li>
+      </ol>
+      <p>ローカルファイルが開けても、他の人がアクセスできる状態にはなっていません。公開範囲の判断と履歴に残る情報の注意点は、本文の第8章を参照してください。</p>
+    </div>
+    <div class="run-guide">
+      <h3>第9章：発表準備とピアレビューの記入シート</h3>
+      <p>3分発表の時間配分例と、研究内容やAI利用を互いに確認するシートです。研究が途中でも、分かったことと残る課題を根拠とともに説明します。</p>
+      <p><a class="text-link" href="downloads/chapter9-workshop.md" download>発表・レビュー用シート</a></p>
+    </div>
+    <p class="privacy-note">実際のAI回答や学生事例の比較は書籍に残しています。ここに掲載したプロンプトは依頼のひな型であり、回答の正確さを保証するものではありません。入力前には、機密情報や個人情報が含まれていないか確認してください。</p>
+  </section>
+
   <section id="downloads" aria-labelledby="downloads-title">
     <div class="section-head">
       <p class="section-kicker">DOWNLOADS</p>
@@ -656,7 +874,7 @@
       <ol>
         <li>各章の「手順」を先に読み、同じ章のファイルを一つのフォルダーへ保存します。</li>
         <li>パソコンに環境を作りたくない場合は、Google Colabなどのブラウザ上の実行環境を利用できます。</li>
-        <li>第7章の例には別途Titanicの <code>train.csv</code> が必要です。配布元の利用条件を確認して取得してください。</li>
+        <li>第7章の例には別途Titanicの <code>train.csv</code> が必要です。<a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して取得してください。</li>
         <li>AIが生成したコードも、入力データ・実行結果・エラーの有無を自分で確認してから研究成果に使います。</li>
       </ol>
     </div>
@@ -672,6 +890,7 @@
       <article class="status-card">
         <h3>更新履歴</h3>
         <ul>
+          <li><span class="date">2026年9月5日</span>：比較版原稿に対応するプロンプト13件、Titanicノートブック、HTMLの骨格、発表準備・レビュー用シートを追加。</li>
           <li><span class="date">2026年7月28日</span> — 書籍の現行原稿に合わせて更新。AI活用記録票と文献整理シートの項目を書籍の様式に統一し、Abstract改善プロンプトの構成を「背景、目的、方法、結果、意義」に修正。第6章にrequirements.txtを追加し、第7章のスライドリンクを現行版に変更。</li>
           <li><span class="date">2026年7月28日</span> — Webサポート初版を公開。章別リンク、プロンプト、コード、ワークシートを掲載。</li>
         </ul>
