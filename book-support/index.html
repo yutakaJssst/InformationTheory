@@ -382,10 +382,13 @@
         <h4>スライド・配布ファイル</h4>
         <div class="chapter-links">
             <a class="text-link" href="../slides/07_11_software_development_pbl_reveal.html">アプリ開発PBLスライド</a>
+            <a class="text-link" href="https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter6/average-tests.ipynb">平均値関数とテストをColabで開く</a>
+            <a class="text-link" href="downloads/chapter6/average-tests.ipynb" download>ノートブックを保存</a>
             <a class="text-link" href="downloads/chapter6/stats.py" download>stats.py</a>
             <a class="text-link" href="downloads/chapter6/test_stats.py" download>test_stats.py</a>
             <a class="text-link" href="downloads/chapter6/requirements.txt" download>必要ライブラリ</a>
           </div>
+        <p>Colabでは、上から順にセルを実行すると、平均値関数と代表3件のテストを試せます。ファイルのアップロードは不要です。</p>
         <h4>本文のプロンプト</h4>
     <div class="template-grid">
       <details>
@@ -484,15 +487,16 @@ HTML/CSS/JavaScript、Python + Streamlit、Python CLIなどを比較し、今回
             <a class="text-link" href="downloads/chapter7/gen_figures.py" download>図生成コード</a>
           </div>
         <h4>Titanicデータ分析ノートブック</h4>
-      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文の分析手順に対応するコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
-      <p><a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックをダウンロード</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
+      <p>データの取得から欠損値確認、可視化、分類モデルの評価まで、上から順に実行できます。末尾では数値検証コードと図生成コードも試せます。</p>
+      <p><a class="text-link" href="https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter7/titanic-walkthrough.ipynb">Colabで開く</a> <a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックを保存</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
       <ol>
-        <li><a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して <code>train.csv</code> を取得します。データ本体はここでは再配布していません。</li>
-        <li>Google Colabでダウンロードしたノートブックを開き、ファイル一覧から <code>train.csv</code> をアップロードします。手元のJupyterを使う場合は、同じフォルダに置きます。</li>
-        <li>上から順にセルを実行します。補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
+        <li>「Colabで開く」からノートブックを開きます。編集した内容を残す場合は、「ファイル」から「ドライブにコピーを保存」を選びます。</li>
+        <li>上から順にセルを実行すると、必要なライブラリを準備し、<a href="https://www.kaggle.com/datasets/yasserh/titanic-dataset">Kaggleの公開データ（版1）</a>を取得します。本の <code>train.csv</code> と891行・12列の全値が一致することを確認しています。データ本体は本サイトには置いていません。</li>
+        <li>補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
         <li>結果を本文の数値と照合します。検証環境とデータの確認方法はノートブック内に記載しています。</li>
-        <li>保存前に実行環境を再起動し、すべてのコードセルを上から順に再実行します。Colabの実行環境が削除された場合は、データのアップロードからやり直します。</li>
+        <li>保存前に実行環境を再起動し、すべてのコードセルを上から順に再実行します。実行環境が削除された場合も、先頭から実行すればデータを再取得できます。</li>
       </ol>
+      <p>自動取得ができない場合は、<a href="https://www.kaggle.com/c/titanic">Kaggleのコンペティションページ</a>で利用条件を確認して取得した <code>train.csv</code> をアップロードしてください。既にファイルがあれば、そのデータを使います。</p>
       </div>
     </details>
     <details class="chapter-section" id="materials-chapter8">
@@ -751,19 +755,19 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       </article>
       <article class="download-card">
         <div class="file-description"><span class="tag">第6章 / Python</span><h3>平均値関数とテスト</h3><p>第6章6.5節の関数と、正常・境界・異常の3種類のテストです。</p></div>
-        <div class="download-links"><a href="downloads/chapter6/stats.py" download>stats.py</a><a href="downloads/chapter6/test_stats.py" download>test_stats.py</a><a href="downloads/chapter6/requirements.txt" download>requirements.txt</a><a href="downloads/chapter6/README.md">手順</a></div>
+        <div class="download-links"><a href="https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter6/average-tests.ipynb">Colabで開く</a><a href="downloads/chapter6/average-tests.ipynb" download>ノートブック</a><a href="downloads/chapter6/stats.py" download>stats.py</a><a href="downloads/chapter6/test_stats.py" download>test_stats.py</a><a href="downloads/chapter6/requirements.txt" download>requirements.txt</a><a href="downloads/chapter6/README.md">手順</a></div>
       </article>
       <article class="download-card">
-        <div class="file-description"><span class="tag">第7章 / Notebook</span><h3>Titanic分析を順に試す</h3><p>本文のコードを、Google ColabやJupyterで順に実行するノートブックです。</p></div>
-        <div class="download-links"><a href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブック</a><a href="#materials-chapter7">準備と実行手順</a></div>
+        <div class="file-description"><span class="tag">第7章 / Notebook</span><h3>Titanic分析を順に試す</h3><p>データ取得、本文の分析、数値検証、図の生成をGoogle ColabやJupyterで実行できます。</p></div>
+        <div class="download-links"><a href="https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter7/titanic-walkthrough.ipynb">Colabで開く</a><a href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブック</a><a href="#materials-chapter7">準備と実行手順</a></div>
       </article>
       <article class="download-card">
         <div class="file-description"><span class="tag">第7章 / Python</span><h3>Titanic数値検証</h3><p>欠損値、生存率、ロジスティック回帰、混同行列を再計算します。</p></div>
-        <div class="download-links"><a href="downloads/chapter7/verify_titanic.py" download>Pythonコード</a><a href="downloads/chapter7/README.md">手順</a></div>
+        <div class="download-links"><a href="downloads/chapter7/verify_titanic.py" download>Pythonコード</a><a href="#materials-chapter7">Colabで試す</a><a href="downloads/chapter7/README.md">手順</a></div>
       </article>
       <article class="download-card">
         <div class="file-description"><span class="tag">第7章 / Python</span><h3>掲載図の再生成</h3><p>生存率、運賃分布、調整前後のグラフをPDFとして生成します。</p></div>
-        <div class="download-links"><a href="downloads/chapter7/gen_figures.py" download>Pythonコード</a><a href="downloads/chapter7/requirements.txt" download>必要ライブラリ</a></div>
+        <div class="download-links"><a href="downloads/chapter7/gen_figures.py" download>Pythonコード</a><a href="#materials-chapter7">Colabで試す</a><a href="downloads/chapter7/requirements.txt" download>必要ライブラリ</a></div>
       </article>
       <article class="download-card">
         <div class="file-description"><span class="tag">第8章 / HTML</span><h3>研究紹介ページの骨格</h3><p>HTMLを保存して表示を確かめ、公開してよい研究情報へ書き換えます。</p></div>
@@ -778,11 +782,12 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
     <div class="run-guide">
       <h3>Pythonを初めて使う方へ</h3>
       <ol>
-        <li>各章の「手順」を先に読み、同じ章のファイルを一つのフォルダーへ保存します。</li>
-        <li>パソコンに環境を作りたくない場合は、Google Colabなどのブラウザ上の実行環境を利用できます。</li>
-        <li>第7章の例には別途Titanicの <code>train.csv</code> が必要です。<a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して取得してください。</li>
+        <li>第6・7章は「Colabで開く」から開き、説明を読みながら先頭から順にセルを実行できます。パソコンへのPythonのインストールは不要です。</li>
+        <li>第7章のTitanicデータは、ノートブック内のコードで取得します。必要なライブラリも最初のセルで準備します。</li>
+        <li>手元のPythonやJupyterを使う場合は、各章の「手順」を読み、必要なファイルを同じフォルダーに保存します。</li>
         <li>AIが生成したコードも、入力データ・実行結果・エラーの有無を自分で確認してから研究成果に使います。</li>
       </ol>
+      <p>日本語CSVは、Excelが文字コードを判定できるUTF-8（BOM付き）で保存しています。ほかのテキストファイルはUTF-8です。文字が崩れて見える場合は、開くソフトの文字コードにUTF-8を選んでください。</p>
     </div>
   </section>
 <section id="updates" aria-labelledby="updates-title">
@@ -798,6 +803,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
 <details class="update-history">
         <summary>更新履歴を読む</summary>
         <ul>
+          <li><span class="date">2026年10月11日</span>：CSVをExcel向けのUTF-8（BOM付き）に変更。第6・7章にColabで開くリンクを追加し、Titanicデータの取得と配布スクリプトの実行をノートブック内で行えるようにしました。</li>
           <li><span class="date">2026年10月11日</span>：章ごとにスライド、演習手順、配布ファイルをまとめ、画面とナビゲーションを見直しました。</li>
           <li><span class="date">2026年10月11日</span>：再レビューを反映。AI活用記録票の記入例、公式の料金・利用条件へのリンクを追加。演習の入口と章順を整理し、ユーザサイトの公開手順とAbstractの不足情報の扱いを修正。</li>
           <li><span class="date">2026年10月11日</span>：現行原稿に対応。第3章の質問例、第4章の英文校正資料、第6章の要件メモとレビュー表、第8章の情報メモ、第9章の振り返り表を掲載。記録票と第7章の前処理を更新。</li>

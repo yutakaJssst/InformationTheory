@@ -40,10 +40,17 @@ AIが見落とすこともあるため、指摘を読んだ後は、入力値と
 
 ## 実行手順
 
+### Google Colabで試す
+
+[平均値関数とテストをColabで開く](https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter6/average-tests.ipynb)から開き、先頭から順にセルを実行してください。
+ノートブック内でpytestを準備し、本文と同じ関数と3件のテストをファイルにして実行します。
+ファイルのアップロードとGPUは不要です。
+編集した内容を残す場合は、「ファイル」から「ドライブにコピーを保存」を選びます。
+`average-tests.ipynb` を保存すれば、手元のJupyterでも試せます。
+
+### 手元のPythonで試す
+
 1. Python 3 が使える環境を用意します。
 2. 端末でこのフォルダーを開き、`python -m pip install -r requirements.txt` を実行します。
 3. `python -m pytest -v` を実行します。
 4. 3件すべてが `PASSED` になれば、本文の例と同じ結果です。
-
-Google Colabを使う場合は、3ファイルをアップロードします。
-コードセルで `!python -m pip install -r requirements.txt` を実行してから、`!python -m pytest -v` を実行してください。

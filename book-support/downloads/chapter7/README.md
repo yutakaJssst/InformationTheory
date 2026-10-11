@@ -8,23 +8,36 @@
 - `verify_titanic.py`：本文中の数値を再計算します。
 - `gen_figures.py`：本文掲載用の図をPDFで生成します。
 - `requirements.txt`：必要なPythonライブラリの一覧です。
-- `train.csv`：Titanicの学習用データです。[Kaggleの配布ページ](https://www.kaggle.com/c/titanic)で利用条件を確認して取得してください。
+- `train.csv`：Titanicの学習用データです。ノートブックのコードで取得できます。自分で用意する場合は、[Kaggleのコンペティションページ](https://www.kaggle.com/c/titanic)で利用条件を確認して取得してください。
 
-使う教材と `train.csv` を同じフォルダーに置きます。
+手元のPythonでスクリプトを実行する場合は、使う教材と `train.csv` を同じフォルダーに置きます。
 `train.csv` は本サイトでは再配布していません。
 
 ## ノートブックで順に試す
 
-Google Colabまたは手元のJupyterで `titanic-walkthrough.ipynb` を開きます。
-Colabでは `train.csv` をファイル一覧からアップロードしてください。
-必要なライブラリがない場合は、`requirements.txt` も用意して、コードセルで `!python -m pip install -r requirements.txt` を実行します。
-説明を読みながら、先頭のセルから順に実行してください。
+[Titanic分析をColabで開く](https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter7/titanic-walkthrough.ipynb)から開き、説明を読みながら先頭から順にセルを実行してください。
+必要なライブラリの準備とデータの取得も、冒頭のセルで行います。
+GPUは不要です。
+編集した内容を残す場合は、「ファイル」から「ドライブにコピーを保存」を選びます。
+保存したノートブックを手元のJupyterで開いても、同じ手順で実行できます。
+
+### データの取得元
+
+自動取得には、Kaggleの公開データセット [Titanic Dataset（Yasser H、版1）](https://www.kaggle.com/datasets/yasserh/titanic-dataset)を使います。
+配布元のライセンス表示はCC0: Public Domainです（2026年10月11日確認）。
+元の `train.csv` と、891行・12列の全値が一致することを照合しました。
+自動取得したファイルのSHA-256は `7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f` です。
+元ファイルとは改行などが異なるため、同じ値でもファイルのSHA-256が異なる場合があります。
+取得したファイルのSHA-256が上記と一致しない場合は、保存前に処理を止めます。
+
+取得できない場合は、Kaggleから用意した `train.csv` をColabのファイル一覧へアップロードしてください。
+既にファイルがある場合は上書きせず、そのデータを使います。
 
 保存済みの出力は、2026年10月11日に新しい実行環境で全セルを順に実行した結果です。
 実行環境は次のとおりです。
 
-- Python 3.12.14
-- pandas 2.2.3
+- Python 3.13.12
+- pandas 3.0.6
 - matplotlib 3.11.2
 - scikit-learn 1.9.1
 
@@ -44,10 +57,16 @@ Colabでは `train.csv` をファイル一覧からアップロードしてく�
 3. エラーの有無、補完値、説明変数、評価結果を確認します。
 4. 処理を選んだ理由、結果の解釈、AI活用記録を添えて保存します。
 
-Colabの実行環境が削除された場合は、`train.csv` を再度アップロードしてください。
+Colabの実行環境が削除された場合も、先頭から実行するとデータを再取得できます。
 ノートブックを共有するときは、入力データだけでなく保存済みの出力にも公開できない情報が含まれていないか確認します。
 
 ## スクリプトで数値と図を確認する
+
+ノートブック末尾の「配布スクリプトで検算と図の生成を試す」で、同じ2本のスクリプトを取得して実行できます。
+3枚のPDFは `titanic-figures.zip` にまとめます。
+「図をパソコンへ保存する」のセルを実行すると、ColabではZIPのダウンロード、Jupyterではダウンロードリンクの表示を行います。
+
+手元のPythonで実行する場合は、次の手順です。
 
 1. `python -m pip install -r requirements.txt` を実行します。
 2. 数値の確認は `python verify_titanic.py` を実行します。
