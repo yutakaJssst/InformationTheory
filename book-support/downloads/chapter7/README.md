@@ -16,6 +16,7 @@
 ## ノートブックで順に試す
 
 [Titanic分析をColabで開く](https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter7/titanic-walkthrough.ipynb)から開き、説明を読みながら先頭から順にセルを実行してください。
+実行にはGoogleアカウントへのログインが必要です。
 必要なライブラリの準備とデータの取得も、冒頭のセルで行います。
 GPUは不要です。
 編集した内容を残す場合は、「ファイル」から「ドライブにコピーを保存」を選びます。

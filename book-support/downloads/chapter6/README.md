@@ -43,6 +43,7 @@ AIが見落とすこともあるため、指摘を読んだ後は、入力値と
 ### Google Colabで試す
 
 [平均値関数とテストをColabで開く](https://colab.research.google.com/github/yutakaJssst/InformationTheory/blob/main/book-support/downloads/chapter6/average-tests.ipynb)から開き、先頭から順にセルを実行してください。
+実行にはGoogleアカウントへのログインが必要です。
 ノートブック内でpytestを準備し、本文と同じ関数と3件のテストをファイルにして実行します。
 ファイルのアップロードとGPUは不要です。
 編集した内容を残す場合は、「ファイル」から「ドライブにコピーを保存」を選びます。
