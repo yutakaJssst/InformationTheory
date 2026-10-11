@@ -24,13 +24,17 @@
 
 1. [GitHubのアカウント作成手順](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github)に従い、アカウントを作成してメールアドレスを確認します。
 2. [GitHub Desktopの導入手順](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)に従い、アプリをインストールしてGitHubにサインインします。
-3. GitHub Desktopで、既存のリポジトリを `File` → `Clone Repository` から複製するか、新しいリポジトリを `File` → `New Repository` から作成します。
+3. 本文の演習では、GitHub Desktopの `File` → `New Repository` で新しいリポジトリを作ります。名前は、自分のGitHubユーザ名を使った `ユーザ名.github.io` にします。
+4. `Repository` → `Show in Finder`（Windowsでは `Show in Explorer`）で、そのリポジトリの作業フォルダを確認します。HTMLはこのフォルダに保存します。
+
+すでにあるリポジトリを使う場合は、`File` → `Clone Repository` で複製し、既存の公開方法と公開範囲に従ってください。
 
 画面名や配置はOSとアプリの版によって異なるため、公式手順も確認してください。
+[リポジトリの作成・公開・更新の公式手順](https://docs.github.com/en/desktop/overview/creating-your-first-repository-using-github-desktop)にも、各画面の説明があります。
 
 ## HTMLを保存してプレビューする
 
-1. 作業フォルダをVS Codeで開きます。
+1. GitHub Desktopで作ったリポジトリの作業フォルダをVS Codeで開きます。
 2. [HTMLの骨格](portfolio-skeleton.html)、またはAIが生成したコードを `index.html` として保存します。
 3. ブラウザでファイルを開き、表示とコードを見比べます。
 4. 名前、所属、研究内容を自分の情報に直し、その都度表示とリンクを確認します。
@@ -41,13 +45,15 @@
 以下は、静的HTMLを `main` ブランチのルートに置く場合の手順です。
 すでに公開元やGitHub Actionsが設定されているリポジトリでは、その設定に従ってください。
 
-1. 公開してよいファイルだけが含まれていることを確認し、GitHub Desktopで `Publish Repository` または `Push origin` を使ってGitHubへ送ります。
+1. 公開してよいファイルだけが含まれていることを確認し、初回はGitHub Desktopの `Publish Repository` でGitHubへ送ります。GitHub Freeでこの演習を行う場合は、`Keep this code private` を外し、公開リポジトリとして作成します。以後の変更は `Push origin` で送ります。
 2. GitHubのリポジトリで `Settings` → `Pages` を開きます。
 3. `Build and deployment` の `Source` に `Deploy from a branch` を選びます。
 4. ブランチを `main`、フォルダを `/(root)` にして保存します。
 5. デプロイの完了後、`Pages` に表示された公開URLを開きます。
 6. 別の端末やシークレットウィンドウでも、ページ内リンク、画像、ダウンロード、スマートフォンでの表示を確認します。
 
-プロジェクトのページは通常、`https://ユーザ名.github.io/リポジトリ名/` に公開されます。
+本文の演習のように `ユーザ名.github.io` という名前で作るユーザサイトは、`https://ユーザ名.github.io/` に公開されます。
+別名のリポジトリで作るプロジェクトサイトは、通常 `https://ユーザ名.github.io/リポジトリ名/` になります。
 利用できる公開元は契約プランなどによって異なるため、[サイト作成の公式手順](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)と[公開元の設定](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)を確認してください。
 リポジトリの公開範囲と、Webページの公開範囲は別に確認する必要があります。
+組織の規程で公開できない場合は、非公開リポジトリで管理し、ローカルプレビューを確認したうえで、公開しない理由を記録します。

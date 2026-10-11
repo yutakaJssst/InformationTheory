@@ -281,6 +281,7 @@
   .support-table { width: 100%; margin: 14px 0; border-collapse: collapse; overflow-wrap: anywhere; }
   .support-table th, .support-table td { padding: 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
   .support-table th { background: white; }
+  .ai-log-table th[scope="row"] { white-space: nowrap; }
   .grammar-table th:first-child { width: 20%; white-space: nowrap; }
   .grammar-table tr > :last-child { width: 40%; overflow-wrap: normal; }
 
@@ -312,6 +313,10 @@
     .chapter-card { grid-template-columns: 1fr; gap: 7px; }
   }
   @media (max-width: 520px) {
+    .ai-log-table, .ai-log-table tbody, .ai-log-table tr, .ai-log-table th, .ai-log-table td { display: block; }
+    .ai-log-table thead { display: none; }
+    .ai-log-table th { padding-bottom: 0; border-bottom: 0; }
+    .ai-log-table td { padding-top: 4px; }
     .quick-grid, .download-grid { grid-template-columns: 1fr; }
     .hero-inner, main, .principle { padding-left: 16px; padding-right: 16px; }
     .download-card p { min-height: 0; }
@@ -370,7 +375,7 @@
     <div class="quick-grid">
       <a class="quick-card" href="#chapters"><strong>章の補足を見る</strong><span>書籍の章に対応するスライドと補助資料</span></a>
       <a class="quick-card" href="#templates"><strong>プロンプトを使う</strong><span>書き換えて使えるROCF形式のテンプレート</span></a>
-      <a class="quick-card" href="#downloads"><strong>演習を始める</strong><span>Pythonコード、記録票、チェックリスト</span></a>
+      <a class="quick-card" href="#book-materials"><strong>演習を始める</strong><span>章ごとの準備、実行手順、記入例</span></a>
       <a class="quick-card" href="#updates"><strong>訂正を確認する</strong><span>正誤情報とWebサポートの更新履歴</span></a>
     </div>
   </section>
@@ -391,6 +396,7 @@
           <div class="link-row">
             <a class="text-link" href="../slides/00_OD_生成AIツールの現在_reveal.html">導入スライド</a>
             <a class="text-link" href="../slides/01_授業ガイダンスとAIツール総覧_reveal.html">AIツール総覧</a>
+            <a class="text-link" href="#materials-chapter1">公式の料金・利用条件</a>
           </div>
         </div>
       </article>
@@ -405,6 +411,7 @@
             <a class="text-link" href="../slides/02_プロンプトエンジニアリング実践_reveal.html">プロンプト実践スライド</a>
             <a class="text-link" href="#templates">テンプレート集</a>
             <a class="text-link" href="downloads/ai-use-log-template.csv" download>AI活用記録票</a>
+            <a class="text-link" href="#materials-chapter2">記入例</a>
           </div>
         </div>
       </article>
@@ -546,7 +553,7 @@
 投稿先：［学会・ジャーナル名］
 語数制限：［語数］語以内
 
-【F】背景、目的、方法、結果、意義の順に構成してください。事実や数値を追加せず、不足している情報は不足していると明記してください。主な修正理由も示してください。</pre>
+【F】背景、目的、方法、結果、意義の順に構成してください。事実や数値を追加しないでください。不足している情報はAbstract案へ書き込まず、案とは別の確認事項として列挙してください。主な修正理由も示してください。</pre>
           <div class="copy-row"><button class="copy-button" data-copy="prompt-abstract">コピー</button><span class="copy-status" aria-live="polite"></span></div>
         </div>
       </details>
@@ -625,6 +632,43 @@
       <p class="section-kicker">BOOK COMPANION</p>
       <h2 id="book-materials-title">本文の手順を実際に試す</h2>
       <p>2026年10月11日改訂の原稿に対応する教材です。本文で依頼の考え方を学び、ここから必要なプロンプトやファイルを選んでください。角括弧の記入欄は自分の情報に置き換えます。</p>
+    </div>
+
+    <div class="run-guide" id="materials-chapter1">
+      <h3>第1章：料金と利用条件を公式情報で確認する</h3>
+      <p>無料枠、利用上限、教育特典は、利用するサービスの公式ページで確認してください。大学の契約による利用条件は、所属機関の案内も確認します。以下のリンクは2026年10月11日に確認しました。</p>
+      <ul>
+        <li><a href="https://chatgpt.com/pricing/">ChatGPTのプランと利用枠</a></li>
+        <li><a href="https://claude.com/pricing">Claudeのプランと利用枠</a></li>
+        <li><a href="https://gemini.google/subscriptions/">Geminiのプランと利用枠</a></li>
+        <li><a href="https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students">GitHub Copilotの学生向け利用条件</a></li>
+        <li><a href="https://ai.google.dev/gemini-api/terms">Google AI Studio・Gemini APIのデータ利用条件</a></li>
+      </ul>
+      <p>料金だけでなく、入力資料や出力の取扱いも確認します。サービス名と利用形態を確かめ、公開してよい資料から試してください。</p>
+    </div>
+
+    <div class="run-guide" id="materials-chapter2">
+      <h3>第2章：AI活用記録票の記入例</h3>
+      <p>第7章と第9章のBank Marketingの学生事例を、共通の8項目へ整理した例です。学生本人がこの記録票へ記入したものではありません。提出物にない情報は推測で補わず、未記録・未確認として残しています。</p>
+      <details>
+        <summary>8項目の記入例を開く</summary>
+        <div class="template-body">
+          <table class="support-table ai-log-table">
+            <thead><tr><th scope="col">項目</th><th scope="col">提出物から整理した記入例</th></tr></thead>
+            <tbody>
+            <tr><th scope="row">作業目的</th><td>電話をかける前に、定期預金の申込みの有無を予測する。</td></tr>
+            <tr><th scope="row">使用環境</th><td>学生の提出ノートブックを参照。AIのツール名、モデル名、利用日は未記録。</td></tr>
+            <tr><th scope="row">入力資料</th><td>分析に使った公開データ bank.csv。AIへファイルを渡したかは資料から確認できない。</td></tr>
+            <tr><th scope="row">任せた範囲</th><td>通話時間 duration を使った高い正解率だけがAIから示されたと、本人が振り返っている。AIとの対話原文は確認していない。</td></tr>
+            <tr><th scope="row">検証方法</th><td>同じデータ分割で、通話時間を含む場合と除く場合を比較。著者は保存済みの比較コード、出力、考察を照合した。</td></tr>
+            <tr><th scope="row">確認結果</th><td>保存済みの正解率は通話時間あり0.808、なし0.713。本書のための再実行はしていない。</td></tr>
+            <tr><th scope="row">採用の判断</th><td>通話時間は電話の後にしか分からないため、事前予測には除く方が妥当と考察した。実運用への採用は未確認。</td></tr>
+            <tr><th scope="row">公開と開示</th><td>本書とこの記入例には匿名化した比較と判断を掲載。元ノートブックの公開範囲とAI利用の申告方法は未記録。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+      <p><a class="text-link" href="downloads/ai-use-log-example.csv" download>記入例のCSV</a> <a class="text-link" href="downloads/ai-use-log-template.csv" download>自分で記入する空欄CSV</a></p>
     </div>
 
     <div class="run-guide" id="materials-chapter3">
@@ -790,6 +834,45 @@ HTML/CSS/JavaScript、Python + Streamlit、Python CLIなどを比較し、今回
       <p><a class="text-link" href="downloads/chapter6/README.md" download>要件メモ・レビュー表・テストの手順</a></p>
     </div>
 
+    <div class="run-guide" id="materials-chapter7">
+      <h3>第7章：Titanicデータ分析ノートブック</h3>
+      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文の分析手順に対応するコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
+      <p><a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックをダウンロード</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
+      <ol>
+        <li><a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して <code>train.csv</code> を取得します。データ本体はここでは再配布していません。</li>
+        <li>Google Colabでダウンロードしたノートブックを開き、ファイル一覧から <code>train.csv</code> をアップロードします。手元のJupyterを使う場合は、同じフォルダに置きます。</li>
+        <li>上から順にセルを実行します。補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
+        <li>結果を本文の数値と照合します。検証環境とデータの確認方法はノートブック内に記載しています。</li>
+        <li>保存前に実行環境を再起動し、すべてのコードセルを上から順に再実行します。Colabの実行環境が削除された場合は、データのアップロードからやり直します。</li>
+      </ol>
+    </div>
+    <div class="run-guide" id="materials-chapter8">
+      <h3>第8章：情報メモ、HTMLの骨格と公開手順</h3>
+      <p>プロンプトを書く前に、ページに載せる情報を整理します。次の氏名と所属は架空の記入例です。</p>
+      <table class="support-table">
+        <thead><tr><th scope="col">項目</th><th scope="col">記入例</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">氏名</th><td>山田 太郎</td></tr>
+          <tr><th scope="row">所属</th><td>○○大学大学院 ○○研究科 ○○専攻</td></tr>
+          <tr><th scope="row">研究室</th><td>○○研究室</td></tr>
+          <tr><th scope="row">研究テーマ</th><td>自動運転システムの安全性保証</td></tr>
+          <tr><th scope="row">使用技術</th><td>Python、JavaScript、Git、LaTeX</td></tr>
+          <tr><th scope="row">公開リンク</th><td>GitHub、Google Scholar、ORCID</td></tr>
+        </tbody>
+      </table>
+      <p><a class="text-link" href="downloads/chapter8/README.md" download>情報メモとGitHub Pagesの公開手順</a></p>
+      <p>本文で説明するHTMLの骨格です。完成した研究紹介ページではなく、構造を確かめるための簡単な例です。</p>
+      <p><a class="text-link" href="downloads/chapter8/portfolio-skeleton.html" download="index.html">HTMLを保存する</a> <a class="text-link" href="downloads/chapter8/portfolio-skeleton.html">表示を見る</a></p>
+      <ol>
+        <li>GitHub Desktopで新しいリポジトリを作り、名前を <code>自分のGitHubユーザ名.github.io</code> にします。そのリポジトリのフォルダをVS Codeで開きます。</li>
+        <li>取得したHTML、またはAIが生成したコードを <code>index.html</code> として保存します。</li>
+        <li>まずブラウザでファイルを開いて表示を確認します。VS CodeのLive Serverを使うと、編集しながらプレビューできます。</li>
+        <li>コードと表示を見比べ、名前、所属、研究内容を公開してよい情報へ直します。一度に1箇所ずつ変更し、その都度表示とリンクを確認します。</li>
+        <li>公開前チェックを済ませ、変更差分を確認してコミットします。GitHub Pagesへの公開後は、別の端末やシークレットウィンドウからも確認します。</li>
+      </ol>
+      <p>本文の演習では、ユーザサイトとして <code>https://ユーザ名.github.io/</code> に公開します。GitHub Freeで行う場合は、公開してよいファイルだけを入れ、初回の <code>Publish Repository</code> で <code>Keep this code private</code> を外します。GitHubの <code>Settings → Pages</code> で <code>Deploy from a branch</code>、<code>main</code>、<code>/(root)</code> を選び、公開URLを確認してください。</p>
+      <p>別名のリポジトリで作るプロジェクトサイトは、通常 <code>https://ユーザ名.github.io/リポジトリ名/</code> になります。組織の規程で公開できない場合は、非公開リポジトリとローカルプレビューを使い、公開しない理由を記録します。詳しい操作は上の公開手順を参照してください。</p>
+    </div>
     <h3 id="materials-chapter9">第9章のコピー用プロンプト</h3>
     <div class="template-grid">
       <details>
@@ -854,44 +937,6 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       </details>
     </div>
 
-    <div class="run-guide" id="materials-chapter7">
-      <h3>第7章：Titanicデータ分析ノートブック</h3>
-      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文の分析手順に対応するコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
-      <p><a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックをダウンロード</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
-      <ol>
-        <li><a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して <code>train.csv</code> を取得します。データ本体はここでは再配布していません。</li>
-        <li>Google Colabでダウンロードしたノートブックを開き、ファイル一覧から <code>train.csv</code> をアップロードします。手元のJupyterを使う場合は、同じフォルダに置きます。</li>
-        <li>上から順にセルを実行します。補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
-        <li>結果を本文の数値と照合します。検証環境とデータの確認方法はノートブック内に記載しています。</li>
-        <li>保存前に実行環境を再起動し、すべてのコードセルを上から順に再実行します。Colabの実行環境が削除された場合は、データのアップロードからやり直します。</li>
-      </ol>
-    </div>
-    <div class="run-guide" id="materials-chapter8">
-      <h3>第8章：情報メモ、HTMLの骨格と公開手順</h3>
-      <p>プロンプトを書く前に、ページに載せる情報を整理します。次の氏名と所属は架空の記入例です。</p>
-      <table class="support-table">
-        <thead><tr><th scope="col">項目</th><th scope="col">記入例</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">氏名</th><td>山田 太郎</td></tr>
-          <tr><th scope="row">所属</th><td>○○大学大学院 ○○研究科 ○○専攻</td></tr>
-          <tr><th scope="row">研究室</th><td>○○研究室</td></tr>
-          <tr><th scope="row">研究テーマ</th><td>自動運転システムの安全性保証</td></tr>
-          <tr><th scope="row">使用技術</th><td>Python、JavaScript、Git、LaTeX</td></tr>
-          <tr><th scope="row">公開リンク</th><td>GitHub、Google Scholar、ORCID</td></tr>
-        </tbody>
-      </table>
-      <p><a class="text-link" href="downloads/chapter8/README.md" download>情報メモとGitHub Pagesの公開手順</a></p>
-      <p>本文で説明するHTMLの骨格です。完成した研究紹介ページではなく、構造を確かめるための簡単な例です。</p>
-      <p><a class="text-link" href="downloads/chapter8/portfolio-skeleton.html" download="index.html">HTMLを保存する</a> <a class="text-link" href="downloads/chapter8/portfolio-skeleton.html">表示を見る</a></p>
-      <ol>
-        <li>新しい作業フォルダを作り、VS Codeで開きます。</li>
-        <li>取得したHTML、またはAIが生成したコードを <code>index.html</code> として保存します。</li>
-        <li>まずブラウザでファイルを開いて表示を確認します。VS CodeのLive Serverを使うと、編集しながらプレビューできます。</li>
-        <li>コードと表示を見比べ、名前、所属、研究内容を公開してよい情報へ直します。一度に1箇所ずつ変更し、その都度表示とリンクを確認します。</li>
-        <li>公開前チェックを済ませ、変更差分を確認してコミットします。GitHub Pagesへの公開後は、別の端末やシークレットウィンドウからも確認します。</li>
-      </ol>
-      <p>ローカルファイルが開けても、他の人がアクセスできる状態にはなっていません。公開範囲の判断と履歴に残る情報の注意点は、本文の第8章を参照してください。</p>
-    </div>
     <div class="run-guide">
       <h3>第9章：発表準備とピアレビューの記入シート</h3>
       <p>3分発表の時間配分例と、研究内容やAI利用を互いに確認するシートです。研究が途中でも、分かったことと残る課題を根拠とともに説明します。</p>
@@ -922,7 +967,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
         <span class="tag">WORKSHEET</span>
         <h3>AI活用記録票</h3>
         <p>書籍の第2章にある全章共通のAI活用記録票と同じ8項目のCSVです。第9章の振り返りにも使います。</p>
-        <div class="download-links"><a href="downloads/ai-use-log-template.csv" download>CSVをダウンロード</a></div>
+        <div class="download-links"><a href="downloads/ai-use-log-template.csv" download>空欄CSV</a><a href="downloads/ai-use-log-example.csv" download>記入例CSV</a><a href="#materials-chapter2">記入例を読む</a></div>
       </article>
       <article class="download-card">
         <span class="tag">WORKSHEET</span>
@@ -934,13 +979,19 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
         <span class="tag">CHECKLIST</span>
         <h3>公開前チェックリスト</h3>
         <p>個人情報、著作権、秘密情報、リンク、スマートフォン表示などを確認します。</p>
-        <div class="download-links"><a href="downloads/publication-checklist.md">内容を見る</a></div>
+        <div class="download-links"><a href="downloads/publication-checklist.md" download>チェックリストを保存</a></div>
       </article>
       <article class="download-card">
         <span class="tag">CHAPTER 6 / PYTHON</span>
         <h3>平均値関数とテスト</h3>
         <p>第6章6.5節の関数と、正常・境界・異常の3種類のテストです。</p>
         <div class="download-links"><a href="downloads/chapter6/stats.py" download>stats.py</a><a href="downloads/chapter6/test_stats.py" download>test_stats.py</a><a href="downloads/chapter6/requirements.txt" download>requirements.txt</a><a href="downloads/chapter6/README.md">手順</a></div>
+      </article>
+      <article class="download-card">
+        <span class="tag">CHAPTER 7 / NOTEBOOK</span>
+        <h3>Titanic分析を順に試す</h3>
+        <p>本文のコードを、Google ColabやJupyterで順に実行するノートブックです。</p>
+        <div class="download-links"><a href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブック</a><a href="#materials-chapter7">準備と実行手順</a></div>
       </article>
       <article class="download-card">
         <span class="tag">CHAPTER 7 / PYTHON</span>
@@ -953,6 +1004,18 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
         <h3>掲載図の再生成</h3>
         <p>生存率、運賃分布、調整前後のグラフをPDFとして生成します。</p>
         <div class="download-links"><a href="downloads/chapter7/gen_figures.py" download>Pythonコード</a><a href="downloads/chapter7/requirements.txt" download>必要ライブラリ</a></div>
+      </article>
+      <article class="download-card">
+        <span class="tag">CHAPTER 8 / HTML</span>
+        <h3>研究紹介ページの骨格</h3>
+        <p>HTMLを保存して表示を確かめ、公開してよい研究情報へ書き換えます。</p>
+        <div class="download-links"><a href="downloads/chapter8/portfolio-skeleton.html" download="index.html">HTMLを保存</a><a href="#materials-chapter8">情報メモと公開手順</a></div>
+      </article>
+      <article class="download-card">
+        <span class="tag">CHAPTER 9 / WORKSHEET</span>
+        <h3>発表準備とピアレビュー</h3>
+        <p>3分発表の時間配分、相互レビュー、AI活用の振り返りを記入するシートです。</p>
+        <div class="download-links"><a href="downloads/chapter9-workshop.md" download>記入シート</a><a href="#materials-chapter9">第9章の教材</a></div>
       </article>
     </div>
 
@@ -977,6 +1040,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       <article class="status-card">
         <h3>更新履歴</h3>
         <ul>
+          <li><span class="date">2026年10月11日</span>：再レビューを反映。AI活用記録票の記入例、公式の料金・利用条件へのリンクを追加。演習の入口と章順を整理し、ユーザサイトの公開手順とAbstractの不足情報の扱いを修正。</li>
           <li><span class="date">2026年10月11日</span>：現行原稿に対応。第3章の質問例、第4章の英文校正資料、第6章の要件メモとレビュー表、第8章の情報メモ、第9章の振り返り表を掲載。記録票と第7章の前処理を更新。</li>
           <li><span class="date">2026年9月5日</span>：比較版原稿に対応するプロンプト13件、Titanicノートブック、HTMLの骨格、発表準備・レビュー用シートを追加。</li>
           <li><span class="date">2026年7月28日</span> — 書籍の現行原稿に合わせて更新。AI活用記録票と文献整理シートの項目を書籍の様式に統一し、Abstract改善プロンプトの構成を「背景、目的、方法、結果、意義」に修正。第6章にrequirements.txtを追加し、第7章のスライドリンクを現行版に変更。</li>
