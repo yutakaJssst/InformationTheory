@@ -278,6 +278,11 @@
   .run-guide h3 { margin: 0 0 11px; }
   .run-guide ol { margin: 0; padding-left: 1.4em; }
   .run-guide code { padding: 2px 5px; background: white; border: 1px solid var(--line); border-radius: 4px; }
+  .support-table { width: 100%; margin: 14px 0; border-collapse: collapse; overflow-wrap: anywhere; }
+  .support-table th, .support-table td { padding: 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  .support-table th { background: white; }
+  .grammar-table th:first-child { width: 20%; white-space: nowrap; }
+  .grammar-table tr > :last-child { width: 40%; overflow-wrap: normal; }
 
   .status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
   .status-card { padding: 23px; background: white; border: 1px solid var(--line); border-radius: 9px; }
@@ -334,6 +339,7 @@
     <p class="eyebrow">BOOK SUPPORT / 2026</p>
     <h1>『生成AI時代の検証可能な研究術』<br>Webサポート</h1>
     <p class="lead">書籍を読みながら、例をコピーして試し、コードを実行し、更新情報を確認するためのページです。プログラミング経験がない方も、必要な章から始められます。</p>
+    <p>対応原稿：2026年10月11日改訂版</p>
     <div class="hero-actions">
       <a class="button" href="#chapters">章から探す</a>
       <a class="button secondary" href="#downloads">教材をダウンロード</a>
@@ -410,6 +416,7 @@
           <p>検索語の拡張、論文比較、実在確認、新規性の整理までを支援します。</p>
           <ul class="support-items"><li>検索戦略</li><li>比較表</li><li>出典確認</li></ul>
           <div class="link-row">
+            <a class="text-link" href="#materials-chapter3">本文対応教材</a>
             <a class="text-link" href="../slides/04_文献調査_reveal.html">文献調査スライド</a>
             <a class="text-link" href="downloads/literature-review-sheet.csv" download>文献整理シート</a>
           </div>
@@ -447,7 +454,7 @@
         <div class="chapter-no">第6章</div>
         <div>
           <h3>AI支援による小さな研究・業務ツール作り</h3>
-          <p>本文中の関数とテストを、そのまま実行できるファイルとして配布します。</p>
+          <p>要件メモとレビューの観点、平均値関数と代表3件のテストを配布します。</p>
           <ul class="support-items"><li>Python</li><li>テスト</li><li>初学者向け手順</li></ul>
           <div class="link-row">
             <a class="text-link" href="#materials-chapter6">本文対応教材</a>
@@ -617,7 +624,19 @@
     <div class="section-head">
       <p class="section-kicker">BOOK COMPANION</p>
       <h2 id="book-materials-title">本文の手順を実際に試す</h2>
-      <p>2026年9月5日の比較版原稿に対応する教材です。本文で依頼の考え方を学び、ここから必要なプロンプトやファイルを選んでください。角括弧の記入欄は自分の情報に置き換えます。</p>
+      <p>2026年10月11日改訂の原稿に対応する教材です。本文で依頼の考え方を学び、ここから必要なプロンプトやファイルを選んでください。角括弧の記入欄は自分の情報に置き換えます。</p>
+    </div>
+
+    <div class="run-guide" id="materials-chapter3">
+      <h3>第3章：論文を深く読むための質問</h3>
+      <p>要約の後に、次の質問を使って理解を深めます。回答中の重要な主張は原文と照合し、文献整理シートに確認状況と根拠箇所を残してください。</p>
+      <ul>
+        <li>この論文で著者が主張している新規性を、本文中の根拠箇所とともに整理してください。</li>
+        <li>この研究の限界のうち、後続研究で解決できそうなものはどれですか。</li>
+        <li>この研究の再現に必要なデータと計算リソースを説明してください。</li>
+        <li>私の研究テーマ「○○」にこの手法を適用する場合、何が障害になりますか。</li>
+      </ul>
+      <p><a class="text-link" href="downloads/chapter3/reading-questions.md" download>質問例と記録方法</a></p>
     </div>
 
     <h3 id="materials-chapter4">第4章のコピー用プロンプト</h3>
@@ -650,6 +669,20 @@
       </details>
     </div>
 
+    <div class="run-guide">
+      <h3>第4章：英文校正の確認項目</h3>
+      <p>意味と構造を確かめた後で、文法を校正します。学術表現への推敲では、主張の強さも研究の根拠に合わせます。</p>
+      <table class="support-table grammar-table">
+        <thead><tr><th scope="col">項目</th><th scope="col">基本</th><th scope="col">確認例</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">時制</th><td>手法の性質は現在、実施した実験は過去</td><td>reduces / evaluated</td></tr>
+          <tr><th scope="row">冠詞</th><td>単数可算名詞では、初出はa、既出や限定された対象はthe</td><td>a method / the method</td></tr>
+          <tr><th scope="row">動詞</th><td>目的語や前置詞を含めて用法を確認</td><td>submit the paper / search for</td></tr>
+        </tbody>
+      </table>
+      <p><a class="text-link" href="downloads/chapter4/english-checklist.md" download>文法例と学術英語表現</a></p>
+    </div>
+
     <h3 id="materials-chapter5">第5章のコピー用プロンプト</h3>
     <div class="template-grid">
       <details>
@@ -673,6 +706,18 @@
 
     <h3 id="materials-chapter6">第6章のコピー用プロンプト</h3>
     <div class="template-grid">
+      <details>
+        <summary>実装前に要件メモを作る</summary>
+        <div class="template-body">
+          <pre id="book-prompt-6-requirements">【利用者】[誰が使うか]
+【目的】[何を解決したいか]
+【入力】[ファイルや入力値]
+【出力】[得たい結果]
+【最小機能】[最初に作る1〜2個の機能]
+【後回しにする機能】[今回は作らない機能]</pre>
+          <div class="copy-row"><button class="copy-button" data-copy="book-prompt-6-requirements">コピー</button><span class="copy-status" aria-live="polite"></span></div>
+        </div>
+      </details>
       <details>
         <summary>最小構成のアプリを依頼する</summary>
         <div class="template-body">
@@ -726,6 +771,23 @@ HTML/CSS/JavaScript、Python + Streamlit、Python CLIなどを比較し、今回
           <div class="copy-row"><button class="copy-button" data-copy="book-prompt-6-7">コピー</button><span class="copy-status" aria-live="polite"></span></div>
         </div>
       </details>
+    </div>
+
+    <div class="run-guide">
+      <h3>第6章：コードレビューの観点</h3>
+      <p>自分のツールに関係する観点を選び、レビューを依頼するプロンプトに含めてください。</p>
+      <table class="support-table">
+        <thead><tr><th scope="col">観点</th><th scope="col">チェック項目</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">可読性</th><td>変数名は内容を表しているか。コメントは十分か。関数は短いか。</td></tr>
+          <tr><th scope="row">効率性</th><td>不要な繰り返しはないか。目的に合ったデータ構造か。</td></tr>
+          <tr><th scope="row">エラー処理</th><td>例外処理は適切か。エラーメッセージは明確か。</td></tr>
+          <tr><th scope="row">セキュリティ</th><td>入力値を検証しているか。秘密情報を埋め込んでいないか。</td></tr>
+          <tr><th scope="row">再利用性</th><td>関数に汎用性があるか。部品に分かれているか。</td></tr>
+          <tr><th scope="row">テスト容易性</th><td>テストしやすい設計か。依存関係は少ないか。</td></tr>
+        </tbody>
+      </table>
+      <p><a class="text-link" href="downloads/chapter6/README.md" download>要件メモ・レビュー表・テストの手順</a></p>
     </div>
 
     <h3 id="materials-chapter9">第9章のコピー用プロンプト</h3>
@@ -794,17 +856,31 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
 
     <div class="run-guide" id="materials-chapter7">
       <h3>第7章：Titanicデータ分析ノートブック</h3>
-      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文のコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
+      <p>データの読み込みから欠損値確認、可視化、分類モデルの評価まで、本文の分析手順に対応するコード6本を順に実行できます。集計結果を確かめるセルも加えました。</p>
       <p><a class="text-link" href="downloads/chapter7/titanic-walkthrough.ipynb" download>ノートブックをダウンロード</a> <a class="text-link" href="downloads/chapter7/README.md">準備と実行手順</a></p>
       <ol>
         <li><a href="https://www.kaggle.com/c/titanic">Kaggleの配布ページ</a>で利用条件を確認して <code>train.csv</code> を取得します。データ本体はここでは再配布していません。</li>
         <li>Google Colabでダウンロードしたノートブックを開き、ファイル一覧から <code>train.csv</code> をアップロードします。手元のJupyterを使う場合は、同じフォルダに置きます。</li>
         <li>上から順にセルを実行します。補完値を決める前に訓練用と評価用へ分ける順序を確認してください。</li>
         <li>結果を本文の数値と照合します。検証環境とデータの確認方法はノートブック内に記載しています。</li>
+        <li>保存前に実行環境を再起動し、すべてのコードセルを上から順に再実行します。Colabの実行環境が削除された場合は、データのアップロードからやり直します。</li>
       </ol>
     </div>
     <div class="run-guide" id="materials-chapter8">
-      <h3>第8章：HTMLの骨格とプレビュー</h3>
+      <h3>第8章：情報メモ、HTMLの骨格と公開手順</h3>
+      <p>プロンプトを書く前に、ページに載せる情報を整理します。次の氏名と所属は架空の記入例です。</p>
+      <table class="support-table">
+        <thead><tr><th scope="col">項目</th><th scope="col">記入例</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">氏名</th><td>山田 太郎</td></tr>
+          <tr><th scope="row">所属</th><td>○○大学大学院 ○○研究科 ○○専攻</td></tr>
+          <tr><th scope="row">研究室</th><td>○○研究室</td></tr>
+          <tr><th scope="row">研究テーマ</th><td>自動運転システムの安全性保証</td></tr>
+          <tr><th scope="row">使用技術</th><td>Python、JavaScript、Git、LaTeX</td></tr>
+          <tr><th scope="row">公開リンク</th><td>GitHub、Google Scholar、ORCID</td></tr>
+        </tbody>
+      </table>
+      <p><a class="text-link" href="downloads/chapter8/README.md" download>情報メモとGitHub Pagesの公開手順</a></p>
       <p>本文で説明するHTMLの骨格です。完成した研究紹介ページではなく、構造を確かめるための簡単な例です。</p>
       <p><a class="text-link" href="downloads/chapter8/portfolio-skeleton.html" download="index.html">HTMLを保存する</a> <a class="text-link" href="downloads/chapter8/portfolio-skeleton.html">表示を見る</a></p>
       <ol>
@@ -820,6 +896,17 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       <h3>第9章：発表準備とピアレビューの記入シート</h3>
       <p>3分発表の時間配分例と、研究内容やAI利用を互いに確認するシートです。研究が途中でも、分かったことと残る課題を根拠とともに説明します。</p>
       <p><a class="text-link" href="downloads/chapter9-workshop.md" download>発表・レビュー用シート</a></p>
+      <h4>AI活用の振り返り</h4>
+      <p>次の記入例を参考に、自分の経験を書き出してください。記入欄は発表・レビュー用シートに含めています。</p>
+      <table class="support-table">
+        <thead><tr><th scope="col">項目</th><th scope="col">記入例</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">効果があった場面</th><td>キーワード拡張、Abstractの短文化、グラフコード作成</td></tr>
+          <tr><th scope="row">限界があった場面</th><td>文献情報の誤り、統計手法の前提確認、研究固有の判断</td></tr>
+          <tr><th scope="row">自分で判断したこと</th><td>採用する文献、主張の強さ、公開範囲、分析結果の解釈</td></tr>
+          <tr><th scope="row">今後の改善</th><td>検証手順を先に決める、AI対話ログを整理する、プロンプトを共有する</td></tr>
+        </tbody>
+      </table>
     </div>
     <p class="privacy-note">実際のAI回答や学生事例の比較は書籍に残しています。ここに掲載したプロンプトは依頼のひな型であり、回答の正確さを保証するものではありません。入力前には、機密情報や個人情報が含まれていないか確認してください。</p>
   </section>
@@ -840,7 +927,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       <article class="download-card">
         <span class="tag">WORKSHEET</span>
         <h3>文献整理シート</h3>
-        <p>目的、手法、評価方法、結果、限界と、自分の研究との関係を1行ずつ整理するCSVです。</p>
+        <p>目的、手法、結果、限界と、自分の研究との関係を整理するCSVです。確認状況と引用する主張の根拠箇所も記録できます。</p>
         <div class="download-links"><a href="downloads/literature-review-sheet.csv" download>CSVをダウンロード</a></div>
       </article>
       <article class="download-card">
@@ -890,6 +977,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       <article class="status-card">
         <h3>更新履歴</h3>
         <ul>
+          <li><span class="date">2026年10月11日</span>：現行原稿に対応。第3章の質問例、第4章の英文校正資料、第6章の要件メモとレビュー表、第8章の情報メモ、第9章の振り返り表を掲載。記録票と第7章の前処理を更新。</li>
           <li><span class="date">2026年9月5日</span>：比較版原稿に対応するプロンプト13件、Titanicノートブック、HTMLの骨格、発表準備・レビュー用シートを追加。</li>
           <li><span class="date">2026年7月28日</span> — 書籍の現行原稿に合わせて更新。AI活用記録票と文献整理シートの項目を書籍の様式に統一し、Abstract改善プロンプトの構成を「背景、目的、方法、結果、意義」に修正。第6章にrequirements.txtを追加し、第7章のスライドリンクを現行版に変更。</li>
           <li><span class="date">2026年7月28日</span> — Webサポート初版を公開。章別リンク、プロンプト、コード、ワークシートを掲載。</li>
@@ -897,7 +985,7 @@ README全体の見出し構成と、各項目に書くべき内容を提案し�
       </article>
       <article class="status-card">
         <h3>正誤情報</h3>
-        <p>現在、掲載している正誤情報はありません。見つかった訂正は、該当章・ページ・訂正内容が分かる形でここに掲載します。</p>
+        <p>2026年10月11日、第7章の配布コードとノートブックを修正しました。乗船港のカテゴリをC・Q・Sに固定し、訓練側と評価側で同じ符号化を使います。評価側に一部のカテゴリがない場合に、列名を揃えるだけでは値の意味が一致しない問題への修正です。本文の分割条件での正解率0.804と混同行列は変わりません。</p>
       </article>
     </div>
   </section>

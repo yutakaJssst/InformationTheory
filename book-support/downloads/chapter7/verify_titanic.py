@@ -51,9 +51,13 @@ fill = {"Age": age_median, "Embarked": embarked_mode}
 X_train = X_train.fillna(fill)
 X_test = X_test.fillna(fill)
 
+# 両方に同じカテゴリを指定し、Cを基準に符号化する
+embarked_type = pd.CategoricalDtype(categories=["C", "Q", "S"])
+X_train["Embarked"] = X_train["Embarked"].astype(embarked_type)
+X_test["Embarked"] = X_test["Embarked"].astype(embarked_type)
+
 X_train = pd.get_dummies(X_train, columns=["Embarked"], drop_first=True, dtype=int)
 X_test = pd.get_dummies(X_test, columns=["Embarked"], drop_first=True, dtype=int)
-X_test = X_test.reindex(columns=X_train.columns, fill_value=0)
 
 print("\n=== 前処理後 ===")
 print("補完値: Age中央値", age_median, "/ Embarked最頻値", embarked_mode)
